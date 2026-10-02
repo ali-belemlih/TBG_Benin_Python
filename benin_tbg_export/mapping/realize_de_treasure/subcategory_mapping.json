@@ -1,0 +1,74 @@
+{
+  "1": {
+    "INTERCOS NATIONALES" : 15
+  },
+  "2": {
+    "INTERCOS INTERNATIONALES" :  16
+  },
+  "3": {
+    "AUTRES ACHATS" : 17
+  },
+  "4": {
+    "IMPOTS & TAXES" :  18
+  },
+  "5": {
+    "T.V.A" :  19
+  },
+  "6": {
+    "CHARGES DE PERSONNEL" :  20
+  },
+  "7": {
+    "REGIES" :  21
+  },
+  "8": {
+    "AUTRES CHARGES MOOVMONEY" : 22
+  },
+  "9": {
+    "LICENCES, FONDS DE COMMERCE & BREVETS MARQUES DROITS ET VALEURS" : 24
+  },
+  "10": {
+    "TERRAINS, AMENAGEMENTS ET CONSTRUCTIONS" :25
+  },
+  "11": {
+    "INSTAL. TECHN., MATERIEL & OUTILLAGE" : 26
+  },
+  "12": {
+    "MATERIEL DE TRANSPORT" : 27
+  },
+  "13": {
+    "MATERIEL ET MOBILIER DE BUREAU" : 28
+  },
+  "14": {
+    "AUTRES IMMOBILISATIONS" :29
+  },
+  "15": {
+    "AVANCES ET ACOMPTES/IMMOB" : 30
+  },
+  "16": {
+    "I.S" : 40
+  },
+  "17": {
+    "DIVIDENDES" : 41
+  },
+  "20": {
+    "CHARGES D'INTERETS" : 48
+  },
+  "21": {
+    "REMBOURSEMENT D'EMPRUNTS" : 49
+  },
+  "22": {
+    "REMBOURSEMENT CREDITS SPOT" : 50
+  },
+  "23": {
+    "NOUVEAU EMPRUNTS A LMT" : 51
+  },
+  "24": {
+    "NOUVEAU CREDITS SPOT" :52
+  },
+  "25": {
+    "AUTRES (AUG K, PARTICIPATION, PRETS…)" : 53
+  },
+  "26": {
+    "PRODUITS FINANCIERS" : 54
+  }
+}

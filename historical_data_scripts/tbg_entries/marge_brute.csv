@@ -1,0 +1,27 @@
+level,name,sequence,tbg_key,parent_tbg
+type,Total Revenu,10,MB1,
+metric,International,10,MB2,MB1
+submetric,Trafic (mn),10,MB3,MB2
+submetric,Coût unitaire,20,MB4,MB2
+metric,Telecel,20,MB5,MB1
+submetric,Trafic (mn),10,MB6,MB5
+submetric,Coût unitaire,20,MB7,MB5
+metric,Orange,30,MB8,MB1
+submetric,Trafic (mn),10,MB9,MB8
+submetric,Coût unitaire,20,MB10,MB8
+metric,Reversement SVA,40,MB11,MB1
+metric,Interconnexion SMS,50,MB12,MB1
+metric,Roaming out,60,MB13,MB1
+metric,Coûts des terminaux et cartes,70,MB14,MB1
+submetric,Dont coût des cartes de recharge vendues,10,MB15,MB14
+submetric,Dont coût des SIM,20,MB16,MB14
+submetric,Dont coût des terminaux*,30,MB17,MB14
+submetric,Dont provisions sur stocks,40,MB18,MB14
+metric,Commissions,80,MB19,MB1
+submetric,Dont commissions up-front,10,MB20,MB19
+submetric,Dont avoirs de performance,20,MB21,MB19
+type,Coûts des ventes,20,MB22,
+type,Marge Brute,30,MB23,
+metric,En % du CA,10,MB24,MB23
+type,Marge Brute hors transit,40,MB25,
+metric,En % du CA,10,MB26,MB25

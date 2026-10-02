@@ -1,0 +1,559 @@
+{
+  "Personnel": {
+    "row_number": 9,
+    "collapsible_types": {
+      "1": {
+        "TAXES SUR APPOINTEMENTS ET SAL": 10
+      },
+      "2": {
+        "APPOINTEMENTS, SALAIRES PERSON": 11
+      },
+      "3": {
+        "CONGES PAYES PERSONNEL NATIONA": 12
+      },
+      "4": {
+        "CHARGES SOCIALES S/ REMUNERATI": 13
+      },
+      "5": {
+        "AUTRES CHARGES SOCIALES": 14
+      },
+      "6": {
+        "PERSONNEL INTERIMAIRE & STAGIA": 15
+      },
+      "7": {
+        "PRIMES ET GRATIFICATIONS PERSO": 16
+      },
+      "8": {
+        "INDEMNITES DE LICENCIEMENT PER": 17
+      },
+      "9": {
+        "EAU RESIDENCES": 18
+      },
+      "10": {
+        "ELECTRICITE RESIDENCES": 19
+      },
+      "11": {
+        "LOYERS RESIDENCES": 20
+      },
+      "12": {
+        "ENTRETIEN ET REPARATIONS RESID": 21
+      },
+      "13": {
+        "FRAIS MEDICAUX PERSONNEL NATIO": 22
+      },
+      "14": {
+        "AVANTAGES EN NATURE PERSONNEL": 23
+      },
+      "15": {
+        "TRANSFERT DE CHARGES D'EXPLOITATION": 24
+      },
+      "16": {
+        "EAU RESIDENCES": 25
+      },
+      "17": {
+        "ELECTRICITE RESIDENCES": 26
+      },
+      "18": {
+        "LOYERS RESIDENCES": 27
+      },
+      "19": {
+        "ENTRETIEN ET REPARATIONS RESID": 28
+      },
+      "20": {
+        "FRAIS DE TELEPHONE RESIDENCES": 29
+      },
+      "21": {
+        "PRIMES ET GRATIFICATIONS PERSO": 30
+      },
+      "22": {
+        "INDEMNITES DE LICENCIEMENT PER": 31
+      },
+      "23": {
+        "AVANTAGES EN NATURE PERSONNEL": 32
+      },
+      "24": {
+        "AUTRES INDEMNITES ET AVANTAGES": 33
+      },
+      "25": {
+        "FRAIS DE FORMATION DU PERSONNE": 34
+      },
+      "26": {
+        "TRANSPORT PERSONNEL": 35
+      },
+      "27": {
+        "RECEPTIONS PERSONNEL": 36
+      },
+      "28": {
+        "ASSURANCE DU PERSONNEL": 37
+      },
+      "29": {
+        "Réduction budget": 38
+      }
+    }
+  },
+  "Communication": {
+    "row_number": 40,
+    "collapsible_types": {
+      "30": {
+        "VARIATION DE STOCKS AUTRES APPRO": 41
+      },
+      "31": {
+        "ANNONCES, INSERTIONS TELE": 42
+      },
+      "32": {
+        "ANNONCES, INSERTIONS RADIO": 43
+      },
+      "33": {
+        "ANNONCES, INSERTIONS PRESSE": 44
+      },
+      "34": {
+        "FRAIS D'AGENCES PUBLICITAIRES": 45
+      },
+      "35": {
+        "CONCEPTIONS, PRODUCTION PUBLIC": 46
+      },
+      "36": {
+        "CATALOGUES, IMPRIMES PUBLICITA": 47
+      },
+      "37": {
+        "ENSEIGNES PUBLICITAIRES - AFFI": 48
+      },
+      "38": {
+        "FOIRES ET EXPOSITIONS": 49
+      },
+      "39": {
+        "CADEAUX A LA CLIENTELE": 50
+      },
+      "40": {
+        "FRAIS DE COLLOQUES, SEMINAIRES": 51
+      },
+      "41": {
+        "RELATIONS PUBLIQUES": 52
+      },
+      "42": {
+        "DEVELOPPEMENT DE LA MARQUE": 53
+      },
+      "43": {
+        "AUTRES IMPOTS ET TAXES DIRECTS": 54
+      },
+      "44": {
+        "ENQUETES ET ETUDES DE MARCHES": 55
+      }
+    }
+  },
+  "Achat d'énergie - Bâtiment - Gardiennage": {
+    "row_number": 58,
+    "collapsible_types": {
+      "45": {
+        "LOYERS ENTREPOTS": 59
+      },
+      "46": {
+        "ELECTRICITE CT AKASSATO": 60
+      },
+      "47": {
+        "EAU CT": 61
+      },
+      "48": {
+        "ELECTRICITE SITES TECHNIQUES": 62
+      },
+      "49": {
+        "ELECTRICITE SITES TECHNIQUES C": 63
+      },
+      "50": {
+        "VARIATION DE STOCKS, CARBURANT": 64
+      },
+      "51": {
+        "FRAIS DE CARBURANT ET LUBRIFIA": 65
+      },
+      "52": {
+        "LOYERS SITES TECHNIQUES": 66
+      },
+      "53": {
+        "FRAIS DE GARDIENNAGE": 67
+      },
+      "54": {
+        "LOYERS SIEGE ET AGENCES": 68
+      },
+      "55": {
+        "FOURNITURES D'ENTRETIEN NON ST": 69
+      },
+      "56": {
+        "ENTRETIEN ET REPARATIONS BATS": 70
+      },
+      "57": {
+        "FRAIS DE GARDIENNAGE": 71
+      },
+      "58": {
+        "EAU BUREAUX, ADMINISTRATION, C": 72
+      },
+      "59": {
+        "ELECTRICITE BUREAUX, ADMINISTR": 73
+      },
+      "60": {
+        "FRAIS DE TELEPHONE BUREAUX": 74
+      },
+      "61": {
+        "FRAIS DE TELECOPIE": 75
+      },
+      "62": {
+        "AUTRES FRAIS DE COMMUNICATIONS": 76
+      },
+      "63": {
+        "FRAIS CONNEXION INTERNET": 77
+      },
+      "64": {
+        "Contrainte :SBEE": 78
+      }
+    }
+  },
+  "Lignes et réseaux (entretien & achats)": {
+    "row_number": 79,
+    "collapsible_types": {
+      "65": {
+        "ACHATS PETIT MATERIEL ET OUTIL": 80
+      },
+      "66": {
+        "ENTRETIEN ET REPARATIONS BATS": 81
+      },
+      "67": {
+        "ENTRETIEN ET REPARATIONS SITES": 82
+      },
+      "68": {
+        "VARIATION DE STOCKS AUTRES APPRO DT": 83
+      },
+      "69": {
+        "ENTRETIEN ET REPARATIONS EQUIP": 84
+      },
+      "70": {
+        "MAINTENANCE EQUIPEMENTS TECHNI": 85
+      },
+      "71": {
+        "LOYERS D'ESPACES EN CO-LOCATIO": 86
+      },
+      "72": {
+        "LOYERS LIAISONS SIGNALISATIONS": 87
+      },
+      "73": {
+        "LOYERS LIAISONS SEGMENT SPACIA": 88
+      },
+      "74": {
+        "LOYERS LIAISONS MIC": 89
+      },
+      "75": {
+        "LOYERS LIAISONS FIBRES OPTIQUE": 90
+      },
+      "76": {
+        "LOYERS AUTRES LIAISONS": 91
+      },
+      "77": {
+        "LOCATION D'INFRASTRUCTURES TEL": 92
+      },
+      "78": {
+        "LOCATION D'EQUIPEMENTS  TELECO": 93
+      },
+      "79": {
+        "AUTRES LOCATIONS ET CHARGES LO": 94
+      },
+      "80": {
+        "REMUNERATIONS TRANSITAIRES": 95
+      },
+      "81": {
+        "FRAIS DE DEBOURS ENLEVEMENT": 96
+      }
+    }
+  },
+  "Fees du contrat GMNS": {
+    "row_number": 97,
+    "collapsible_types": {
+      "82": {
+        "HONORAIRES CONSULTANTS (ERICSSON-GNMS)": 98
+      }
+    }
+  },
+  "Matériel de transport (Entretien et locat°)": {
+    "row_number": 100,
+    "collapsible_types": {
+      "83": {
+        "ENTRETIEN ET REPARATIONS VEH. TECHNIQUES": 101
+      },
+      "84": {
+        "ENTRETIEN ET REPARATIONS VEH. ADMINISTRATIFS": 102
+      },
+      "85": {
+        "ASSURANCE MATERIEL DE TRANSPOR": 103
+      },
+      "86": {
+        "ACHATS CARBURANT VEH. ADMIN.": 104
+      },
+      "87": {
+        "ACHATS CARBURANT VEH. TECH.": 105
+      }
+    }
+  },
+  "Maintenance informatique": {
+    "row_number": 106,
+    "collapsible_types": {
+      "88": {
+        "FOURNITURES INFORMATIQUES STOCK": 107
+      },
+      "89": {
+        "VARIATION DE STOCKS AUTRES APPRO  DSI": 108
+      },
+      "90": {
+        "ENTRETIEN MATERIEL INFORMATIQUE": 109
+      },
+      "91": {
+        "MAINTENANCE INFORMATIQUE": 110
+      }
+    }
+  },
+  "Frais d'achats d'études, honoraires": {
+    "row_number": 114,
+    "collapsible_types": {
+      "92": {
+        "FRAIS DE RECRUTEMENT DU PERSON & FORMATION": 115
+      },
+      "93": {
+        "REMUNERATIONS TRANSITAIRES": 116
+      },
+      "94": {
+        "FRAIS DE DEBOURS ENLEVEMENT": 117
+      },
+      "95": {
+        "HONORAIRES AVOCATS, HUISSIERS": 118
+      },
+      "96": {
+        "HONORAIRES CONSULTANTS": 119
+      },
+      "97": {
+        "HONORAIRES CAC": 120
+      },
+      "98": {
+        "HONORAIRES AUDITEURS": 121
+      },
+      "99": {
+        "HONORAIRES DIVERS": 122
+      },
+      "100": {
+        "FRAIS D'ACTES ET DE CONTENTIEU": 123
+      },
+      "101": {
+        "TRAVAUX, ACHATS MATERIELS ET EQUIPEMENTS": 124
+      },
+      "102": {
+        "FRAIS DE GESTION ROAMING CHAMB": 125
+      },
+      "103": {
+        "AUTRES FRAIS DE TRANSPORTS": 126
+      },
+      "104": {
+        "ETUDES ET RECHERCHES": 127
+      },
+      "105": {
+        "DOCUMENTATION GENERALE": 128
+      },
+      "106": {
+        "DOCUMENTATION TECHNIQUE": 129
+      },
+      "107": {
+        "DIVERS FRAIS": 130
+      },
+      "108": {
+        "REDEVANCES POUR LOGICIELS": 131
+      },
+      "109": {
+        "COTISATIONS": 132
+      },
+      "110": {
+        "CONCOURS DIVERS": 133
+      },
+      "111": {
+        "FRAIS DE DEMENAGEMENT": 134
+      },
+      "112": {
+        "DONS": 135
+      },
+      "113": {
+        "AUTRES  LOCATIONS ET CHARGES LO": 136
+      }
+    }
+  },
+  "Management fees": {
+    "row_number": 137,
+    "collapsible_types": {
+      "114": {
+        "MANAGEMENT FEES - FRAIS DE GES": 138
+      },
+      "115": {
+        "REDEVANCES POUR MARQUE": 139
+      }
+    }
+  },
+  "Transport, déplacement, mission": {
+    "row_number": 140,
+    "collapsible_types": {
+      "116": {
+        "VOYAGES ET DEPLACEMENTS (Missions)": 141
+      },
+      "117": {
+        "VOYAGES ET DEPLACEMENTS (Formations)": 142
+      },
+      "118": {
+        "RECEPTIONS PERSONNEL (Autres)": 143
+      },
+      "119": {
+        "MISSIONS & FRAIS D'HOTELS PERSONNEL (Missions)": 144
+      },
+      "120": {
+        "MISSIONS & FRAIS D'HOTELS PERSONNEL (Formations)": 145
+      },
+      "121": {
+        "TRANSPORT VISITEURS": 146
+      },
+      "122": {
+        "RECEPTIONS VISITEURS & PERSONNEL , DIVERS T": 147
+      },
+      "123": {
+        "MISSIONS & FRAIS D'HOTELS VISI": 148
+      },
+      "124": {
+        "TRANSPORTS DE PLIS": 149
+      },
+      "125": {
+        "FRAIS D'AFFRANCHISSEMENT": 150
+      }
+    }
+  },
+  "Frais postaux, bancaires et assurances": {
+    "row_number": 151,
+    "collapsible_types": {
+      "126": {
+        "ASSURANCE MULTIRISQUES": 152
+      },
+      "127": {
+        "ASSURANCE RISQUES D'EXPLOITATI": 153
+      },
+      "128": {
+        "ASSURANCE TRANSPORT SUR ACHATS": 154
+      },
+      "129": {
+        "AUTRES PRIMES D'ASSURANCE": 155
+      },
+      "130": {
+        "FRAIS SUR EFFETS": 156
+      },
+      "131": {
+        "FRAIS D'EMISSION D'EMPRUNTS": 157
+      },
+      "132": {
+        "AUTRES FRAIS BANCAIRES": 158
+      },
+      "133": {
+        "FRAIS DE VIREMENT": 159
+      },
+      "134": {
+        "FRAIS D'ARRETES DE COMPTES": 160
+      }
+    }
+  },
+  "Achats de mat. et fournitures consom.": {
+    "row_number": 161,
+    "collapsible_types": {
+      "135": {
+        "FOURNITURES DE BUREAU NON STOC": 162
+      },
+      "136": {
+        "ACHATS  PETIT MATERIEL ET OUTIL": 163
+      },
+      "137": {
+        "Contrainte : Identification": 164
+      }
+    }
+  },
+  "Redevances régulateur": {
+    "row_number": 168,
+    "collapsible_types": {
+      "138": {
+        "REDEVANCES AUTORITE DE REGULATION (Redevance licence & Contribution)": 169
+      },
+      "139": {
+        "REDEVANCES AUTORITE DE REGULAT (Redevance Trafic & autres)": 170
+      }
+    }
+  },
+  "Droits sur le trafic International Entrant": {
+    "row_number": 171,
+    "collapsible_types": {
+      "140": {
+        "Droits sur le trafic International Entrant": 172
+      }
+    }
+  },
+  "Autres impôts et taxes": {
+    "row_number": 173,
+    "collapsible_types": {
+      "141": {
+        "IMPOTS FONCIERS ET TAXES ANNEX": 174
+      },
+      "142": {
+        "PATENTES, LICENCES ET TAXES AN": 175
+      },
+      "143": {
+        "AUTRES  IMPOTS ET TAXES DIRECTS": 176
+      },
+      "144": {
+        "IMPOTS ET TAXES INDIRECTS": 177
+      },
+      "145": {
+        "TAXES SUR LES VEHICULES DE SOC": 178
+      },
+      "146": {
+        "AUTRES DROITS D'ENREGISTREMENT": 179
+      },
+      "147": {
+        "AUTRES IMPOTS & TAXES": 180
+      },
+      "148": {
+        "PENALITES & AMENDES FISCALES": 181
+      }
+    }
+  },
+  "Prov. R&C": {
+    "row_number": 186,
+    "collapsible_types": {
+      "149": {
+        "PERTES / CREANCES CLIENTS": 187
+      },
+      "150": {
+        "PERTES / AUTRES DEBITEURS": 188
+      },
+      "151": {
+        "CHARGES PROVISIONNEES / RISQUE": 189
+      },
+      "152": {
+        "CHARGES PROVISIONNEES S/ STOCK": 190
+      },
+      "153": {
+        "CHARGES PROVISIONNEES S/ CREAN": 191
+      },
+      "154": {
+        "AUTRES CHARGES PROVISIONNEES": 192
+      },
+      "155": {
+        "REPRISES PROVISIONS S/ RISQUES": 193
+      },
+      "156": {
+        "REPRISES PROV. POUR RISQUES &": 194
+      },
+      "157": {
+        "REPRISES PROVISIONS POUR DEPRE": 195
+      },
+      "158": {
+        "REPRISES AUTRES CHARGES PROVIS": 196
+      },
+      "159": {
+        "REPRISES PROV. POUR GROSSES RE": 197
+      }
+    }
+  }
+}

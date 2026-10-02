@@ -1,0 +1,20 @@
+level,name,sequence,tbg_key,parent_tbg
+type,EBITDA,10,CASH1,
+metric,Neutralisation de la var. de provisions incluses dans l'Ebitda (-),10,CASH2,CASH1
+metric,Autre résultat non courant,20,CASH3,CASH1
+metric,Variation de BFR opérationnel (+/-),30,CASH4,CASH1
+metric,Dividendes reçus des participations non consolidées (+),40,CASH5,CASH1
+metric,Cession d'immobilisations,50,CASH6,CASH1
+metric,Investissements nets (Capex brutes - cession d'immo.) (-),60,CASH7,CASH1
+metric,Plan de restructuration,70,CASH8,CASH1
+type,CFFO,20,CASH9,
+metric,Résultat financier hors dividendes des stés non consolidées (+/-),10,CASH10,CASH9
+metric,Impôts payés (-),20,CASH11,CASH9
+metric,Dividendes payés (-),30,CASH12,CASH9
+metric,Cash flow used for financing and taxes,40,CASH13,CASH9
+metric,Cash flow used for investment (+/-),50,CASH14,CASH9
+metric,Autres éléments non cash,60,CASH15,CASH9
+type,Net cash flow,30,CASH16,
+metric,Dettes brutes (-),10,CASH17,CASH16
+metric,Trésorerie brute (+),20,CASH18,CASH16
+type,Trésorerie nette fin de période,40,CASH19,

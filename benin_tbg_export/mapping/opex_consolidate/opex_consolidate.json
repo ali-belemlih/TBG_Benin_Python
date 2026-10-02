@@ -1,0 +1,106 @@
+{
+  "Total Opex": {
+    "row_number": 7,
+    "metrics": {}
+  },
+  "Personnel": {
+    "row_number": 9,
+    "metrics": {}
+  },
+  "Communication": {
+    "row_number": 40,
+    "metrics": {}
+  },
+  "Exploitation & maintenance": {
+    "row_number": 57,
+    "metrics": {
+      "Achat d'énergie - Bâtiment - Gardiennage": {
+        "row_number": 58,
+        "submetric": {}
+      },
+      "Lignes et réseaux (entretien & achats)": {
+        "row_number": 79,
+        "submetrics": {}
+      },
+      "Fees du contrat GMNS": {
+        "row_number": 97,
+        "submetrics": {}
+      },
+      "Matériel de transport (Entretien et locat°)": {
+        "row_number": 100,
+        "submetrics": {}
+      },
+      "Maintenance informatique": {
+        "row_number": 106,
+        "submetrics": {}
+      }
+    }
+  },
+  "Frais généraux": {
+    "row_number": 113,
+    "metrics": {
+      "Frais d'achats d'études, honoraires": {
+        "row_number": 114,
+        "submetrics": {}
+      },
+      "Management fees": {
+        "row_number": 137,
+        "submetrics": {}
+      },
+      "Transport, déplacement, mission": {
+        "row_number": 140,
+        "submetrics": {}
+      },
+      "Frais postaux, bancaires et assurances": {
+        "row_number": 151,
+        "submetrics": {}
+      },
+      "Achats de mat. et fournitures consom.": {
+        "row_number": 161,
+        "submetrics": {}
+      }
+    }
+  },
+  "Impôts, taxes et redevances": {
+    "row_number": 167,
+    "metrics": {
+      "Redevances régulateur": {
+        "row_number": 168,
+        "submetrics": {}
+      },
+      "Droits sur le trafic International Entrant": {
+        "row_number": 171,
+        "submetrics": {}
+      },
+      "Autres impôts et taxes": {
+        "row_number": 173,
+        "submetrics": {}
+      }
+    }
+  },
+  "Provision clients, R&C & NC": {
+    "row_number": 184,
+    "metrics": {
+      "Prov. Créances clients": {
+        "row_number": 185,
+        "submetrics": {}
+      },
+      "Prov. R&C": {
+        "row_number": 186,
+        "submetrics": {}
+      },
+      "PIDR": {
+        "row_number": 198,
+        "submetrics": {}
+      },
+      "Autres provisions": {
+        "row_number": 199,
+        "submetrics": {}
+      }
+    }
+  },
+  "Ecart de change sur exploitation": {
+    "row_number": 201,
+    "metrics": {}
+  }
+}

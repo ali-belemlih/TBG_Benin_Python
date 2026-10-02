@@ -1,0 +1,135 @@
+{
+  "jan": {
+    "date" : "2024-01-01",
+    "sheet_col": "F",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "feb": {
+    "date" : "2024-02-01",
+    "sheet_col": "J",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "mar": {
+    "date" : "2024-03-01",
+    "sheet_col" : "N",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+
+  },
+  "apr": {
+    "date" : "2024-04-01",
+    "sheet_col": "R",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "may": {
+    "date" : "2024-05-01",
+    "sheet_col": "V",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "jun": {
+    "date" : "2024-06-01",
+    "sheet_col": "Z",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "jul": {
+    "date" : "2024-07-01",
+    "sheet_col": "AD",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "aug": {
+    "date" : "2024-08-01",
+    "sheet_col": "AH",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "sep": {
+    "date" : "2024-09-01",
+    "sheet_col": "AL",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "oct": {
+    "date" : "2024-10-01",
+    "sheet_col": "AP",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "nov": {
+    "date" : "2024-11-01",
+    "sheet_col": "AT",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  },
+  "dec": {
+    "date" : "2024-12-01",
+    "sheet_col": "AX",
+    "header_row_index" : 4,
+    "sequence": [
+      "equipment",
+      "services",
+      "additional_cost",
+      "total"
+    ]
+  }
+}

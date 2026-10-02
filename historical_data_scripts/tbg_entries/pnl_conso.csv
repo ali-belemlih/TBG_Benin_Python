@@ -1,0 +1,24 @@
+level,name,sequence,tbg_key,parent_tbg
+type,"Chiffre d'affaires",10,PL1,
+type,Mobile,20,PL2,
+metric,Mobile,10,PL3,PL2
+type,Coût des ventes,30,PL4,
+type,Marge Brute,40,PL5,
+metric,"% CA",10,PL6,PL5
+type,Coûts opérationnels,50,PL7,
+metric,"% CA",10,PL8,PL7
+type,EBITDA,60,PL9,
+metric,"% CA",10,PL10,PL9
+type,"Amortissements et déprec. Courant",70,PL11,
+type,Dotations (Amo. et Pv NC),80,PL12,
+type,Autres non courant,90,PL13,
+type,+/- value de cession d'immob.,100,PL14,
+type,EBITA,110,PL15,
+metric,% CA,10,PL116,PL15
+type,Résultat financier,120,PL17,
+metric,dont intérêt sur SHL,10,PL18,PL17
+type,RESULTAT avant IS,130,PL19,
+type,IS,140,PL20,
+type,ID,150,PL21,
+type,RESULTAT NET,160,PL22,
+metric,"% CA",10,PL23,PL22

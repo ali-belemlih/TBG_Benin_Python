@@ -1,0 +1,66 @@
+{
+  "Prépayé (yc commissions)": {
+    "row_number": 17,
+    "collapsible_types": {
+      "160": {
+        "Consumer Prepaid": 18
+      }
+    }
+  },
+  "Redevance d'abonnement": {
+    "row_number": 54,
+    "collapsible_types": {
+      "161": {
+        "Consumer Postpaid": 55
+      },
+      "162": {
+        "Business Postpaid": 56
+      },
+      "163": {
+        "Business Prepaid": 57
+      }
+    }
+  },
+  "Trafic sortant": {
+    "row_number": 58,
+    "collapsible_types": {
+      "164": {
+        "Consumer Postpaid": 59
+      },
+      "165": {
+        "Business Postpaid": 84
+      },
+      "166": {
+        "Business Prepaid": 109
+      }
+    }
+  },
+  "Internet Mobile (PrP+PoP)": {
+    "row_number": 145,
+    "collapsible_types": {
+      "167": {
+        "dont voix+data": 146
+      },
+      "168": {
+        "dont data only": 147
+      }
+    }
+  },
+  "International": {
+    "row_number": 165,
+    "collapsible_types": {
+      "169": {
+        "Consumer Prepaid": 166
+      },
+      "170": {
+        "Consumer Postpaid": 167
+      },
+      "171": {
+        "Business Postpaid": 168
+      },
+      "172": {
+        "Business Prepaid": 169
+      }
+    }
+  }
+}

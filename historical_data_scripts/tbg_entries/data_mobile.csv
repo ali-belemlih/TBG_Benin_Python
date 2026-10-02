@@ -1,0 +1,25 @@
+level,name,sequence,tbg_key,parent_tbg
+type,Parc Data Mobile actif (90 jrs),10,DM1,
+metric,2G,10,DM2,DM1
+metric,3G,20,DM3,DM1
+metric,4G,30,DM4,DM1
+type,Trafic data (en millions de Go),20,DM5,
+metric,2G,10,DM6,DM5
+metric,3G,20,DM7,DM5
+metric,4G,30,DM8,DM5
+type,Chiffre d'affaires MFCFA,30,DM9,
+metric,2G,10,DM10,DM9
+metric,3G,20,DM11,DM9
+metric,4G,30,DM12,DM9
+type,ARPU,40,DM13,
+metric,2G,10,DM14,DM13
+metric,3G,20,DM15,DM13
+metric,4G,30,DM16,DM13
+type,Usage (en Go/client),50,DM17,
+metric,2G,10,DM18,DM17
+metric,3G,20,DM19,DM17
+metric,4G,30,DM20,DM17
+type,Prix / Go,60,DM21,
+metric,2G,10,DM22,DM21
+metric,3G,20,DM23,DM21
+metric,4G,30,DM24,DM21

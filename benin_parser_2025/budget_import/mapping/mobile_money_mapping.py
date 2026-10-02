@@ -1,0 +1,86 @@
+sheet_name = 'Mobile Money'
+
+# Row to financial_types DB table ID mapping
+# Key -> row number in excel
+# Value -> financial_type ID
+financial_type_row_mapping = {
+    5: 33,
+    7: 34,
+    9: 35,
+    11: 36,
+    13: 37,
+    26: 38,
+    40: 39,
+    72: 40
+}
+
+# Row to financial_metric DB table ID mapping
+# Key -> row number in excel
+# Value -> financial_metric ID
+financial_metric_row_mapping = {
+    14: 93,
+    15: 94,
+    16: 95,
+    17: 96,
+    18: 97,
+    19: 98,
+    20: 99,
+    21: 100,
+    22: 101,
+    23: 102,
+    24: 103,
+
+    27: 104,
+    28: 105,
+    29: 106,
+    30: 107,
+    31: 108,
+    32: 109,
+    33: 110,
+    34: 111,
+    35: 112,
+    36: 113,
+    37: 114,
+    38: 115,
+
+    41: 116,
+    51: 117,
+    61: 118,
+
+    73: 119
+}
+
+# Row to financial_submetric DB table ID mapping
+# Key -> row number in excel
+# Value -> financial_submetric ID
+financial_submetric_row_mapping = {
+    42: 47,
+    43: 48,
+    44: 49,
+    45: 50,
+    46: 51,
+    47: 52,
+    48: 53,
+    49: 54,
+    50: 55,
+
+    52: 56,
+    53: 57,
+    54: 58,
+    55: 59,
+    56: 60,
+    57: 61,
+    58: 62,
+    59: 63,
+    60: 64,
+
+    62: 65,
+    63: 66,
+    64: 67,
+    65: 68,
+    66: 69,
+    67: 70,
+    68: 71,
+    69: 72,
+    70: 73
+}

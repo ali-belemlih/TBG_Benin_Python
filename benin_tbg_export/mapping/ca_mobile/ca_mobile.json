@@ -1,0 +1,81 @@
+{
+  "CA Global": {
+    "row_number": 8,
+    "metrics": {}
+  },
+  "CA services Mobile": {
+    "row_number": 12,
+    "metrics": {}
+  },
+  "CA récurrent": {
+    "row_number": 14,
+    "metrics": {}
+  },
+  "CA sortant": {
+    "row_number": 16,
+    "metrics": {
+      "Prépayé (yc commissions)": {
+        "row_number": 17,
+        "submetrics": {}
+      },
+      "Postpayé": {
+        "row_number": 53,
+        "submetrics": {
+          "Redevance d'abonnement": 54,
+          "Trafic sortant": 58
+        }
+      },
+      "Mobile Money": {
+        "row_number": 143,
+        "submetrics": {}
+      },
+      "Liaisons Spécialisées": {
+        "row_number": 144,
+        "submetrics": {}
+      },
+      "Internet Mobile (PrP+PoP)": {
+        "row_number": 145,
+        "submetrics": {}
+      }
+    }
+  },
+  "CA entrant": {
+    "row_number": 149,
+    "metrics": {
+      "International": {
+        "row_number": 165,
+        "submetrics": {}
+      }
+    }
+  },
+  "Colocalisation" : {
+    "row_number" : 171,
+    "metrics" : {}
+  },
+  "Roaming in" : {
+    "row_number" : 177,
+    "metrics" : {
+      "Dont Roaming National" : {
+        "row_number" : 178,
+        "submetrics" : {}
+      }
+    }
+  },
+  "CA Non récurrent" : {
+    "row_number" : 179,
+    "metrics" : {
+      "Terminaux" : {
+        "row_number" : 180,
+        "submetrics" : {}
+      },
+      "Clé Internet Mobile" : {
+        "row_number" : 181,
+        "submetrucs" : {}
+      },
+      "Autres" : {
+        "row_number" : 182,
+        "submetrics" : {}
+      }
+    }
+  }
+}

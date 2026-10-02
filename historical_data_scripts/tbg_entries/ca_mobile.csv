@@ -1,0 +1,30 @@
+level,name,sequence,tbg_key,parent_tbg
+type,CA Global,10,CA1,
+type,CA services Mobile,20,CA2,
+type,CA récurrent,30,CA3,
+type,CA sortant,40,CA4,
+metric,Prépayé (yc commissions),10,CA5,CA4
+submetric,dont voix,10,CA6,CA5
+submetric,CA Internet 2G/3G/4G,20,CA7,CA5
+submetric,dont BLR,30,CA8,CA5
+submetric,dont sms,40,CA9,CA5
+submetric,dont mms,50,CA10,CA5
+metric,Postpayé,20,CA11,CA4
+submetric,dont voix + sms,10,CA12,CA11
+submetric,dont data 3G,20,CA13,CA11
+type,CA entrant,50,CA14,
+metric,Prépayé,10,CA15,CA14
+metric,Postpayé,20,CA16,CA14
+metric,Telecel,30,CA17,CA14
+metric,Orange,40,CA18,CA14
+metric,International,50,CA19,CA14
+metric,Autres,60,CA20,CA14
+type,Colocation,60,CA21,
+type,Roaming in,70,CA22,
+metric,Postpayé,10,CA23,CA22
+metric,Prépayé,20,CA24,CA22
+metric,Data,30,CA25,CA22
+type,CA équipement,80,CA26,
+metric,Vente de SIM,10,CA27,CA26
+metric,Terminaux,20,CA28,CA26
+metric,Accessoire,30,CA29,CA26

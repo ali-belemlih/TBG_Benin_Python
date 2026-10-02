@@ -1,0 +1,15 @@
+{
+  "Effectif": {
+    "row_number": 6,
+    "resource_subtype_name": {}
+  },
+  "Sites BTS mis en service (cumulé)": {
+    "row_number": 9,
+    "resource_subtype_name": {
+      "2G": 10,
+      "3G": 11,
+      "4G": 12,
+      "5G": 13
+    }
+  }
+}

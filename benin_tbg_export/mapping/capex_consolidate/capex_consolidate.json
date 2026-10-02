@@ -1,0 +1,129 @@
+{
+  "Total capex": {
+    "row_number": 7,
+    "metrics": {}
+  },
+  "Réseau": {
+    "row_number": 10,
+    "metrics": {
+      "Réseau d'accès": {
+        "row_number": 11,
+        "submetrics": {}
+      },
+      "Activation du personnel": {
+        "row_number": 12,
+        "submetrics": {}
+      },
+      "Commutation & plates-formes": {
+        "row_number": 13,
+        "submetrics": {}
+      },
+      "Transmission": {
+        "row_number": 14,
+        "submetrics": {}
+      },
+      "Energie & climatisation": {
+        "row_number": 15,
+        "submetrics": {}
+      },
+      "Réseau International et interconnexion": {
+        "row_number": 16,
+        "submetrics": {}
+      },
+      "Internet": {
+        "row_number": 17,
+        "submetrics": {}
+      },
+      "Système d'information": {
+        "row_number": 18,
+        "submetrics": {}
+      },
+      "Matériel industriel": {
+        "row_number": 19,
+        "submetrics": {}
+      },
+      "Installation et agencement": {
+        "row_number": 20,
+        "submetrics": {}
+      },
+      "Matériel informatique": {
+        "row_number": 21,
+        "submetrics": {}
+      }
+    }
+  },
+  "Commercial et Marketing": {
+    "row_number": 23,
+    "metrics": {
+      "Commercial": {
+        "row_number": 24,
+        "submetrics": {}
+      },
+      "Marketing": {
+        "row_number": 25,
+        "submetrics": {}
+      },
+      "Capexisation des kits": {
+        "row_number": 26,
+        "submetrics": {}
+      }
+    }
+  },
+  "Administratif et Financier": {
+    "row_number": 28,
+    "metrics": {
+      "Logistique": {
+        "row_number": 29,
+        "submetrics": {}
+      },
+      "Matériel et outillage industriels": {
+        "row_number": 30,
+        "submetrics": {}
+      },
+      "Materiel informatique": {
+        "row_number": 31,
+        "submetrics": {}
+      },
+      "Matériels et mobiliers": {
+        "row_number": 32,
+        "submetrics": {}
+      },
+      "Climatiseurs": {
+        "row_number": 33,
+        "submetrics": {}
+      },
+      "Autres matériels et mobiliers": {
+        "row_number": 34,
+        "submetrics": {}
+      },
+      "Autres agencements (eau electricité, autres)": {
+        "row_number": 35,
+        "submetrics": {}
+      },
+      "Autres installations": {
+        "row_number": 36,
+        "submetrics": {}
+      },
+      "Terrains et Batiments": {
+        "row_number": 37,
+        "submetrics": {}
+      },
+      "Transport": {
+        "row_number": 38,
+        "submetrics": {}
+      },
+      "Autres(mat. Bureau, bureautique, …)": {
+        "row_number": 39,
+        "submetrics": {}
+      },
+      "Materiel bureautique": {
+        "row_number": 40,
+        "submetrics": {}
+      },
+      "Mobilier de bureau": {
+        "row_number": 41,
+        "submetrics": {}
+      }
+    }
+  }
+}

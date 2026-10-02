@@ -1,0 +1,77 @@
+{
+  "1": {
+    "Frais d'activation & Sim swap": 19
+  },
+  "2": {
+    "Total VOIX Sortant": 28
+  },
+  "3": {
+    "Total SMS Sortant": 36
+  },
+  "4": {
+    "Revenu Internet 3G": 38
+  },
+  "5": {
+    "Total Data": 47
+  },
+  "6": {
+    "Total VOIX Sortant": 68
+  },
+  "7": {
+    "Total SMS Sortant": 76
+  },
+  "8": {
+    "Revenu Internet 3G": 78
+  },
+  "9": {
+    "Total Data": 82
+  },
+  "10": {
+    "Total VOIX Sortant": 93
+  },
+  "11": {
+    "Total SMS Sortant": 101
+  },
+  "12": {
+    "Revenu Internet 3G": 103
+  },
+  "13": {
+    "Total Data": 107
+  },
+  "14": {
+    "Total VOIX Sortant": 118
+  },
+  "15": {
+    "Total SMS Sortant": 126
+  },
+  "16": {
+    "Revenu Internet 3G": 128
+  },
+  "17": {
+    "Total Data": 137
+  },
+  "18": {
+    "dont CA voix": 139
+  },
+  "19": {
+    "dont CA SMS": 140
+  },
+  "20": {
+    "dont SVA (Sce à Val. Ajoutée)": 141
+  },
+  "21": {
+    "dont CA Internet 3G": 142
+  },
+  "22" : {
+    "dont CA voix" : 49
+  },
+  "23" : {
+    "dont CA SMS" : 50
+  },
+  "24" : {
+    "dont SVA (Sce à Val. Ajoutée)" : 51
+  },
+  "25": {
+    "dont CA Internet 3G": 52
+  }
+}

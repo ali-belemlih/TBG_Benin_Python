@@ -1,0 +1,337 @@
+System Configuration for: site1server1
+==========================
+==========================
+Generated on: Thu Mar 13 05:59:28 PM GMT 2025
+
+Operating System:
+NAME="Red Hat Enterprise Linux"
+VERSION="9.3 (Plow)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="9.3"
+PLATFORM_ID="platform:el9"
+PRETTY_NAME="Red Hat Enterprise Linux 9.3 (Plow)"
+ANSI_COLOR="0;31"
+LOGO="fedora-logo-icon"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:9::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 9"
+REDHAT_BUGZILLA_PRODUCT_VERSION=9.3
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="9.3"
+
+==========================
+Memory Information:
+Total Memory: 125.036 GB
+Available Memory: 115.148 GB
+Buffer/Cache Memory: 41.8176 GB
+Total Swap: 16 GB
+Free Swap: 16 GB
+
+==========================
+CPU Information:
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      46 bits physical, 57 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             32
+On-line CPU(s) list:                0-31
+Vendor ID:                          GenuineIntel
+BIOS Vendor ID:                     Intel(R) Corporation
+Model name:                         Intel(R) Xeon(R) Silver 4309Y CPU @ 2.80GHz
+BIOS Model name:                    Intel(R) Xeon(R) Silver 4309Y CPU @ 2.80GHz
+CPU family:                         6
+Model:                              106
+Thread(s) per core:                 2
+Core(s) per socket:                 8
+Socket(s):                          2
+Stepping:                           6
+BogoMIPS:                           5600.00
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp_epp vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
+Virtualization:                     VT-x
+L1d cache:                          768 KiB (16 instances)
+L1i cache:                          512 KiB (16 instances)
+L2 cache:                           20 MiB (16 instances)
+L3 cache:                           24 MiB (2 instances)
+NUMA node(s):                       2
+NUMA node0 CPU(s):                  0-7,16-23
+NUMA node1 CPU(s):                  8-15,24-31
+Vulnerability Gather data sampling: Mitigation; Microcode
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Enhanced / Automatic IBRS, IBPB conditional, RSB filling, PBRSB-eIBRS SW sequence
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+
+==========================
+Storage Information:
+Attached Disks:
+NAME                         MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+loop0                          7:0    0   9.8G  1 loop  
+├─loop0p1                    259:0    0   9.8G  1 part  /run/media/root/RHEL-9-3-0-BaseOS-x86_64
+└─loop0p2                    259:1    0   6.9M  1 part  
+loop1                          7:1    0   9.8G  0 loop  /mnt/cdrom
+sda                            8:0    0 894.2G  0 disk  
+├─sda1                         8:1    0     1G  0 part  /boot
+├─sda2                         8:2    0   600M  0 part  /boot/efi
+└─sda3                         8:3    0 892.6G  0 part  
+  ├─rhel-root                253:0    0 376.6G  0 lvm   /
+  ├─rhel-swap                253:1    0    16G  0 lvm   [SWAP]
+  ├─rhel-opt                 253:2    0   420G  0 lvm   /opt
+  └─rhel-home                253:3    0    80G  0 lvm   /home
+sdb                            8:16   0    16T  0 disk  
+└─server1disk1               253:4    0    16T  0 mpath 
+  └─VGSRV1disk1-LVSRV1DISK01 253:5    0    16T  0 lvm   /mnt/data1/minio
+sdc                            8:32   0    16T  0 disk  
+└─server1disk1               253:4    0    16T  0 mpath 
+  └─VGSRV1disk1-LVSRV1DISK01 253:5    0    16T  0 lvm   /mnt/data1/minio
+sdd                            8:48   0    16T  0 disk  
+└─server1disk3               253:6    0    16T  0 mpath 
+  └─VGSRV1disk3-LVSRV1DISK03 253:9    0    16T  0 lvm   /mnt/data3/minio
+sde                            8:64   0    16T  0 disk  
+└─server1disk3               253:6    0    16T  0 mpath 
+  └─VGSRV1disk3-LVSRV1DISK03 253:9    0    16T  0 lvm   /mnt/data3/minio
+sdf                            8:80   0    16T  0 disk  
+└─server1disk2               253:7    0    16T  0 mpath 
+  └─VGSRV1disk2-LVSRV1DISK02 253:10   0    16T  0 lvm   /mnt/data2/minio
+sdg                            8:96   0    16T  0 disk  
+└─server1disk2               253:7    0    16T  0 mpath 
+  └─VGSRV1disk2-LVSRV1DISK02 253:10   0    16T  0 lvm   /mnt/data2/minio
+sdh                            8:112  0    16T  0 disk  
+└─server1disk4               253:8    0    16T  0 mpath 
+  └─VGSRV1disk4-LVSRV1DISK04 253:11   0    16T  0 lvm   /mnt/data7/spark
+sdi                            8:128  0    16T  0 disk  
+└─server1disk4               253:8    0    16T  0 mpath 
+  └─VGSRV1disk4-LVSRV1DISK04 253:11   0    16T  0 lvm   /mnt/data7/spark
+sdj                            8:144  0    16T  0 disk  
+└─server1disk1               253:4    0    16T  0 mpath 
+  └─VGSRV1disk1-LVSRV1DISK01 253:5    0    16T  0 lvm   /mnt/data1/minio
+sdk                            8:160  0    16T  0 disk  
+└─server1disk3               253:6    0    16T  0 mpath 
+  └─VGSRV1disk3-LVSRV1DISK03 253:9    0    16T  0 lvm   /mnt/data3/minio
+sdl                            8:176  0    16T  0 disk  
+└─server1disk1               253:4    0    16T  0 mpath 
+  └─VGSRV1disk1-LVSRV1DISK01 253:5    0    16T  0 lvm   /mnt/data1/minio
+sdm                            8:192  0    16T  0 disk  
+└─server1disk2               253:7    0    16T  0 mpath 
+  └─VGSRV1disk2-LVSRV1DISK02 253:10   0    16T  0 lvm   /mnt/data2/minio
+sdn                            8:208  0    16T  0 disk  
+└─server1disk3               253:6    0    16T  0 mpath 
+  └─VGSRV1disk3-LVSRV1DISK03 253:9    0    16T  0 lvm   /mnt/data3/minio
+sdo                            8:224  0    16T  0 disk  
+└─server1disk4               253:8    0    16T  0 mpath 
+  └─VGSRV1disk4-LVSRV1DISK04 253:11   0    16T  0 lvm   /mnt/data7/spark
+sdp                            8:240  0    16T  0 disk  
+└─server1disk2               253:7    0    16T  0 mpath 
+  └─VGSRV1disk2-LVSRV1DISK02 253:10   0    16T  0 lvm   /mnt/data2/minio
+sdq                           65:0    0    16T  0 disk  
+└─server1disk4               253:8    0    16T  0 mpath 
+  └─VGSRV1disk4-LVSRV1DISK04 253:11   0    16T  0 lvm   /mnt/data7/spark
+
+Mounted Filesystems and Usage:
+Filesystem                            Size  Used Avail Use% Mounted on
+devtmpfs                              4.0M     0  4.0M   0% /dev
+tmpfs                                  63G  212K   63G   1% /dev/shm
+tmpfs                                  26G   19M   25G   1% /run
+/dev/mapper/rhel-root                 377G   22G  356G   6% /
+/dev/sda1                             960M  301M  660M  32% /boot
+/dev/mapper/rhel-home                  80G  3.5G   77G   5% /home
+/dev/mapper/rhel-opt                  420G   14G  407G   4% /opt
+/dev/sda2                             599M   24K  599M   1% /boot/efi
+tmpfs                                  13G  104K   13G   1% /run/user/0
+/dev/mapper/VGSRV1disk2-LVSRV1DISK02   17T  662G   16T   5% /mnt/data2/minio
+/dev/mapper/VGSRV1disk4-LVSRV1DISK04   17T  2.2T   14T  14% /mnt/data7/spark
+/dev/mapper/VGSRV1disk1-LVSRV1DISK01   17T  662G   16T   5% /mnt/data1/minio
+/dev/mapper/VGSRV1disk3-LVSRV1DISK03   17T  662G   16T   5% /mnt/data3/minio
+/dev/loop0p1                          9.9G  9.9G     0 100% /run/media/root/RHEL-9-3-0-BaseOS-x86_64
+/dev/loop1                            9.9G  9.9G     0 100% /mnt/cdrom
+tmpfs                                  13G   36K   13G   1% /run/user/1007
+
+==========================
+Network Configuration:
+IP Address:
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens4f0np0        DOWN           
+ens4f1np1        DOWN           
+ens1f0np0        UP             
+ens1f1np1        UP             
+bond0            UP             172.20.21.131/23 fe80::29ad:1b6d:3468:6d67/64 
+
+NICs Available:
+DEVICE     TYPE      STATE                   CONNECTION  
+bond0      bond      connected               bond0       
+lo         loopback  connected (externally)  lo          
+ens1f0np0  ethernet  connected               bond0-port1 
+ens1f1np1  ethernet  connected               bond0-port2 
+ens4f0np0  ethernet  disconnected            --          
+ens4f1np1  ethernet  disconnected            --          
+
+==========================
+Port Information:
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:9201            0.0.0.0:*               LISTEN      1535/python3        
+tcp        0      0 127.0.0.1:6013          0.0.0.0:*               LISTEN      92018/sshd: youssef 
+tcp        0      0 127.0.0.1:6010          0.0.0.0:*               LISTEN      80162/sshd: youssef 
+tcp        0      0 127.0.0.1:6011          0.0.0.0:*               LISTEN      83295/sshd: youssef 
+tcp        0      0 127.0.0.1:8123          0.0.0.0:*               LISTEN      2198/clickhouse-ser 
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      1534/cupsd          
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1558/sshd: /usr/sbi 
+tcp        0      0 127.0.0.1:9009          0.0.0.0:*               LISTEN      2198/clickhouse-ser 
+tcp        0      0 127.0.0.1:9004          0.0.0.0:*               LISTEN      2198/clickhouse-ser 
+tcp        0      0 127.0.0.1:9005          0.0.0.0:*               LISTEN      2198/clickhouse-ser 
+tcp        0      0 127.0.0.1:9000          0.0.0.0:*               LISTEN      1935/minio          
+tcp6       0      0 :::9100                 :::*                    LISTEN      1537/node_exporter  
+tcp6       0      0 :::9090                 :::*                    LISTEN      1538/prometheus     
+tcp6       0      0 :::9001                 :::*                    LISTEN      1935/minio          
+tcp6       0      0 :::9000                 :::*                    LISTEN      1935/minio          
+tcp6       0      0 ::1:9009                :::*                    LISTEN      2198/clickhouse-ser 
+tcp6       0      0 ::1:9000                :::*                    LISTEN      1935/minio          
+tcp6       0      0 ::1:9004                :::*                    LISTEN      2198/clickhouse-ser 
+tcp6       0      0 ::1:9005                :::*                    LISTEN      2198/clickhouse-ser 
+tcp6       0      0 :::22                   :::*                    LISTEN      1558/sshd: /usr/sbi 
+tcp6       0      0 ::1:8123                :::*                    LISTEN      2198/clickhouse-ser 
+tcp6       0      0 :::3000                 :::*                    LISTEN      1536/grafana        
+tcp6       0      0 ::1:6010                :::*                    LISTEN      80162/sshd: youssef 
+tcp6       0      0 ::1:6011                :::*                    LISTEN      83295/sshd: youssef 
+tcp6       0      0 ::1:6013                :::*                    LISTEN      92018/sshd: youssef 
+tcp6       0      0 :::4557                 :::*                    LISTEN      81061/java          
+tcp6       0      0 ::1:631                 :::*                    LISTEN      1534/cupsd          
+tcp6       0      0 172.20.21.131:8443      :::*                    LISTEN      81061/java          
+tcp6       0      0 127.0.0.1:52020         :::*                    LISTEN      81061/java          
+udp        0      0 0.0.0.0:54201           0.0.0.0:*                           1346/avahi-daemon:  
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           66660/chronyd       
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           1346/avahi-daemon:  
+udp6       0      0 ::1:323                 :::*                                66660/chronyd       
+udp6       0      0 :::5353                 :::*                                1346/avahi-daemon:  
+udp6       0      0 :::45233                :::*                                1346/avahi-daemon:  
+
+==========================
+Running Services:
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  atd.service                   loaded active running Deferred execution scheduler
+  auditd.service                loaded active running Security Auditing Service
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  chronyd.service               loaded active running NTP client/server
+  clickhouse-server.service     loaded active running ClickHouse Server (analytic DBMS for big data)
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  crond.service                 loaded active running Command Scheduler
+  cups.service                  loaded active running CUPS Scheduler
+  data_pipeline_monitor.service loaded active running Moov Mali Data Pipeline Monitor
+  dbus-broker.service           loaded active running D-Bus System Message Bus
+  gdm.service                   loaded active running GNOME Display Manager
+  grafana.service               loaded active running Grafana Monitoring Service
+  irqbalance.service            loaded active running irqbalance daemon
+  iscsid.service                loaded active running Open-iSCSI
+  libstoragemgmt.service        loaded active running libstoragemgmt plug-in server daemon
+  mcelog.service                loaded active running Machine Check Exception Logging Daemon
+  minio.service                 loaded active running MinIO
+  ModemManager.service          loaded active running Modem Manager
+  multipathd.service            loaded active running Device-Mapper Multipath Device Controller
+  NetworkManager.service        loaded active running Network Manager
+  node_exporter.service         loaded active running Node Exporter Service
+  packagekit.service            loaded active running PackageKit Daemon
+  polkit.service                loaded active running Authorization Manager
+  power-profiles-daemon.service loaded active running Power Profiles daemon
+  prometheus.service            loaded active running Prometheus Monitoring Service
+  rhsm.service                  loaded active running RHSM dbus service
+  rhsmcertd.service             loaded active running Enable periodic update of entitlement certificates.
+  rsyslog.service               loaded active running System Logging Service
+  rtkit-daemon.service          loaded active running RealtimeKit Scheduling Policy Service
+  smartd.service                loaded active running Self Monitoring and Reporting Technology (SMART) Daemon
+  sshd.service                  loaded active running OpenSSH server daemon
+  sssd-kcm.service              loaded active running SSSD Kerberos Cache Manager
+  switcheroo-control.service    loaded active running Switcheroo Control Proxy service
+  systemd-journald.service      loaded active running Journal Service
+  systemd-logind.service        loaded active running User Login Management
+  systemd-udevd.service         loaded active running Rule-based Manager for Device Events and Files
+  udisks2.service               loaded active running Disk Manager
+  upower.service                loaded active running Daemon for power management
+  user@0.service                loaded active running User Manager for UID 0
+  user@1007.service             loaded active running User Manager for UID 1007
+  wpa_supplicant.service        loaded active running WPA supplicant
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+42 loaded units listed.
+
+==========================
+ID of MapR User:
+uid=0(root) gid=0(root) groups=0(root) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+
+Users available:
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+colord:x:997:995:User for colord:/var/lib/colord:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:996:992:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+clevis:x:995:991:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/usr/sbin/nologin
+sssd:x:994:990:User for sssd:/:/sbin/nologin
+pegasus:x:66:65:tog-pegasus OpenPegasus WBEM/CIM services:/var/lib/Pegasus:/sbin/nologin
+geoclue:x:993:989:User for geoclue:/var/lib/geoclue:/sbin/nologin
+flatpak:x:992:988:User for flatpak system helper:/:/sbin/nologin
+setroubleshoot:x:991:987:SELinux troubleshoot server:/var/lib/setroubleshoot:/usr/sbin/nologin
+libstoragemgmt:x:985:985:daemon account for libstoragemgmt:/:/usr/sbin/nologin
+systemd-oom:x:984:984:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+cockpit-ws:x:983:982:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:982:981:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+gnome-initial-setup:x:981:980::/run/gnome-initial-setup/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
+chrony:x:980:979:chrony system user:/var/lib/chrony:/sbin/nologin
+dnsmasq:x:979:978:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+transferuser:x:1003:977::/home/transferuser:/bin/bash
+minio-user:x:1004:1004:USER_MINIO:/home/minio-user:/bin/bash
+spark-user:x:1005:1005:SPARK_USER:/home/spark-user:/bin/bash
+youssef:x:1007:1007:Youssef:/home/youssef:/bin/bash
+clickhouse:x:978:976::/nonexistent:/bin/false
+
+==========================
+MapR Installed packages and version:
+
+==========================
+Crontab:
+0 */7 * * * /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_1.sh
+@reboot /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_1.sh
+
+0 */7 * * * /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_2.sh
+@reboot /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_2.sh
+
+0 */7 * * * /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_3.sh
+@reboot /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_3.sh
+
+0 */7 * * * /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_4.sh
+@reboot /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_4.sh
+
+0 */7 * * * /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_5.sh
+@reboot /opt/monitoring/prometheus/nifi-tokens/token-update-scripts/update_token_file_5.sh
+
+

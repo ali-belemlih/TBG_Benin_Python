@@ -1,0 +1,25 @@
+level,name,sequence,tbg_key,parent_tbg
+type,Parc Total Mobile Actif,10,PARC1,
+metric,Activations totales,10,PARC2,PARC1
+metric,Flux d'inactivite,20,PARC3,PARC1
+metric,Acroissement net,30,PARC4,PARC1
+metric,% churn annualisé,40,PARC5,PARC1
+metric,Parc Actif Moyen,50,PARC6,PARC1
+submetric,Parc actif localisé,10,PARC7,PARC6
+submetric,Parc internet,20,PARC8,PARC6
+type,Parc Prépayé Actif,20,PARC9,
+metric,Parc prépayé actif début Période,10,PARC10,PARC9
+submetric,Activations totales,10,PARC11,PARC10
+submetric,Flux d'inactivite,20,PARC12,PARC10
+submetric,Acroissement net,30,PARC13,PARC10
+submetric,% churn annualisé,40,PARC14,PARC10
+metric,Parc prépayé actif fin de période,20,PARC15,PARC9
+submetric,Parc Actif Moyen,10,PARC16,PARC15
+submetric,Parc actif localisé,20,PARC21,PARC15
+submetric,Parc internet,30,PARC22,PARC15
+type,Parc Postpayé,30,PARC23,
+metric,Parc début Période,10,PARC24,PARC23
+submetric,Activations totales,10,PARC25,PARC24
+submetric,Résiliations totales,20,PARC26,PARC24
+submetric,% résiliation annualisé,30,PARC27,PARC24
+submetric,Ventes nettes,40,PARC28,PARC24

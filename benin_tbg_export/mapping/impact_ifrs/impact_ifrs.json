@@ -1,0 +1,17 @@
+{
+  "Loyers ( EBITDA)": {
+    "row_number": 2
+  },
+  "Dotations aux amortissements du droit d'utilisation": {
+    "row_number": 3
+  },
+  "Charges d'intérêts sur obligation locative": {
+    "row_number": 4
+  },
+  "ID": {
+    "row_number": 5
+  },
+  "Obligation locative (+1 an)": {
+    "row_number": 7
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "Parc Data Mobile actif (90 jrs)": {
+    "row_number": 6,
+    "metrics": {
+      "2G" : {
+        "row_number" : 7,
+        "submetrics" : {}
+      },
+      "3G" : {
+        "row_number" : 8,
+        "submetrics" :  {}
+      },
+      "4G" :  {
+        "row_number" :  9,
+        "submetrics" :  {}
+      }
+    }
+  },
+  "Trafic data (en millions de Go)": {
+    "row_number": 11,
+    "metrics": {
+      "2G" : {
+        "row_number" : 12,
+        "submetrics" : {}
+      },
+      "3G" : {
+        "row_number" : 13,
+        "submetrics" :  {}
+      },
+      "4G" :  {
+        "row_number" :  14,
+        "submetrics" :  {}
+      }
+    }
+  },
+  "Chiffre d'affaires": {
+    "row_number": 16,
+    "metrics": {
+      "2G" : {
+        "row_number" : 17,
+        "submetrics" : {}
+      },
+      "3G" : {
+        "row_number" : 18,
+        "submetrics" :  {}
+      },
+      "4G" :  {
+        "row_number" :  19,
+        "submetrics" :  {}
+      }
+    }
+  },
+  "ARPU" : {
+    "row_number" : 21,
+    "metrics": {
+      "2G" : {
+        "row_number" : 22,
+        "submetrics" : {}
+      },
+      "3G" : {
+        "row_number" : 23,
+        "submetrics" :  {}
+      },
+      "4G" :  {
+        "row_number" :  24,
+        "submetrics" :  {}
+      }
+    }
+  },
+  "Usage (en Go/client)" : {
+    "row_number" : 26,
+    "metrics": {
+      "2G" : {
+        "row_number" : 27,
+        "submetrics" : {}
+      },
+      "3G" : {
+        "row_number" : 28,
+        "submetrics" :  {}
+      },
+      "4G" :  {
+        "row_number" :  29,
+        "submetrics" :  {}
+      }
+    }
+  },
+  "Prix / Go" : {
+    "row_number" : 31,
+    "metrics": {
+      "2G" : {
+        "row_number" : 32,
+        "submetrics" : {}
+      },
+      "3G" : {
+        "row_number" : 33,
+        "submetrics" :  {}
+      },
+      "4G" :  {
+        "row_number" :  34,
+        "submetrics" :  {}
+      }
+    }
+  }
+}

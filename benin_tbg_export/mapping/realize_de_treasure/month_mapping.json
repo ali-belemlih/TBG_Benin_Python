@@ -1,0 +1,58 @@
+{
+  "last_year": {
+    "date": "",
+    "sheet_col": "D"
+  },
+  "current_year": {
+    "date": "",
+    "sheet_col": "E"
+  },
+  "january": {
+    "date": "2025-01-01",
+    "sheet_col": "F"
+  },
+  "february": {
+    "date": "2025-02-01",
+    "sheet_col": "G"
+  },
+  "march": {
+    "date": "2025-03-01",
+    "sheet_col": "H"
+  },
+  "april": {
+    "date": "2025-04-01",
+    "sheet_col": "I"
+  },
+  "may": {
+    "date": "2025-05-01",
+    "sheet_col": "J"
+  },
+  "june": {
+    "date": "2025-06-01",
+    "sheet_col": "K"
+  },
+  "july": {
+    "date": "2025-07-01",
+    "sheet_col": "L"
+  },
+  "august": {
+    "date": "2025-08-01",
+    "sheet_col": "M"
+  },
+  "september": {
+    "date": "2025-09-01",
+    "sheet_col": "N"
+  },
+  "october": {
+    "date": "2025-10-01",
+    "sheet_col": "O"
+  },
+  "november": {
+    "date": "2025-11-01",
+    "sheet_col": "P"
+  },
+  "december": {
+    "date": "2025-12-01",
+    "sheet_col": "Q"
+  }
+}

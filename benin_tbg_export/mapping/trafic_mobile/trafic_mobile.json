@@ -1,0 +1,56 @@
+{
+  "Total  Trafic sortant": {
+    "row_number": 7,
+    "metrics": {
+      "Trafic sortant prépayé (Consumer)": {
+        "row_number": 9,
+        "submetrics": {
+          "vers le fixe": 10,
+          "vers l'international": 11,
+          "vers Mobile (on net)": 12,
+          "vers MTN": 13,
+          "vers SBIN": 14,
+          "vers BBCOM, LIBERCOM": 15,
+          "Outbound roaming": 16
+        }
+      },
+      "Trafic sortant postpayé": {
+        "row_number": 18,
+        "submetrics": {
+          "vers le fixe": 19,
+          "vers l'international": 20,
+          "vers Mobile (on net)": 21,
+          " vers MTN": 22,
+          "vers SBIN": 23,
+          "vers BBCOM, LIBERCOM": 24,
+          "Outbound roaming": 25
+        }
+      }
+    }
+  },
+  "Total  Trafic entrant": {
+    "row_number": 55,
+    "metrics": {
+      "Trafic entrant prépayé (Consumer)": {
+        "row_number": 57,
+        "submetrics": {
+          "du fixe": 58,
+          "de l'international": 59,
+          "de MTN": 60,
+          "de SBIN": 61,
+          "de BBCOM, LIBERCOM": 62
+        }
+      },
+      "Trafic entrant postpayé": {
+        "row_number": 64,
+        "submetrics": {
+          "du fixe": 65,
+          "de l'international": 66,
+          "de MTN": 67,
+          "de SBIN": 68,
+          "de BBCOM, LIBERCOM": 69
+        }
+      }
+    }
+  }
+}

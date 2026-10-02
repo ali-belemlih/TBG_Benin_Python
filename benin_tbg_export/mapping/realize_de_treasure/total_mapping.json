@@ -1,0 +1,29 @@
+{
+  "1": {
+    "(A) TOTAL ENCAISSEMENTS": 11
+  },
+  "3": {
+    "(B) TOTAL DECAISSEMENTS": 32
+  },
+  "5": {
+    "(C) FLUX MENSUEL GENERE PAR EXPLOITAT=CFFO": 35
+  },
+  "7": {
+    "(D) FLUX MENSUEL GENERE PAR H. EXPLOITAT": 44
+  },
+  "9": {
+    "(E) FLUX MENSUEL": 57
+  },
+  "11": {
+    "FLUX NET MENSUEL (C+D+E)": 61
+  },
+  "12": {
+    "FLUX NET CUMULE (C+D+E)": 62
+  },
+  "13": {
+    "CASH & CASH EQUIVALENT": 70
+  },
+  "14": {
+    "DETTE BRUTE": 77
+  }
+}

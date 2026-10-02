@@ -1,0 +1,54 @@
+{
+  "Jan": {
+    "date": "2024-01-01",
+    "sheet_col": "C"
+  },
+  "Feb": {
+    "date": "2024-02-01",
+    "sheet_col": "D"
+  },
+  "Mar": {
+    "date": "2024-03-01",
+    "sheet_col": "E"
+  },
+  "Apr": {
+    "date": "2024-04-01",
+    "sheet_col": "F"
+  },
+  "May": {
+    "date": "2024-05-01",
+    "sheet_col": "G"
+  },
+  "June": {
+    "date": "2024-06-01",
+    "sheet_col": "H"
+  },
+  "July": {
+    "date": "2024-07-01",
+    "sheet_col": "I"
+  },
+  "Aug": {
+    "date": "2024-08-01",
+    "sheet_col": "J"
+  },
+  "Sep": {
+    "date": "2024-09-01",
+    "sheet_col": "K"
+  },
+  "Oct": {
+    "date": "2024-10-01",
+    "sheet_col": "L"
+  },
+  "Nov": {
+    "date": "2024-11-01",
+    "sheet_col": "M"
+  },
+  "Dec": {
+    "date": "2024-12-01",
+    "sheet_col": "N"
+  },
+  "Cumul" : {
+    "date" : "",
+    "sheet_col" : "O"
+  }
+}

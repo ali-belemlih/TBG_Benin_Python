@@ -1,0 +1,268 @@
+System Configuration for: bjhqvmtbgddp05
+==========================
+==========================
+Generated on: Tue Feb  4 16:09:41 WAT 2025
+
+Operating System:
+NAME="Red Hat Enterprise Linux"
+VERSION="8.4 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.4"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.4 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8.4:GA"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.4
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.4"
+
+==========================
+Memory Information:
+Total Memory: 62.6454 GB
+Available Memory: 60.7791 GB
+Buffer/Cache Memory: 2.01466 GB
+Total Swap: 0 GB
+Free Swap: 0 GB
+
+==========================
+CPU Information:
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              16
+On-line CPU(s) list: 0-15
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           16
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               26
+Model name:          Intel(R) Xeon(R) Platinum 8280L CPU @ 2.70GHz
+Stepping:            4
+CPU MHz:             2693.671
+BogoMIPS:            5387.34
+Hypervisor vendor:   VMware
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            1024K
+L3 cache:            39424K
+NUMA node0 CPU(s):   0-15
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer hypervisor lahf_lm pti ssbd ibrs ibpb stibp tsc_adjust arat flush_l1d arch_capabilities
+
+==========================
+Storage Information:
+Attached Disks:
+NAME              MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda                 8:0    0   350G  0 disk
+├─sda1              8:1    0   600M  0 part /boot/efi
+├─sda2              8:2    0     1G  0 part /boot
+└─sda3              8:3    0 348.4G  0 part
+  ├─rhel-root     253:0    0    50G  0 lvm  /
+  ├─rhel-home     253:1    0   100G  0 lvm  /home
+  ├─rhel-tmp      253:2    0   100G  0 lvm  /tmp
+  └─rhel-opt      253:3    0  98.4G  0 lvm  /opt
+sdb                 8:16   0   200G  0 disk
+└─vg_data-lv_data 253:4    0   200G  0 lvm  /data
+sdc                 8:32   0   1.1T  0 disk
+└─vg_sda1-lv_sda1 253:5    0   1.1T  0 lvm  /sda1
+sdd                 8:48   0   1.1T  0 disk
+└─vg_sda2-lv_sda2 253:6    0   1.1T  0 lvm  /sda2
+sde                 8:64   0   1.1T  0 disk
+└─vg_sda3-lv_sda3 253:7    0   1.1T  0 lvm  /sda3
+sdf                 8:80   0   1.1T  0 disk
+└─vg_sda4-lv_sda4 253:8    0   1.1T  0 lvm  /sda4
+sr0                11:0    1   9.4G  0 rom  /run/media/dsi/RHEL-8-4-0-BaseOS-x86_64
+
+Mounted Filesystems and Usage:
+Filesystem                   Size  Used Avail Use% Mounted on
+devtmpfs                      32G     0   32G   0% /dev
+tmpfs                         32G     0   32G   0% /dev/shm
+tmpfs                         32G   18M   32G   1% /run
+tmpfs                         32G     0   32G   0% /sys/fs/cgroup
+/dev/mapper/rhel-root         49G  6.7G   40G  15% /
+/dev/mapper/rhel-home         98G   73M   93G   1% /home
+/dev/mapper/rhel-opt          97G   60M   92G   1% /opt
+/dev/mapper/rhel-tmp          98G   61M   93G   1% /tmp
+/dev/sda2                   1014M  237M  778M  24% /boot
+/dev/sda1                    599M  5.8M  594M   1% /boot/efi
+/dev/mapper/vg_data-lv_data  196G   61M  186G   1% /data
+tmpfs                        6.3G  4.6M  6.3G   1% /run/user/1000
+/dev/mapper/vg_sda1-lv_sda1  1.2T   77M  1.1T   1% /sda1
+/dev/mapper/vg_sda2-lv_sda2  1.2T   77M  1.1T   1% /sda2
+/dev/mapper/vg_sda3-lv_sda3  1.2T   77M  1.1T   1% /sda3
+/dev/mapper/vg_sda4-lv_sda4  1.2T   77M  1.1T   1% /sda4
+tmpfs                        6.3G  4.0K  6.3G   1% /run/user/1001
+
+==========================
+Network Configuration:
+IP Address:
+lo               UNKNOWN        127.0.0.1/8 ::1/128
+ens192           UP             10.16.27.53/28 fe80::250:56ff:fe8c:3f40/64
+virbr0           DOWN           192.168.122.1/24
+virbr0-nic       DOWN
+
+NICs Available:
+DEVICE      TYPE      STATE                   CONNECTION
+ens192      ethernet  connected               ens192
+virbr0      bridge    connected (externally)  virbr0
+lo          loopback  unmanaged               --
+virbr0-nic  tun       unmanaged               --
+
+==========================
+Port Information:
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.1:4330          0.0.0.0:*               LISTEN      -
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -
+tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      -
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:6010          0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:44321         0.0.0.0:*               LISTEN      -
+tcp6       0      0 ::1:4330                :::*                    LISTEN      -
+tcp6       0      0 :::111                  :::*                    LISTEN      -
+tcp6       0      0 :::22                   :::*                    LISTEN      -
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -
+tcp6       0      0 ::1:6010                :::*                    LISTEN      -
+tcp6       0      0 ::1:44321               :::*                    LISTEN      -
+udp        0      0 0.0.0.0:48966           0.0.0.0:*                           -
+udp        0      0 192.168.122.1:53        0.0.0.0:*                           -
+udp        0      0 0.0.0.0:67              0.0.0.0:*                           -
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           -
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           -
+udp6       0      0 :::45918                :::*                                -
+udp6       0      0 :::111                  :::*                                -
+udp6       0      0 ::1:323                 :::*                                -
+udp6       0      0 :::5353                 :::*                                -
+
+==========================
+Running Services:
+UNIT                     LOAD   ACTIVE SUB     DESCRIPTION
+accounts-daemon.service  loaded active running Accounts Service
+atd.service              loaded active running Job spooling tools
+auditd.service           loaded active running Security Auditing Service
+avahi-daemon.service     loaded active running Avahi mDNS/DNS-SD Stack
+chronyd.service          loaded active running NTP client/server
+colord.service           loaded active running Manage, Install and Generate Color Profiles
+crond.service            loaded active running Command Scheduler
+cups.service             loaded active running CUPS Scheduler
+dbus.service             loaded active running D-Bus System Message Bus
+firewalld.service        loaded active running firewalld - dynamic firewall daemon
+gdm.service              loaded active running GNOME Display Manager
+geoclue.service          loaded active running Location Lookup Service
+getty@tty2.service       loaded active running Getty on tty2
+getty@tty3.service       loaded active running Getty on tty3
+gssproxy.service         loaded active running GSSAPI Proxy Daemon
+irqbalance.service       loaded active running irqbalance daemon
+ksmtuned.service         loaded active running Kernel Samepage Merging (KSM) Tuning Daemon
+libstoragemgmt.service   loaded active running libstoragemgmt plug-in server daemon
+mcelog.service           loaded active running Machine Check Exception Logging Daemon
+ModemManager.service     loaded active running Modem Manager
+NetworkManager.service   loaded active running Network Manager
+packagekit.service       loaded active running PackageKit Daemon
+pmcd.service             loaded active running Performance Metrics Collector Daemon
+pmie.service             loaded active running Performance Metrics Inference Engine
+pmlogger.service         loaded active running Performance Metrics Archive Logger
+polkit.service           loaded active running Authorization Manager
+rhsm.service             loaded active running RHSM dbus service
+rhsmcertd.service        loaded active running Enable periodic update of entitlement certificates.
+rpcbind.service          loaded active running RPC Bind
+rsyslog.service          loaded active running System Logging Service
+rtkit-daemon.service     loaded active running RealtimeKit Scheduling Policy Service
+smartd.service           loaded active running Self Monitoring and Reporting Technology (SMART) Daemon
+sshd.service             loaded active running OpenSSH server daemon
+sssd-kcm.service         loaded active running SSSD Kerberos Cache Manager
+sssd.service             loaded active running System Security Services Daemon
+systemd-journald.service loaded active running Journal Service
+systemd-logind.service   loaded active running Login Service
+systemd-machined.service loaded active running Virtual Machine and Container Registration Service
+systemd-udevd.service    loaded active running udev Kernel Device Manager
+tuned.service            loaded active running Dynamic System Tuning Daemon
+udisks2.service          loaded active running Disk Manager
+upower.service           loaded active running Daemon for power management
+user@1000.service        loaded active running User Manager for UID 1000
+user@1001.service        loaded active running User Manager for UID 1001
+vgauthd.service          loaded active running VGAuth Service for open-vm-tools
+vmtoolsd.service         loaded active running Service for virtual machines hosted on VMware
+wpa_supplicant.service   loaded active running WPA supplicant
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+47 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+
+==========================
+ID of MapR User:
+uid=1001(digiwise) gid=1001(digiwise) groups=1001(digiwise),10(wheel) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+
+Users available:
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+geoclue:x:997:995:User for geoclue:/var/lib/geoclue:/sbin/nologin
+unbound:x:996:992:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:995:991:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+libstoragemgmt:x:994:988:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+clevis:x:993:987:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+gluster:x:992:986:GlusterFS daemons:/run/gluster:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+setroubleshoot:x:991:984::/var/lib/setroubleshoot:/sbin/nologin
+saslauth:x:990:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+dnsmasq:x:982:982:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+sssd:x:981:981:User for sssd:/:/sbin/nologin
+cockpit-ws:x:980:980:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:979:979:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+chrony:x:978:978::/var/lib/chrony:/sbin/nologin
+flatpak:x:977:977:User for flatpak system helper:/:/sbin/nologin
+pcp:x:976:976:Performance Co-Pilot:/var/lib/pcp:/sbin/nologin
+colord:x:975:975:User for colord:/var/lib/colord:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+grafana:x:974:974:grafana user account:/usr/share/grafana:/sbin/nologin
+gnome-initial-setup:x:973:973::/run/gnome-initial-setup/:/sbin/nologin
+pesign:x:972:972:Group for the pesign signing daemon:/var/run/pesign:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+dsi:x:1000:1000:dsi:/home/dsi:/bin/bash
+digiwise:x:1001:1001::/home/digiwise:/bin/bash
+
+==========================
+MapR Installed packages and version:
+2025-02-04 16:09:41,608 [ERROR] yum:256969:MainThread @logutil.py:194 - [Errno 13] Permission denied: '/var/log/rhsm/rhsm.log' - Further logging output will be written to stderr
+
+=======================

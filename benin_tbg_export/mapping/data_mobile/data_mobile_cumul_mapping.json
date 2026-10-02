@@ -1,0 +1,15 @@
+{
+  "cumul": {
+    "date": "",
+    "header_row_index" : 4,
+    "start_col": "CR",
+    "sequence": [
+      "real_value",
+      "last_year_real_value",
+      "budget_value",
+      "actual#_value",
+      "ecart_budget",
+      "ecart_actual#_value"
+    ]
+  }
+}

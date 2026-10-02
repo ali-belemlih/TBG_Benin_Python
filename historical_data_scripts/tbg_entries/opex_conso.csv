@@ -1,0 +1,28 @@
+level,name,sequence,tbg_key,parent_tbg
+type,Total Opex,10,OPEX1,
+type,Personnel,20,OPEX2,
+metric,Traitement & salaires et autres,10,OPEX3,OPEX2
+metric,Assurance maladie,20,OPEX4,OPEX2
+type,Communication,30,OPEX5,
+type,Exploitation & maintenance,40,OPEX6,
+metric,Achat d'énergie - Bâtiment - Gardiennage,10,OPEX7,OPEX6
+metric,Lignes et réseaux (entretien & achats),20,OPEX8,OPEX6
+metric,Matériel de transport (Entretien et locat°),30,OPEX9,OPEX6
+metric,Maintenance informatique,40,OPEX10,OPEX6
+type,Frais généraux,50,OPEX11,
+metric,"Frais d'achats d'études, honoraires",10,OPEX12,OPEX11
+metric,Management fees,20,OPEX13,OPEX11
+metric,"Transport, déplacement, mission",30,OPEX14,OPEX11
+metric,"Frais postaux, bancaires et assurances",40,OPEX15,OPEX11
+metric,Achats de mat. et fournitures consom.,50,OPEX16,OPEX11
+type,"Impôts, taxes et redevances",60,OPEX17,
+metric,Redevances régulateur,10,OPEX18,OPEX17
+metric,Autres impôts et taxes,20,OPEX19,OPEX17
+submetric,Dont Taxe sur l'entrant international,10,OPEX20,OPEX19
+submetric,Dont Autres impôts,20,OPEX21,OPEX19
+type,"Provision clients, R&C & NC",70,OPEX22,
+metric,Prov. Créances clients,10,OPEX23,OPEX22
+metric,Prov. R&C,20,OPEX24,OPEX22
+metric,PIDR,30,OPEX25,OPEX22
+metric,Autres provisions (Stock),40,OPEX26,OPEX22
+type,Ecart de change sur exploitation,80,OPEX27,

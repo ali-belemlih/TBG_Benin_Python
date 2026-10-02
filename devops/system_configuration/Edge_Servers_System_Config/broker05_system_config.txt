@@ -1,0 +1,383 @@
+System Configuration for: broker05
+==========================
+==========================
+Generated on: Thu Nov 14 14:07:24 WEST 2024
+
+Operating System:
+NAME="Red Hat Enterprise Linux"
+VERSION="8.4 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.4"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.4 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8.4:GA"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.4
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.4"
+
+==========================
+Memory Information:
+Total Memory: 125.299 GB
+Available Memory: 77.0564 GB
+Buffer/Cache Memory: 78.0061 GB
+Total Swap: 118 GB
+Free Swap: 106.491 GB
+
+==========================
+CPU Information:
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              64
+On-line CPU(s) list: 0-63
+Thread(s) per core:  2
+Core(s) per socket:  16
+Socket(s):           2
+NUMA node(s):        2
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               85
+Model name:          Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz
+Stepping:            7
+CPU MHz:             804.040
+CPU max MHz:         3200.0000
+CPU min MHz:         800.0000
+BogoMIPS:            4200.00
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            1024K
+L3 cache:            22528K
+NUMA node0 CPU(s):   0-15,32-47
+NUMA node1 CPU(s):   16-31,48-63
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_pkg_req pku ospke avx512_vnni md_clear flush_l1d arch_capabilities
+
+==========================
+Storage Information:
+Attached Disks:
+NAME                         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0                          7:0    0   9.4G  0 loop /mnt/cdrom
+sdb                            8:16   0   3.7T  0 disk 
+└─sdb1                         8:17   0   3.7T  0 part /data
+sdc                            8:32   0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdd                            8:48   0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sde                            8:64   0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdf                            8:80   0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdg                            8:96   0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdh                            8:112  0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdi                            8:128  0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdj                            8:144  0   9.1T  0 disk 
+└─vg01-lvol1                 253:10   0   9.1T  0 lvm  /datarestore
+sdk                            8:160  0   9.1T  0 disk 
+sdl                            8:176  0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdm                            8:192  0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdn                            8:208  0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdo                            8:224  0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdp                            8:240  0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdq                           65:0    0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sdr                           65:16   0   3.7T  0 disk 
+└─vgraw-lvraw                253:9    0    51T  0 lvm  /Raw
+sds                           65:32   0   3.7T  0 disk 
+sdt                           65:48   0   3.7T  0 disk 
+sdu                           65:64   0   3.7T  0 disk 
+sdv                           65:80   0 558.9G  0 disk 
+├─sdv1                        65:81   0   600M  0 part /boot/efi
+├─sdv2                        65:82   0   557G  0 part 
+│ ├─rhel_mapr50-root         253:0    0   100G  0 lvm  /
+│ ├─rhel_mapr50-swap         253:1    0   118G  0 lvm  [SWAP]
+│ ├─rhel_mapr50-var_opt_perf 253:2    0    10G  0 lvm  /var/opt/perf
+│ ├─rhel_mapr50-opt_perf     253:3    0     4G  0 lvm  /opt/perf
+│ ├─rhel_mapr50-opt          253:4    0   185G  0 lvm  /opt
+│ ├─rhel_mapr50-home         253:5    0    63G  0 lvm  /home
+│ ├─rhel_mapr50-tmp          253:6    0    63G  0 lvm  /tmp
+│ ├─rhel_mapr50-opt_OV       253:7    0     4G  0 lvm  /opt/OV
+│ └─rhel_mapr50-var_opt_OV   253:8    0    10G  0 lvm  /var/opt/OV
+└─sdv3                        65:83   0     1G  0 part /boot
+
+Mounted Filesystems and Usage:
+Filesystem                            Size  Used Avail Use% Mounted on
+devtmpfs                               63G     0   63G   0% /dev
+tmpfs                                  63G     0   63G   0% /dev/shm
+tmpfs                                  63G  4.0G   59G   7% /run
+tmpfs                                  63G     0   63G   0% /sys/fs/cgroup
+/dev/mapper/rhel_mapr50-root           98G   46G   48G  49% /
+/dev/sdv3                             976M  201M  708M  23% /boot
+/dev/mapper/rhel_mapr50-home           62G   27G   32G  46% /home
+/dev/mapper/rhel_mapr50-var_opt_perf  9.8G   37M  9.3G   1% /var/opt/perf
+/dev/mapper/rhel_mapr50-var_opt_OV    9.8G   37M  9.3G   1% /var/opt/OV
+/dev/mapper/rhel_mapr50-tmp            62G  367M   59G   1% /tmp
+/dev/mapper/rhel_mapr50-opt           182G   75G   98G  44% /opt
+/dev/mapper/rhel_mapr50-opt_OV        3.9G   16M  3.7G   1% /opt/OV
+/dev/mapper/rhel_mapr50-opt_perf      3.9G   16M  3.7G   1% /opt/perf
+/dev/sdv1                             599M  5.8M  594M   1% /boot/efi
+tmpfs                                  13G   48K   13G   1% /run/user/0
+/dev/loop0                            9.5G  9.5G     0 100% /mnt/cdrom
+tmpfs                                  13G     0   13G   0% /run/user/5000
+/dev/sdb1                             3.7T  2.9T  836G  78% /data
+tmpfs                                  13G     0   13G   0% /run/user/5001
+/dev/mapper/vgraw-lvraw                51T   46T  2.9T  95% /Raw
+/dev/mapper/vg01-lvol1                9.1T  6.0T  2.7T  69% /datarestore
+
+==========================
+Network Configuration:
+IP Address:
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+eno1             UP             
+eno2             DOWN           
+eno3             DOWN           
+eno4             DOWN           
+eno5             DOWN           
+ens2f0           DOWN           
+ens2f1           UP             
+eno6             UP             
+bond0            UP             10.148.0.109/25 fe80::b67a:f1ff:fe87:2224/64 
+virbr0           DOWN           192.168.122.1/24 
+virbr0-nic       DOWN           
+
+NICs Available:
+DEVICE      TYPE      STATE                   CONNECTION    
+bond0       bond      connected               Bond0         
+virbr0      bridge    connected (externally)  virbr0        
+eno6        ethernet  connected               System eno6   
+ens2f1      ethernet  connected               System ens2f1 
+eno1        ethernet  disconnected            --            
+eno2        ethernet  disconnected            --            
+eno3        ethernet  disconnected            --            
+eno4        ethernet  disconnected            --            
+eno5        ethernet  disconnected            --            
+ens2f0      ethernet  disconnected            --            
+lo          loopback  unmanaged               --            
+virbr0-nic  tun       unmanaged               --            
+
+==========================
+Port Information:
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:45437           0.0.0.0:*               LISTEN      2475280/java        
+tcp        0      0 10.148.0.109:8445       0.0.0.0:*               LISTEN      1434594/java        
+tcp        0      0 127.0.0.1:37565         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:44127         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:33023         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:35071         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:39263         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:45951         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:37793           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:2049            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:33153         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:44449         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:43105         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:37537         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:33057         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:37475           0.0.0.0:*               LISTEN      2547627/java        
+tcp        0      0 127.0.0.1:39523         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:33507         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:46661         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:35813         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:37093         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:34791         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:38503         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:39591         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:42153           0.0.0.0:*               LISTEN      1434594/java        
+tcp        0      0 127.0.0.1:34185         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:33547         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:35917         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:40269         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:35853         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:35725         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:43631           0.0.0.0:*               LISTEN      2514755/java        
+tcp        0      0 127.0.0.1:46799         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:33039         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:45519         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:20048           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:34225         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:42321         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:37747         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:45813         0.0.0.0:*               LISTEN      1434594/java        
+tcp        0      0 127.0.0.1:38965         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:43477         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:39095         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:40311         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:38359         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:55897           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:40313         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:39897         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:40953         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:6010          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:44923         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:43675         0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 127.0.0.1:44799         :::*                    LISTEN      1434273/java        
+tcp6       0      0 :::2049                 :::*                    LISTEN      -                   
+tcp6       0      0 :::9092                 :::*                    LISTEN      -                   
+tcp6       0      0 :::8004                 :::*                    LISTEN      -                   
+tcp6       0      0 :::2181                 :::*                    LISTEN      -                   
+tcp6       0      0 :::54537                :::*                    LISTEN      -                   
+tcp6       0      0 127.0.0.1:45357         :::*                    LISTEN      -                   
+tcp6       0      0 :::111                  :::*                    LISTEN      -                   
+tcp6       0      0 :::20048                :::*                    LISTEN      -                   
+tcp6       0      0 10.148.0.109:3888       :::*                    LISTEN      -                   
+tcp6       0      0 :::8080                 :::*                    LISTEN      -                   
+tcp6       0      0 :::41681                :::*                    LISTEN      -                   
+tcp6       0      0 :::46099                :::*                    LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 :::35159                :::*                    LISTEN      -                   
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -                   
+tcp6       0      0 127.0.0.1:43449         :::*                    LISTEN      -                   
+tcp6       0      0 ::1:6010                :::*                    LISTEN      -                   
+tcp6       0      0 10.148.0.109:8443       :::*                    LISTEN      -                   
+udp        0      0 0.0.0.0:20048           0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:40664           0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:51433           0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:51539           0.0.0.0:*                           -                   
+udp        0      0 192.168.122.1:53        0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:67              0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           -                   
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           -                   
+udp        0      0 127.0.0.1:700           0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           -                   
+udp6       0      0 :::20048                :::*                                -                   
+udp6       0      0 :::34403                :::*                                -                   
+udp6       0      0 :::56375                :::*                                -                   
+udp6       0      0 :::59016                :::*                                -                   
+udp6       0      0 :::111                  :::*                                -                   
+udp6       0      0 ::1:323                 :::*                                -                   
+udp6       0      0 :::5353                 :::*                                -                   
+
+==========================
+Running Services:
+UNIT                     LOAD   ACTIVE SUB     DESCRIPTION                                            
+accounts-daemon.service  loaded active running Accounts Service                                       
+atd.service              loaded active running Job spooling tools                                     
+auditd.service           loaded active running Security Auditing Service                              
+avahi-daemon.service     loaded active running Avahi mDNS/DNS-SD Stack                                
+chronyd.service          loaded active running NTP client/server                                      
+colord.service           loaded active running Manage, Install and Generate Color Profiles            
+crond.service            loaded active running Command Scheduler                                      
+cups.service             loaded active running CUPS Scheduler                                         
+dbus.service             loaded active running D-Bus System Message Bus                               
+gdm.service              loaded active running GNOME Display Manager                                  
+gssproxy.service         loaded active running GSSAPI Proxy Daemon                                    
+irqbalance.service       loaded active running irqbalance daemon                                      
+kafka.service            loaded active running Apache Kafka Server                                    
+ksmtuned.service         loaded active running Kernel Samepage Merging (KSM) Tuning Daemon            
+libstoragemgmt.service   loaded active running libstoragemgmt plug-in server daemon                   
+mcelog.service           loaded active running Machine Check Exception Logging Daemon                 
+ModemManager.service     loaded active running Modem Manager                                          
+NetworkManager.service   loaded active running Network Manager                                        
+nfs-idmapd.service       loaded active running NFSv4 ID-name mapping service                          
+nfs-mountd.service       loaded active running NFS Mount Daemon                                       
+nfsdcld.service          loaded active running NFSv4 Client Tracking Daemon                           
+packagekit.service       loaded active running PackageKit Daemon                                      
+polkit.service           loaded active running Authorization Manager                                  
+rdma-ndd.service         loaded active running RDMA Node Description Daemon                           
+rhsm.service             loaded active running RHSM dbus service                                      
+rhsmcertd.service        loaded active running Enable periodic update of entitlement certificates.    
+rpc-statd.service        loaded active running NFS status monitor for NFSv2/3 locking.                
+rpcbind.service          loaded active running RPC Bind                                               
+rsyslog.service          loaded active running System Logging Service                                 
+rtkit-daemon.service     loaded active running RealtimeKit Scheduling Policy Service                  
+smartd.service           loaded active running Self Monitoring and Reporting Technology (SMART) Daemon
+sshd.service             loaded active running OpenSSH server daemon                                  
+sssd-kcm.service         loaded active running SSSD Kerberos Cache Manager                            
+sssd.service             loaded active running System Security Services Daemon                        
+systemd-journald.service loaded active running Journal Service                                        
+systemd-logind.service   loaded active running Login Service                                          
+systemd-machined.service loaded active running Virtual Machine and Container Registration Service     
+systemd-udevd.service    loaded active running udev Kernel Device Manager                             
+tuned.service            loaded active running Dynamic System Tuning Daemon                           
+udisks2.service          loaded active running Disk Manager                                           
+upower.service           loaded active running Daemon for power management                            
+user@0.service           loaded active running User Manager for UID 0                                 
+user@5000.service        loaded active running User Manager for UID 5000                              
+user@5001.service        loaded active running User Manager for UID 5001                              
+wpa_supplicant.service   loaded active running WPA supplicant                                         
+zookeeper.service        loaded active running ZooKeeper Service                                      
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+46 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+
+==========================
+ID of MapR User:
+uid=5000(mapr) gid=5000(mapr) groups=5000(mapr),5001(shadow) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+
+Users available:
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+geoclue:x:997:995:User for geoclue:/var/lib/geoclue:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:996:992:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+libstoragemgmt:x:995:989:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+clevis:x:994:988:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+unbound:x:993:987:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+gluster:x:992:986:GlusterFS daemons:/run/gluster:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+setroubleshoot:x:991:984::/var/lib/setroubleshoot:/sbin/nologin
+saslauth:x:990:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+dnsmasq:x:983:983:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+sssd:x:982:982:User for sssd:/:/sbin/nologin
+cockpit-ws:x:981:980:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:980:979:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+chrony:x:979:978::/var/lib/chrony:/sbin/nologin
+flatpak:x:978:977:User for flatpak system helper:/:/sbin/nologin
+colord:x:977:976:User for colord:/var/lib/colord:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+gnome-initial-setup:x:976:975::/run/gnome-initial-setup/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+iam:x:1000:1000:IAM:/home/iam:/bin/bash
+mapr:x:5000:5000::/home/mapr:/bin/bash
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+postgres:x:26:26:PostgreSQL Server:/var/lib/pgsql:/bin/bash
+collecte_ptp:x:5001:5002::/home/collecte_ptp:/bin/bash
+maprsvc:x:5002:5003::/home/maprsvc:/bin/bash
+
+==========================

@@ -1,0 +1,53 @@
+{
+  "1": {
+    "RECETTES D'EXPLOITATION" : 6
+  },
+  "2": {
+    "RECETTES INTERCO INTERNATIONALES" : 7
+  },
+  "3": {
+    "RECETTES INTERCO NATIONALES" :8
+  },
+  "4": {
+    "RECETTES CONVENTIONS" :9
+  },
+  "5": {
+    "DECAISSEMENTS D'EXPLOITATION" :14
+  },
+  "6": {
+    "DEPENSES D'INVESTISSEMENTS" : 23
+  },
+  "7": {
+    "AUTRES" : 39
+  },
+  "8": {
+    "OPERATION DE FINANCEMENT" : 47
+  },
+  "9": {
+    "DECAISSEMENTS XBORDER" : 34
+  },
+  "10": {
+    "PORTEFEUILLE EN VALEUR DE PLACEMENT" : 67
+  },
+  "11": {
+    "COMPTES SEQUESTRES" : 68
+  },
+  "12": {
+    "DISPONIBILITES EN TRESORERIE (BQ+REGIES+..)" : 69
+  },
+  "13": {
+    "EMPRUNTS BANCAIRES" : 72
+  },
+  "14": {
+    "CREDIT FOURNISSEURS" : 73
+  },
+  "15": {
+    "CREDIT SPOT" : 74
+  },
+  "16": {
+    "AUTRES DETTES FINANCIERES" : 75
+  },
+  "17": {
+    "INTERETS COURUS NON ECHUS" : 76
+  }
+}

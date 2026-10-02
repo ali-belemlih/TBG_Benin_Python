@@ -1,0 +1,14 @@
+{
+  "annual": {
+    "date": "",
+    "start_col": "CZ",
+    "header_row_index" : 5,
+    "sequence": [
+      "budget_value",
+      "actual1_value",
+      "actual2_value",
+      "actual3_value",
+      "last_year_real_value"
+    ]
+  }
+}

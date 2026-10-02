@@ -1,0 +1,22 @@
+level,name,sequence,tbg_key,parent_tbg
+type,ARPU Global,10,IM1,
+metric,ARPU Sortant,10,IM2,IM1
+metric,ARPU Entrant,20,IM3,IM1
+type,ARPU Prépayé,20,IM4,
+metric,ARPU Sortant,10,IM5,IM4
+metric,ARPU Entrant,20,IM6,IM4
+type,ARPU Postpayé,30,IM7,
+metric,ARPU Sortant,10,IM8,IM7
+metric,ARPU Entrant,20,IM9,IM7
+type,Usage / client / mois,40,IM10,
+metric,Usage Sortant,10,IM11,IM10
+submetric,Prépayé,10,IM12,IM11
+submetric,Postpayé,20,IM13,IM11
+metric,Usage Entrant,20,IM14,IM10
+submetric,Prépayé,10,IM15,IM14
+submetric,Postpayé,20,IM16,IM14
+type,Prix mn,50,IM17,
+metric,Prix mn Sortant,10,IM18,IM17
+submetric,Prépayé,10,IM19,IM18
+submetric,Postpayé,20,IM20,IM18
+metric,Prix mn Entrant,20,IM21,IM17

@@ -1,0 +1,11 @@
+[
+  {
+    "sheet_name": "Réalisé de trésorerie",
+    "sheet_mapping_path": "benin_tbg_export/mapping/realize_de_treasure/realize_de_treasure.json",
+    "month_mapping_path": "benin_tbg_export/mapping/realize_de_treasure/month_mapping.json",
+    "total_mapping_path": "benin_tbg_export/mapping/realize_de_treasure/total_mapping.json",
+    "subtotal_mapping_path": "benin_tbg_export/mapping/realize_de_treasure/sub_total_mapping.json",
+    "category_mapping_path": "benin_tbg_export/mapping/realize_de_treasure/category_mapping.json",
+    "subcategory_mapping_path": "benin_tbg_export/mapping/realize_de_treasure/subcategory_mapping.json"
+  }
+]

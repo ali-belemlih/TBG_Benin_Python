@@ -1,0 +1,369 @@
+category_name,table_name,type_id,metric_id,submetric_id,date_value,budget_value,version_id
+P&L consolidé,financial_metrics_data,29,None,None,2026-07-01,8696.20755742323,332
+P&L consolidé,financial_annual_data,29,None,None,2026-01-01,101745.376836135,332
+P&L consolidé,financial_metrics_data,None,79,None,2026-07-01,8696.20755742323,332
+P&L consolidé,financial_annual_data,None,79,None,2026-01-01,101745.376836135,332
+P&L consolidé,financial_metrics_data,None,None,11,2026-07-01,8696.20755742323,332
+P&L consolidé,financial_annual_data,None,None,11,2026-01-01,101745.376836135,332
+P&L consolidé,financial_metrics_data,None,80,None,2026-07-01,-1514.87355679609,332
+P&L consolidé,financial_annual_data,None,80,None,2026-01-01,-17731.0991903819,332
+P&L consolidé,financial_metrics_data,None,None,12,2026-07-01,-1514.87355679609,332
+P&L consolidé,financial_annual_data,None,None,12,2026-01-01,-17731.0991903819,332
+P&L consolidé,financial_metrics_data,None,None,13,2026-07-01,-1514.87355679609,332
+P&L consolidé,financial_annual_data,None,None,13,2026-01-01,-17731.0991903819,332
+P&L consolidé,financial_metrics_data,None,81,None,2026-07-01,7181.33400062714,332
+P&L consolidé,financial_annual_data,None,81,None,2026-01-01,84014.2776457526,332
+P&L consolidé,financial_metrics_data,None,None,14,2026-07-01,0.730601249767451,332
+P&L consolidé,financial_annual_data,None,None,14,2026-01-01,0.82573066470687,332
+P&L consolidé,financial_metrics_data,None,None,15,2026-07-01,7181.33400062714,332
+P&L consolidé,financial_annual_data,None,None,15,2026-01-01,84014.2776457526,332
+P&L consolidé,financial_metrics_data,None,82,None,2026-07-01,-5327.2016327777,332
+P&L consolidé,financial_annual_data,None,82,None,2026-01-01,-63314.388083742,332
+P&L consolidé,financial_metrics_data,None,None,16,2026-07-01,-5327.2016327777,332
+P&L consolidé,financial_annual_data,None,None,16,2026-01-01,-63314.388083742,332
+P&L consolidé,financial_metrics_data,None,None,17,2026-07-01,-5327.2016327777,332
+P&L consolidé,financial_annual_data,None,None,17,2026-01-01,-63314.388083742,332
+P&L consolidé,financial_metrics_data,None,83,None,2026-07-01,1854.13236784944,332
+P&L consolidé,financial_annual_data,None,83,None,2026-01-01,20699.8895620106,332
+P&L consolidé,financial_metrics_data,None,None,18,2026-07-01,0.213211604668603,332
+P&L consolidé,financial_annual_data,None,None,18,2026-01-01,0.20344796201747,332
+P&L consolidé,financial_metrics_data,None,None,19,2026-07-01,1854.13236784944,332
+P&L consolidé,financial_annual_data,None,None,19,2026-01-01,20699.8895620106,332
+P&L consolidé,financial_metrics_data,None,84,None,2026-07-01,-1851.31420838663,332
+P&L consolidé,financial_annual_data,None,84,None,2026-01-01,-22200,332
+P&L consolidé,financial_metrics_data,None,85,None,2026-07-01,2.81815946280722,332
+P&L consolidé,financial_annual_data,None,85,None,2026-01-01,-1500.11043798941,332
+P&L consolidé,financial_metrics_data,None,None,20,2026-07-01,0.000324067640313114,332
+P&L consolidé,financial_annual_data,None,None,20,2026-01-01,-0.014743770033,332
+P&L consolidé,financial_metrics_data,None,86,None,2026-07-01,-240.157438661168,332
+P&L consolidé,financial_annual_data,None,86,None,2026-01-01,-3224.44463196701,332
+P&L consolidé,financial_metrics_data,None,87,None,2026-07-01,-237.339279198361,332
+P&L consolidé,financial_annual_data,None,87,None,2026-01-01,-4724.55506995642,332
+P&L consolidé,financial_metrics_data,None,None,21,2026-07-01,-86.9620755742323,332
+P&L consolidé,financial_annual_data,None,None,21,2026-01-01,-1017.45376836135,332
+P&L consolidé,financial_metrics_data,None,None,22,2026-07-01,-4.5,332
+P&L consolidé,financial_annual_data,None,None,22,2026-01-01,-54,332
+P&L consolidé,financial_metrics_data,30,None,None,2026-07-01,-328.801354772593,332
+P&L consolidé,financial_annual_data,30,None,None,2026-01-01,-5796.00883831776,332
+P&L consolidé,financial_metrics_data,None,88,None,2026-07-01,-0.0378097409245853,332
+P&L consolidé,financial_annual_data,None,88,None,2026-01-01,-0.0569658201537,332
+CA Mobile,financial_metrics_data,17,None,None,2026-07-01,8696.20755742323,332
+CA Mobile,financial_annual_data,17,None,None,2026-01-01,101745.376836135,332
+CA Mobile,financial_metrics_data,18,None,None,2026-07-01,8476.70755742323,332
+CA Mobile,financial_annual_data,18,None,None,2026-01-01,99111.3768361345,332
+CA Mobile,financial_metrics_data,19,None,None,2026-07-01,8050.47372747658,332
+CA Mobile,financial_annual_data,19,None,None,2026-01-01,93998.3441614062,332
+CA Mobile,financial_metrics_data,20,None,None,2026-07-01,7710.06337782756,332
+CA Mobile,financial_annual_data,20,None,None,2026-01-01,89982.1469769439,332
+CA Mobile,financial_metrics_data,None,58,None,2026-07-01,2445.75672683106,332
+CA Mobile,financial_annual_data,None,58,None,2026-01-01,29064.9696424933,332
+CA Mobile,financial_metrics_data,None,59,None,2026-07-01,294.614669304176,332
+CA Mobile,financial_annual_data,None,59,None,2026-01-01,3526.14199864646,332
+CA Mobile,financial_metrics_data,None,None,4,2026-07-01,223.057069847715,332
+CA Mobile,financial_annual_data,None,None,4,2026-01-01,2673.69326074251,332
+CA Mobile,financial_metrics_data,None,None,5,2026-07-01,71.5575994564614,332
+CA Mobile,financial_annual_data,None,None,5,2026-01-01,852.448737903954,332
+CA Mobile,financial_metrics_data,None,60,None,2026-07-01,923.934201384025,332
+CA Mobile,financial_annual_data,None,60,None,2026-01-01,10507,332
+CA Mobile,financial_metrics_data,None,61,None,2026-07-01,123.995190328444,332
+CA Mobile,financial_annual_data,None,61,None,2026-01-01,1481.14633229911,332
+CA Mobile,financial_metrics_data,None,62,None,2026-07-01,3921.76258997986,332
+CA Mobile,financial_annual_data,None,62,None,2026-01-01,45402.889003505,332
+CA Mobile,financial_metrics_data,21,None,None,2026-07-01,194.34527422379,332
+CA Mobile,financial_annual_data,21,None,None,2026-01-01,2326.41627935955,332
+CA Mobile,financial_metrics_data,None,63,None,2026-07-01,194.34527422379,332
+CA Mobile,financial_annual_data,None,63,None,2026-01-01,2326.41627935955,332
+CA Mobile,financial_metrics_data,22,None,None,2026-07-01,146.065075425232,332
+CA Mobile,financial_annual_data,22,None,None,2026-01-01,1689.78090510279,332
+CA Mobile,financial_metrics_data,23,None,None,2026-07-01,426.233829946648,332
+CA Mobile,financial_annual_data,23,None,None,2026-01-01,5113.03267472828,332
+CA Mobile,financial_metrics_data,None,64,None,2026-07-01,350,332
+CA Mobile,financial_annual_data,None,64,None,2026-01-01,4200,332
+CA Mobile,financial_metrics_data,24,None,None,2026-07-01,219.5,332
+CA Mobile,financial_annual_data,24,None,None,2026-01-01,2634,332
+CA Mobile,financial_metrics_data,None,65,None,2026-07-01,205.348061820838,332
+CA Mobile,financial_annual_data,None,65,None,2026-01-01,2464.17674185006,332
+CA Mobile,financial_metrics_data,None,66,None,2026-07-01,14.1519381791616,332
+CA Mobile,financial_annual_data,None,66,None,2026-01-01,169.82325814994,332
+Marge brute Mobile,financial_metrics_data,25,None,None,2026-07-01,8696.20755742323,332
+Marge brute Mobile,financial_annual_data,25,None,None,2026-01-01,101745.376836135,332
+Marge brute Mobile,financial_metrics_data,None,68,None,2026-07-01,1.18507629208741,332
+Marge brute Mobile,financial_annual_data,None,68,None,2026-01-01,13.8039275418706,332
+Marge brute Mobile,financial_metrics_data,None,69,None,2026-07-01,-137.000004546802,332
+Marge brute Mobile,financial_annual_data,None,69,None,2026-01-01,-137.000004546802,332
+Marge brute Mobile,financial_metrics_data,None,70,None,2026-07-01,-162.355457404283,332
+Marge brute Mobile,financial_annual_data,None,70,None,2026-01-01,-1891.138136,332
+Marge brute Mobile,financial_metrics_data,None,72,None,2026-07-01,-48.3581242280932,332
+Marge brute Mobile,financial_annual_data,None,72,None,2026-01-01,-577.647069596652,332
+Marge brute Mobile,financial_metrics_data,None,71,None,2026-07-01,-34.8312810392796,332
+Marge brute Mobile,financial_annual_data,None,71,None,2026-01-01,-450.294229806429,332
+Marge brute Mobile,financial_metrics_data,None,73,None,2026-07-01,1.29262934719563,332
+Marge brute Mobile,financial_annual_data,None,73,None,2026-01-01,15.5115521663475,332
+Marge brute Mobile,financial_metrics_data,None,74,None,2026-07-01,-2.91395725684125,332
+Marge brute Mobile,financial_annual_data,None,74,None,2026-01-01,-2.91395725684125,332
+Marge brute Mobile,financial_metrics_data,None,75,None,2026-07-01,-3.76666666666667,332
+Marge brute Mobile,financial_annual_data,None,75,None,2026-01-01,-45.2,332
+Marge brute Mobile,financial_metrics_data,None,76,None,2026-07-01,-26.6343305189248,332
+Marge brute Mobile,financial_annual_data,None,76,None,2026-01-01,-312.762153893118,332
+Marge brute Mobile,financial_metrics_data,None,77,None,2026-07-01,-208.525,332
+Marge brute Mobile,financial_annual_data,None,77,None,2026-01-01,-2502.3,332
+Marge brute Mobile,financial_metrics_data,None,None,6,2026-07-01,-153.65,332
+Marge brute Mobile,financial_annual_data,None,None,6,2026-01-01,-2634,332
+Marge brute Mobile,financial_metrics_data,None,None,7,2026-07-01,None,332
+Marge brute Mobile,financial_annual_data,None,None,7,2026-01-01,0,332
+Marge brute Mobile,financial_metrics_data,None,78,None,2026-07-01,-1030.40269693884,332
+Marge brute Mobile,financial_annual_data,None,78,None,2026-01-01,-11951.7576010857,332
+Marge brute Mobile,financial_metrics_data,None,None,8,2026-07-01,-4.26858383356907,332
+Marge brute Mobile,financial_annual_data,None,None,8,2026-01-01,-51.2230060028288,332
+Marge brute Mobile,financial_metrics_data,None,None,9,2026-07-01,-432.754066563752,332
+Marge brute Mobile,financial_annual_data,None,None,9,2026-01-01,-5122.30060028288,332
+Marge brute Mobile,financial_metrics_data,None,None,10,2026-07-01,-593.38004654152,332
+Marge brute Mobile,financial_annual_data,None,None,10,2026-01-01,-6778.2339948,332
+Marge brute Mobile,financial_metrics_data,26,None,None,2026-07-01,-1514.87355679609,332
+Marge brute Mobile,financial_annual_data,26,None,None,2026-01-01,-17731.0991903819,332
+Marge brute Mobile,financial_metrics_data,27,None,None,2026-07-01,7181.33400062714,332
+Marge brute Mobile,financial_annual_data,27,None,None,2026-01-01,84014.2776457526,332
+Marge brute Mobile,financial_metrics_data,28,None,None,2026-07-01,0.825800666923714,332
+Marge brute Mobile,financial_annual_data,28,None,None,2026-01-01,0.82573066470687,332
+Parc Mobile,financial_metrics_data,47,None,None,2026-07-01,5646315.36497532,332
+Parc Mobile,financial_annual_data,47,None,None,2026-01-01,5789523.40553512,332
+Parc Mobile,financial_metrics_data,48,None,None,2026-07-01,None,332
+Parc Mobile,financial_annual_data,48,None,None,2026-01-01,None,332
+Parc Mobile,financial_metrics_data,None,141,None,2026-07-01,5515461.92413382,332
+Parc Mobile,financial_annual_data,None,141,None,2026-01-01,5354157.50991285,332
+Parc Mobile,financial_metrics_data,None,None,83,2026-07-01,405234.714285714,332
+Parc Mobile,financial_annual_data,None,None,83,2026-01-01,4767817.92165898,332
+Parc Mobile,financial_metrics_data,None,None,84,2026-07-01,-376828.273444214,332
+Parc Mobile,financial_annual_data,None,None,84,2026-01-01,-4436849.02603671,332
+Parc Mobile,financial_metrics_data,None,None,86,2026-07-01,28406.4408415004,332
+Parc Mobile,financial_annual_data,None,None,86,2026-01-01,330968.895622273,332
+Parc Mobile,financial_metrics_data,None,None,85,2026-07-01,0.817760056553084,332
+Parc Mobile,financial_annual_data,None,None,85,2026-01-01,0.803829136023569,332
+Parc Mobile,financial_metrics_data,None,142,None,2026-07-01,5543868.36497532,332
+Parc Mobile,financial_annual_data,None,142,None,2026-01-01,5685126.40553512,332
+Parc Mobile,financial_metrics_data,None,None,87,2026-07-01,5529665.14455457,332
+Parc Mobile,financial_annual_data,None,None,87,2026-01-01,5519641.95772398,332
+Parc Mobile,financial_metrics_data,49,None,None,2026-07-01,None,332
+Parc Mobile,financial_annual_data,49,None,None,2026-01-01,None,332
+Parc Mobile,financial_metrics_data,None,143,None,2026-07-01,102072,332
+Parc Mobile,financial_annual_data,None,143,None,2026-01-01,100122,332
+Parc Mobile,financial_metrics_data,None,None,88,2026-07-01,2100,332
+Parc Mobile,financial_annual_data,None,None,88,2026-01-01,24825,332
+Parc Mobile,financial_metrics_data,None,None,89,2026-07-01,-1725,332
+Parc Mobile,financial_annual_data,None,None,89,2026-01-01,-20550,332
+Parc Mobile,financial_metrics_data,None,None,90,2026-07-01,0.202426180452672,332
+Parc Mobile,financial_annual_data,None,None,90,2026-01-01,0.20095932407258,332
+Parc Mobile,financial_metrics_data,None,None,91,2026-07-01,375,332
+Parc Mobile,financial_annual_data,None,None,91,2026-01-01,4275,332
+Parc Mobile,financial_metrics_data,None,144,None,2026-07-01,102447,332
+Parc Mobile,financial_annual_data,None,144,None,2026-01-01,104397,332
+Parc Mobile,financial_metrics_data,None,None,92,2026-07-01,102259.5,332
+Parc Mobile,financial_annual_data,None,None,92,2026-01-01,102259.5,332
+Trafic Mobile,financial_metrics_data,31,None,None,2026-07-01,139.335516036474,332
+Trafic Mobile,financial_annual_data,31,None,None,2026-01-01,1656.2155776179,332
+Trafic Mobile,financial_metrics_data,None,89,None,2026-07-01,130.797160300784,332
+Trafic Mobile,financial_annual_data,None,89,None,2026-01-01,1555.86557366095,332
+Trafic Mobile,financial_metrics_data,None,None,23,2026-07-01,0.059514830185629,332
+Trafic Mobile,financial_annual_data,None,None,23,2026-01-01,0.587228351568608,332
+Trafic Mobile,financial_metrics_data,None,None,24,2026-07-01,1.15516184065194,332
+Trafic Mobile,financial_annual_data,None,None,24,2026-01-01,13.4580220650537,332
+Trafic Mobile,financial_metrics_data,None,None,25,2026-07-01,47.0285342810052,332
+Trafic Mobile,financial_annual_data,None,None,25,2026-01-01,575.112348754925,332
+Trafic Mobile,financial_metrics_data,None,None,26,2026-07-01,43.761446947377,332
+Trafic Mobile,financial_annual_data,None,None,26,2026-01-01,486.568169462809,332
+Trafic Mobile,financial_metrics_data,None,None,27,2026-07-01,37.7834676835567,332
+Trafic Mobile,financial_annual_data,None,None,27,2026-01-01,468.287624318747,332
+Trafic Mobile,financial_metrics_data,None,None,28,2026-07-01,0,332
+Trafic Mobile,financial_annual_data,None,None,28,2026-01-01,0,332
+Trafic Mobile,financial_metrics_data,None,None,29,2026-07-01,1.00903471800784,332
+Trafic Mobile,financial_annual_data,None,None,29,2026-01-01,11.8521807078511,332
+Trafic Mobile,financial_metrics_data,None,90,None,2026-07-01,8.53835573568995,332
+Trafic Mobile,financial_annual_data,None,90,None,2026-01-01,100.350003956948,332
+Trafic Mobile,financial_metrics_data,None,None,30,2026-07-01,0.00395515490212266,332
+Trafic Mobile,financial_annual_data,None,None,30,2026-01-01,0.0557581853532474,332
+Trafic Mobile,financial_metrics_data,None,None,31,2026-07-01,0.0299144514354781,332
+Trafic Mobile,financial_annual_data,None,None,31,2026-01-01,0.345905476816903,332
+Trafic Mobile,financial_metrics_data,None,None,32,2026-07-01,5.38328099756882,332
+Trafic Mobile,financial_annual_data,None,None,32,2026-01-01,61.6713463996839,332
+Trafic Mobile,financial_metrics_data,None,None,33,2026-07-01,2.27601569925357,332
+Trafic Mobile,financial_annual_data,None,None,33,2026-01-01,28.3064345684533,332
+Trafic Mobile,financial_metrics_data,None,None,34,2026-07-01,0.785320606485853,332
+Trafic Mobile,financial_annual_data,None,None,34,2026-01-01,9.27136315903058,332
+Trafic Mobile,financial_metrics_data,None,None,35,2026-07-01,0,332
+Trafic Mobile,financial_annual_data,None,None,35,2026-01-01,0,332
+Trafic Mobile,financial_metrics_data,None,None,36,2026-07-01,0.0598688260441041,332
+Trafic Mobile,financial_annual_data,None,None,36,2026-01-01,0.699196167610426,332
+Trafic Mobile,financial_metrics_data,32,None,None,2026-07-01,18.6011598855753,332
+Trafic Mobile,financial_annual_data,32,None,None,2026-01-01,1165.3290128606,332
+Trafic Mobile,financial_metrics_data,None,91,None,2026-07-01,0.197351933221833,332
+Trafic Mobile,financial_annual_data,None,91,None,2026-01-01,1147.19651456855,332
+Trafic Mobile,financial_metrics_data,None,None,37,2026-07-01,0.0522719309212056,332
+Trafic Mobile,financial_annual_data,None,None,37,2026-01-01,0.592124501022678,332
+Trafic Mobile,financial_metrics_data,None,None,38,2026-07-01,0.0155759677960451,332
+Trafic Mobile,financial_annual_data,None,None,38,2026-01-01,10.6775189779685,332
+Trafic Mobile,financial_metrics_data,None,None,39,2026-07-01,0.106283586176181,332
+Trafic Mobile,financial_annual_data,None,None,39,2026-01-01,427.808573503448,332
+Trafic Mobile,financial_metrics_data,None,None,40,2026-07-01,0.0232204483284016,332
+Trafic Mobile,financial_annual_data,None,None,40,2026-01-01,708.118297586109,332
+Trafic Mobile,financial_metrics_data,None,None,41,2026-07-01,0,332
+Trafic Mobile,financial_annual_data,None,None,41,2026-01-01,0,332
+Trafic Mobile,financial_metrics_data,None,92,None,2026-07-01,18.4038079523534,332
+Trafic Mobile,financial_annual_data,None,92,None,2026-01-01,18.1324982920496,332
+Trafic Mobile,financial_metrics_data,None,None,42,2026-07-01,0.000411167420017964,332
+Trafic Mobile,financial_annual_data,None,None,42,2026-01-01,0.0261299818791886,332
+Trafic Mobile,financial_metrics_data,None,None,43,2026-07-01,0.0155759677960451,332
+Trafic Mobile,financial_annual_data,None,None,43,2026-01-01,0.462050489258415,332
+Trafic Mobile,financial_metrics_data,None,None,44,2026-07-01,0.106283586176181,332
+Trafic Mobile,financial_annual_data,None,None,44,2026-01-01,12.7442506867503,332
+Trafic Mobile,financial_metrics_data,None,None,45,2026-07-01,0.0232204483284016,332
+Trafic Mobile,financial_annual_data,None,None,45,2026-01-01,4.90006713416163,332
+Trafic Mobile,financial_metrics_data,None,None,46,2026-07-01,0,332
+Trafic Mobile,financial_annual_data,None,None,46,2026-01-01,0,332
+Indicateurs Mobile,financial_metrics_data,50,None,None,2026-07-01,1403.50042852473,332
+Indicateurs Mobile,financial_annual_data,50,None,None,2026-01-01,1368.28799458767,332
+Indicateurs Mobile,financial_metrics_data,None,145,None,2026-07-01,1368.99263829503,332
+Indicateurs Mobile,financial_annual_data,None,145,None,2026-01-01,1333.80357241523,332
+Indicateurs Mobile,financial_metrics_data,None,146,None,2026-07-01,34.5077902297041,332
+Indicateurs Mobile,financial_annual_data,None,146,None,2026-01-01,34.4844221724316,332
+Indicateurs Mobile,financial_metrics_data,51,None,None,2026-07-01,1161.05236472382,332
+Indicateurs Mobile,financial_annual_data,51,None,None,2026-01-01,1134.62959424971,332
+Indicateurs Mobile,financial_metrics_data,None,147,None,2026-07-01,1126.62719794634,332
+Indicateurs Mobile,financial_annual_data,None,147,None,2026-01-01,1100.22660528968,332
+Indicateurs Mobile,financial_metrics_data,None,148,None,2026-07-01,34.4251667774871,332
+Indicateurs Mobile,financial_annual_data,None,148,None,2026-01-01,34.4029889600342,332
+Indicateurs Mobile,financial_metrics_data,52,None,None,2026-07-01,4266.09232514237,332
+Indicateurs Mobile,financial_annual_data,52,None,None,2026-01-01,4211.04114634154,332
+Indicateurs Mobile,financial_metrics_data,None,149,None,2026-07-01,4227.11668572655,332
+Indicateurs Mobile,financial_annual_data,None,149,None,2026-01-01,4172.16121885272,332
+Indicateurs Mobile,financial_metrics_data,None,150,None,2026-07-01,38.9756394158127,332
+Indicateurs Mobile,financial_annual_data,None,150,None,2026-01-01,38.879927488822,332
+Indicateurs Mobile,financial_metrics_data,53,None,None,2026-07-01,28.0431088641707,332
+Indicateurs Mobile,financial_annual_data,53,None,None,2026-01-01,41.8236992664044,332
+Indicateurs Mobile,financial_metrics_data,None,151,None,2026-07-01,24.7403019092586,332
+Indicateurs Mobile,financial_annual_data,None,151,None,2026-01-01,24.5500505192719,332
+Indicateurs Mobile,financial_metrics_data,None,None,93,2026-07-01,23.6537216778106,332
+Indicateurs Mobile,financial_annual_data,None,None,93,2026-01-01,23.4898323957972,332
+Indicateurs Mobile,financial_metrics_data,None,None,94,2026-07-01,83.4969439092696,332
+Indicateurs Mobile,financial_annual_data,None,None,94,2026-01-01,81.7772464147165,332
+Indicateurs Mobile,financial_metrics_data,None,152,None,2026-07-01,3.30280695491202,332
+Indicateurs Mobile,financial_annual_data,None,152,None,2026-01-01,17.2736487471325,332
+Indicateurs Mobile,financial_metrics_data,None,None,95,2026-07-01,0.0356896716279789,332
+Indicateurs Mobile,financial_annual_data,None,None,95,2026-01-01,17.3199113782372,332
+Indicateurs Mobile,financial_metrics_data,None,None,96,2026-07-01,179.971620752629,332
+Indicateurs Mobile,financial_annual_data,None,None,96,2026-01-01,14.7765393370539,332
+Indicateurs Mobile,financial_metrics_data,54,None,None,2026-07-01,16.227852990112,332
+Indicateurs Mobile,financial_annual_data,54,None,None,2026-01-01,16.3066706366704,332
+Indicateurs Mobile,financial_metrics_data,None,153,None,2026-07-01,16.9994553561358,332
+Indicateurs Mobile,financial_annual_data,None,153,None,2026-01-01,17.0105122276449,332
+Indicateurs Mobile,financial_metrics_data,None,None,97,2026-07-01,17.8531739798791,332
+Indicateurs Mobile,financial_annual_data,None,None,97,2026-01-01,17.8486014877029,332
+Indicateurs Mobile,financial_metrics_data,None,None,98,2026-07-01,3.92153085425933,332
+Indicateurs Mobile,financial_annual_data,None,None,98,2026-01-01,4.01644968691412,332
+Indicateurs Mobile,financial_metrics_data,None,154,None,2026-07-01,10.4480191245762,332
+Indicateurs Mobile,financial_annual_data,None,154,None,2026-01-01,1.99636004397485,332
+Indicateurs Mobile,financial_metrics_data,None,None,99,2026-07-01,964.569445645992,332
+Indicateurs Mobile,financial_annual_data,None,None,99,2026-01-01,1.98632592331056,332
+Indicateurs Mobile,financial_metrics_data,None,None,100,2026-07-01,0.216565474338783,332
+Indicateurs Mobile,financial_annual_data,None,None,100,2026-01-01,2.6311930420221,332
+Capex Consolidés,financial_metrics_data,1,None,None,2026-07-01,2120.18694761025,332
+Capex Consolidés,financial_annual_data,1,None,None,2026-01-01,24873.4134766063,332
+Capex Consolidés,financial_metrics_data,2,None,None,2026-07-01,2000.33227347239,332
+Capex Consolidés,financial_annual_data,2,None,None,2026-01-01,23467.3134766534,332
+Capex Consolidés,financial_metrics_data,None,1,None,2026-07-01,1335.92382213974,332
+Capex Consolidés,financial_annual_data,None,1,None,2026-01-01,15672.6677516734,332
+Capex Consolidés,financial_metrics_data,None,2,None,2026-07-01,26.4331133884606,332
+Capex Consolidés,financial_annual_data,None,2,None,2026-01-01,310.1055591,332
+Capex Consolidés,financial_metrics_data,None,3,None,2026-07-01,48.8472055531194,332
+Capex Consolidés,financial_annual_data,None,3,None,2026-01-01,573.06113608,332
+Capex Consolidés,financial_metrics_data,None,4,None,2026-07-01,121.411046113672,332
+Capex Consolidés,financial_annual_data,None,4,None,2026-01-01,1424.358901,332
+Capex Consolidés,financial_metrics_data,None,5,None,2026-07-01,288.715012671012,332
+Capex Consolidés,financial_annual_data,None,5,None,2026-01-01,3387.1201288,332
+Capex Consolidés,financial_metrics_data,None,6,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,6,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,7,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,7,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,8,None,2026-07-01,179.002073606385,332
+Capex Consolidés,financial_annual_data,None,8,None,2026-01-01,2100,332
+Capex Consolidés,financial_metrics_data,None,9,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,9,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,10,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,10,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,11,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,11,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,3,None,None,2026-07-01,33.8416666627412,332
+Capex Consolidés,financial_annual_data,3,None,None,2026-01-01,406.099999952894,332
+Capex Consolidés,financial_metrics_data,None,12,None,2026-07-01,None,332
+Capex Consolidés,financial_annual_data,None,12,None,2026-01-01,0,332
+Capex Consolidés,financial_metrics_data,None,13,None,2026-07-01,None,332
+Capex Consolidés,financial_annual_data,None,13,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,14,None,2026-07-01,33.8416666627412,332
+Capex Consolidés,financial_annual_data,None,14,None,2026-01-01,406.099999952894,332
+Capex Consolidés,financial_metrics_data,4,None,None,2026-07-01,85.2390826697071,332
+Capex Consolidés,financial_annual_data,4,None,None,2026-01-01,1000,332
+Capex Consolidés,financial_metrics_data,None,15,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,15,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,16,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,16,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,17,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,17,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,18,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,18,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,19,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,19,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,20,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,20,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,21,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,21,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,22,None,2026-07-01,17.0478165339414,332
+Capex Consolidés,financial_annual_data,None,22,None,2026-01-01,200,332
+Capex Consolidés,financial_metrics_data,None,23,None,2026-07-01,42.6195413348536,332
+Capex Consolidés,financial_annual_data,None,23,None,2026-01-01,500,332
+Capex Consolidés,financial_metrics_data,None,24,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,24,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,25,None,2026-07-01,25.5717248009121,332
+Capex Consolidés,financial_annual_data,None,25,None,2026-01-01,300,332
+Capex Consolidés,financial_metrics_data,None,26,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,26,None,2026-01-01,None,332
+Capex Consolidés,financial_metrics_data,None,27,None,2026-07-01,0,332
+Capex Consolidés,financial_annual_data,None,27,None,2026-01-01,None,332
+Flux Financiers consolidés,financial_metrics_data,13,None,None,2026-07-01,1854132367.84944,332
+Flux Financiers consolidés,financial_annual_data,13,None,None,2026-01-01,20699889562.0106,332
+Flux Financiers consolidés,financial_metrics_data,None,45,None,2026-07-01,14483170.5566298,332
+Flux Financiers consolidés,financial_annual_data,None,45,None,2026-01-01,178111933.590294,332
+Flux Financiers consolidés,financial_metrics_data,None,46,None,2026-07-01,765903894.366456,332
+Flux Financiers consolidés,financial_annual_data,None,46,None,2026-01-01,8307310007.69134,332
+Flux Financiers consolidés,financial_metrics_data,None,47,None,2026-07-01,0,332
+Flux Financiers consolidés,financial_annual_data,None,47,None,2026-01-01,0,332
+Flux Financiers consolidés,financial_metrics_data,None,48,None,2026-07-01,-2120186947.61025,332
+Flux Financiers consolidés,financial_annual_data,None,48,None,2026-01-01,-24873413476.6063,332
+Flux Financiers consolidés,financial_metrics_data,None,49,None,2026-07-01,0,332
+Flux Financiers consolidés,financial_annual_data,None,49,None,2026-01-01,0,332
+Flux Financiers consolidés,financial_metrics_data,None,50,None,2026-07-01,0,332
+Flux Financiers consolidés,financial_annual_data,None,50,None,2026-01-01,0,332
+Flux Financiers consolidés,financial_metrics_data,None,51,None,2026-07-01,0,332
+Flux Financiers consolidés,financial_annual_data,None,51,None,2026-01-01,0,332
+Flux Financiers consolidés,financial_metrics_data,None,52,None,2026-07-01,0,332
+Flux Financiers consolidés,financial_annual_data,None,52,None,2026-01-01,0,332
+Flux Financiers consolidés,financial_metrics_data,14,None,None,2026-07-01,514332485.162277,332
+Flux Financiers consolidés,financial_annual_data,14,None,None,2026-01-01,4311544790.00669,332
+Flux Financiers consolidés,financial_metrics_data,None,None,1,2026-07-01,-240157438.661168,332
+Flux Financiers consolidés,financial_annual_data,None,None,1,2026-01-01,-3224444631.96701,332
+Flux Financiers consolidés,financial_metrics_data,None,None,2,2026-07-01,-86962075.5742323,332
+Flux Financiers consolidés,financial_annual_data,None,None,2,2026-01-01,-1017453768.36135,332
+Flux Financiers consolidés,financial_metrics_data,None,None,3,2026-07-01,0,332
+Flux Financiers consolidés,financial_annual_data,None,None,3,2026-01-01,0,332
+Flux Financiers consolidés,financial_metrics_data,None,53,None,2026-07-01,-327119514.235401,332
+Flux Financiers consolidés,financial_annual_data,None,53,None,2026-01-01,-4241898400.32835,332
+Flux Financiers consolidés,financial_metrics_data,None,54,None,2026-07-01,-611744044.038282,332
+Flux Financiers consolidés,financial_annual_data,None,54,None,2026-01-01,-2360574176.63607,332
+Flux Financiers consolidés,financial_metrics_data,None,55,None,2026-07-01,-2347018562.62709,332
+Flux Financiers consolidés,financial_annual_data,None,55,None,2026-01-01,2165305004.60368,332
+Flux Financiers consolidés,financial_metrics_data,15,None,None,2026-07-01,-2771549635.7385,332
+Flux Financiers consolidés,financial_annual_data,15,None,None,2026-01-01,-125622782.354047,332
+Flux Financiers consolidés,financial_metrics_data,None,56,None,2026-07-01,-77250134892.5705,332
+Flux Financiers consolidés,financial_annual_data,None,56,None,2026-01-01,-75227613185.4563,332
+Flux Financiers consolidés,financial_metrics_data,None,57,None,2026-07-01,9683086698.23017,332
+Flux Financiers consolidés,financial_annual_data,None,57,None,2026-01-01,11235000000,332
+Flux Financiers consolidés,financial_metrics_data,16,None,None,2026-07-01,-67567048194.3403,332
+Flux Financiers consolidés,financial_annual_data,16,None,None,2026-01-01,-63992613185.4563,332

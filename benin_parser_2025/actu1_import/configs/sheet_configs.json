@@ -1,0 +1,255 @@
+{
+  "mobile_money": {
+    "sheet_name": "Mobile Money",
+    "start_row_offset": 4,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 20,
+        "05": 21,
+        "06": 22,
+        "07": 23,
+        "08": 24,
+        "09": 25,
+        "10": 26,
+        "11": 27,
+        "12": 28
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 29,
+      "table": "financial_annual_data"
+    }
+  },
+  "trafic_mobile": {
+    "sheet_name": "Trafic mobile",
+    "start_row_offset": 4,
+    "category_fallback": false,
+    "monthly": {
+      "column_map": {
+        "04": 5,
+        "05": 6,
+        "06": 7,
+        "07": 8,
+        "08": 9,
+        "09": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  },
+  "data_mobile": {
+    "sheet_name": "Data Mobile ",
+    "start_row_offset": 4,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 6,
+        "05": 7,
+        "06": 8,
+        "07": 9,
+        "08": 10,
+        "09": 11,
+        "10": 12,
+        "11": 13,
+        "12": 14
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  },
+  "parc_mobile": {
+    "sheet_name": "Parc Mobile",
+    "start_row_offset": 6,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 5,
+        "05": 6,
+        "06": 7,
+        "07": 8,
+        "08": 9,
+        "09": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  },
+  "indicateurs_mobile": {
+    "sheet_name": "Indicateurs Mobile",
+    "start_row_offset": 6,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 5,
+        "05": 6,
+        "06": 7,
+        "07": 8,
+        "08": 9,
+        "09": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  },
+  "cash_conso": {
+    "sheet_name": "Cash conso ",
+    "start_row_offset": 6,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 5,
+        "05": 6,
+        "06": 7,
+        "07": 8,
+        "08": 9,
+        "09": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  },
+  "pnl_conso": {
+    "sheet_name": "P&L conso",
+    "start_row_offset": 4,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 5,
+        "05": 6,
+        "06": 7,
+        "07": 8,
+        "08": 9,
+        "09": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  },
+  "opex_conso": {
+    "sheet_name": "TBG",
+    "start_row_offset": 6,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 4,
+        "05": 5,
+        "06": 6,
+        "07": 7,
+        "08": 8,
+        "09": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 13,
+      "table": "financial_annual_data"
+    }
+  },
+  "ca_mobile": {
+    "sheet_name": "CA Mobile",
+    "start_row_offset": 6,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 5,
+        "05": 6,
+        "06": 7,
+        "07": 8,
+        "08": 9,
+        "09": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  },
+  "marge_brute": {
+    "sheet_name": "Marge Mobile ",
+    "start_row_offset": 6,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 5,
+        "05": 6,
+        "06": 7,
+        "07": 8,
+        "08": 9,
+        "09": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  },
+  "capex_conso": {
+    "sheet_name": "Capex Consolidés",
+    "start_row_offset": 6,
+    "category_fallback": true,
+    "monthly": {
+      "column_map": {
+        "04": 5,
+        "05": 6,
+        "06": 7,
+        "07": 8,
+        "08": 9,
+        "09": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13
+      },
+      "table": "financial_metrics_data"
+    },
+    "annual": {
+      "column_index": 14,
+      "table": "financial_annual_data"
+    }
+  }
+}

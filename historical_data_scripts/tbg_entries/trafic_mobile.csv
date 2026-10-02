@@ -1,0 +1,14 @@
+level,name,sequence,tbg_key,parent_tbg
+type,Total Trafic,10,TM1,
+metric,Trafic sortant,10,TM2,TM1
+submetric,Dont Prépayé,10,TM3,TM2
+submetric,Dont Postpayé,20,TM4,TM2
+submetric,vers On net,30,TM5,TM2
+submetric,vers Off net local,40,TM6,TM2
+submetric,vers International,50,TM7,TM2
+metric,Trafic entrant,20,TM8,TM1
+submetric,Dont Prépayé,10,TM9,TM8
+submetric,Dont Postpayé,20,TM10,TM8
+submetric,Telecel,30,TM11,TM8
+submetric,Orange,40,TM12,TM8
+submetric,International,50,TM13,TM8

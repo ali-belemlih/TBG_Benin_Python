@@ -1,0 +1,233 @@
+{
+  "1": {
+    "Sortant voix on net": 20
+  },
+  "2": {
+    "Sortant voix MTN": 21
+  },
+  "3": {
+    "Sortant voix GLO": 22
+  },
+  "4": {
+    "Sortant voix BBCOM": 23
+  },
+  "5": {
+    "Sortant voix LIBERCOM": 24
+  },
+  "6": {
+    "Sortant voix BTSA": 25
+  },
+  "7": {
+    "Sortant voix INTERNATIONAL": 26
+  },
+  "8": {
+    "Sortant voix roaming": 27
+  },
+  "9": {
+    "Sortant sms on net": 30
+  },
+  "10": {
+    "Sortant sms MTN": 31
+  },
+  "11": {
+    "Sortant sms GLO": 32
+  },
+  "12": {
+    "Sortant sms BBCOM": 33
+  },
+  "13": {
+    "Sortant sms LIBERCOM": 34
+  },
+  "14": {
+    "Sortant sms INTERNATIONAL": 35
+  },
+  "15": {
+    "CRBT": 40
+  },
+  "16": {
+    "Crédit secours": 41
+  },
+  "17": {
+    "Story Box": 42
+  },
+  "18": {
+    "Phonebook STK": 43
+  },
+  "19": {
+    "Gaming": 44
+  },
+  "20": {
+    "Autres dont BAC17 (VOICEALERT,MOOVKDO...) & SAV agences": 45
+  },
+  "21": {
+    "Videos": 46
+  },
+  "22": {
+    "Sortant voix on net": 60
+  },
+  "23": {
+    "Sortant voix MTN": 61
+  },
+  "24": {
+    "Sortant voix GLO": 62
+  },
+  "25": {
+    "Sortant voix BBCOM": 63
+  },
+  "26": {
+    "Sortant voix LIBERCOM": 64
+  },
+  "27": {
+    "Sortant voix BTSA": 65
+  },
+  "28": {
+    "Sortant voix INTERNATIONAL": 66
+  },
+  "29": {
+    "Sortant voix roaming": 67
+  },
+  "30": {
+    "Sortant sms on net": 70
+  },
+  "31": {
+    "Sortant sms MTN": 71
+  },
+  "32": {
+    "Sortant sms GLO": 72
+  },
+  "33": {
+    "Sortant sms BBCOM": 73
+  },
+  "34": {
+    "Sortant sms LIBERCOM":74
+  },
+  "35": {
+    "Sortant sms INTERNATIONAL": 75
+  },
+  "36": {
+    "Transport and Automotive (Traking)": 79
+  },
+  "37": {
+    "Banking": 80
+  },
+  "38": {
+    "TPE": 81
+  },
+  "39": {
+    "Sortant voix on net": 85
+  },
+  "40": {
+    "Sortant voix MTN": 86
+  },
+  "41": {
+    "Sortant voix GLO": 87
+  },
+  "42": {
+    "Sortant voix BBCOM": 88
+  },
+  "43": {
+    "Sortant voix LIBERCOM": 89
+  },
+  "44": {
+    "Sortant voix BTSA": 90
+  },
+  "45": {
+    "Sortant voix INTERNATIONAL": 91
+  },
+  "46": {
+    "Sortant voix roaming": 92
+  },
+  "47": {
+    "Sortant sms on net": 95
+  },
+  "48": {
+    "Sortant sms MTN": 96
+  },
+  "49": {
+    "Sortant sms GLO": 97
+  },
+  "50": {
+    "Sortant sms BBCOM": 98
+  },
+  "51": {
+    "Sortant sms LIBERCOM": 99
+  },
+  "52": {
+    "Sortant sms INTERNATIONAL": 100
+  },
+  "53": {
+    "Transport and Automotive (Traking)": 104
+  },
+  "54": {
+    "Banking": 105
+  },
+  "55": {
+    "TPE": 106
+  },
+  "56": {
+    "Sortant voix on net": 110
+  },
+  "57": {
+    "Sortant voix MTN": 111
+  },
+  "58": {
+    "Sortant voix GLO": 112
+  },
+  "59": {
+    "Sortant voix BBCOM": 113
+  },
+  "60": {
+    "Sortant voix LIBERCOM": 114
+  },
+  "61": {
+    "Sortant voix BTSA": 115
+  },
+  "62": {
+    "Sortant voix INTERNATIONAL": 116
+  },
+  "63": {
+    "Sortant voix roaming": 117
+  },
+  "64": {
+    "Sortant sms on net": 120
+  },
+  "65": {
+    "Sortant sms MTN": 121
+  },
+  "66": {
+    "Sortant sms GLO": 122
+  },
+  "67": {
+    "Sortant sms BBCOM": 123
+  },
+  "68": {
+    "Sortant sms LIBERCOM": 124
+  },
+  "69": {
+    "Sortant sms INTERNATIONAL": 125
+  },
+  "70": {
+    "Transport and Automotive (Traking)": 129
+  },
+  "71": {
+    "Banking": 130
+  },
+  "72": {
+    "Revenu SAV agences (Call Hystory, Sim swap, Sauvegarde répertoire)": 131
+  },
+  "73": {
+    "Autres vas: Service foot, M2u, Moov job, immatriculation, voice alert, parrainage epiq, migration, moov fun.": 132
+  },
+  "74": {
+    "CRBT": 133
+  },
+  "75": {
+    "Story Box": 134
+  },
+  "76": {
+    "Phonebook STK": 135
+  },
+  "77": {
+    "Gaming": 136
+  }
+}

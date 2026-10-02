@@ -1,0 +1,82 @@
+{
+  "1": {
+    "designation": "(A) TOTAL ENCAISSEMENTS",
+    "row_number": 11,
+    "section_type": "total",
+    "subsections": {
+      "2": {
+        "designation": "ENCAISSEMENTS CUMULES",
+        "row_number": 12,
+        "section_type": "subtotal"
+      }
+    }
+  },
+  "3": {
+    "designation": "(B) TOTAL DECAISSEMENTS",
+    "row_number": 32,
+    "section_type": "total",
+    "subsections": {
+      "4": {
+        "designation": "DECAISSEMENTS CUMULES",
+        "row_number": 33,
+        "section_type": "subtotal"
+      }
+    }
+  },
+  "5": {
+    "designation": "(C) FLUX MENSUEL GENERE PAR EXPLOITAT=CFFO",
+    "row_number": 35,
+    "section_type": "total",
+    "subsections": {
+      "6": {
+        "designation": "FLUX CUMULE",
+        "row_number": 36,
+        "section_type": "subtotal"
+      }
+    }
+  },
+  "7": {
+    "designation": "(D) FLUX MENSUEL GENERE PAR H. EXPLOITAT",
+    "row_number": 44,
+    "section_type": "total",
+    "subsections": {
+      "8": {
+        "designation": "FLUX CUMULE",
+        "row_number": 45,
+        "section_type": "subtotal"
+      }
+    }
+  },
+  "9": {
+    "designation": "(E) FLUX MENSUEL",
+    "row_number": 57,
+    "section_type": "total",
+    "subsections": {
+      "10": {
+        "designation": "DECAISSEMENTS CUMULES (E)",
+        "row_number": 58,
+        "section_type": "subtotal"
+      }
+    }
+  },
+  "11": {
+    "designation": "FLUX NET MENSUEL (C+D+E)",
+    "row_number": 61,
+    "section_type": "total"
+  },
+  "12": {
+    "designation": "FLUX NET CUMULE (C+D+E)",
+    "row_number": 62,
+    "section_type": "total"
+  },
+  "13": {
+    "designation": "CASH & CASH EQUIVALENT",
+    "row_number": 70,
+    "section_type": "total"
+  },
+  "14": {
+    "designation": "DETTE BRUTE",
+    "row_number": 77,
+    "section_type": "total"
+  }
+}

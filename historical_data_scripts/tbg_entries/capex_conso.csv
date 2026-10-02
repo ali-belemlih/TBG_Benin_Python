@@ -1,0 +1,43 @@
+level,name,sequence,tbg_key,parent_tbg
+type,Total capex,10,CAPEX1,
+type,Réseau,20,CAPEX2,
+metric,Modernisation et densification du réseau d'accès (50 sites à Bangui),10,CAPEX3,CAPEX2
+metric,Modernisation du réseau Core CS/PS & Plateformes de services,20,CAPEX4,CAPEX2
+metric,Modernisation et extension Radio (130 Sites),30,CAPEX5,CAPEX2
+metric,Modernisation et extension Transmission (yc BB FH de Bangui),40,CAPEX6,CAPEX2
+metric,Mise à niveau et extension réseau VSAT domestique,50,CAPEX7,CAPEX2
+metric,Extension du réseau de transmission FH sur Bangui à 4 boucles de 4 Gbps,60,CAPEX8,CAPEX2
+metric,Acquisition de groupes électrogènes 15KVA,70,CAPEX9,CAPEX2
+metric,Construction des sites (Pylônes yc ),80,CAPEX10,CAPEX2
+metric,Outils de planification et de mesures Radio,90,CAPEX11,CAPEX2
+metric,Mise à niveau SI Commercial,100,CAPEX12,CAPEX2
+metric,Acquisition de Firewall pour POP Internet,110,CAPEX13,CAPEX2
+metric,Solution de Gestion du réseau IP,120,CAPEX14,CAPEX2
+metric,Equipements informatiques,130,CAPEX15,CAPEX2
+metric,Transmission VSAT (complément 15 SRAN),140,CAPEX16,CAPEX2
+metric,Construction 15 sites outdoor (complément 15 SRAN),150,CAPEX17,CAPEX2
+metric,Energie - Redresseur 48V + Batteries Lithium autonomie 12h (80 sites à Bangui),160,CAPEX18,CAPEX2
+metric,Construction de 17 sites à Bangui - Pylônes 40m-15m2-150km/h,170,CAPEX19,CAPEX2
+metric,Extension du réseau de transmission FH sur Bangui à 4 boucles de 4 Gbps,180,CAPEX20,CAPEX2
+metric,Pièces de rechange et outils,190,CAPEX21,CAPEX2
+metric,Equipements informatiques,200,CAPEX22,CAPEX2
+metric,Licences Régulateur,210,CAPEX23,CAPEX2
+type,Commercial et Marketing,30,CAPEX24,
+metric,Cartes SIM,10,CAPEX25,CAPEX24
+metric,Autres Commerciales,20,CAPEX26,CAPEX24
+metric,Agences commerciales,30,CAPEX27,CAPEX24
+type,Administratif et Financier,40,CAPEX28,
+metric,Activation charges du personnel,10,CAPEX29,CAPEX28
+submetric,Logistique,10,CAPEX30,CAPEX29
+submetric,Matériel et outillage industriels,20,CAPEX31,CAPEX29
+submetric,Materiel informatique,30,CAPEX32,CAPEX29
+submetric,Matériels et mobiliers,40,CAPEX33,CAPEX29
+submetric,Climatiseurs,50,CAPEX34,CAPEX29
+submetric,Autres matériels et mobiliers,60,CAPEX35,CAPEX29
+submetric,"Autres agencements (eau electricité, autres)",70,CAPEX36,CAPEX29
+submetric,Autres installations,80,CAPEX37,CAPEX29
+submetric,Terrains et Batiments,90,CAPEX38,CAPEX29
+submetric,Transport,100,CAPEX39,CAPEX29
+submetric,"Autres(mat. Bureau, bureautique,...)",110,CAPEX40,CAPEX29
+submetric,Materiel bureautique,120,CAPEX41,CAPEX29
+submetric,Mobilier de bureau,130,CAPEX42,CAPEX29

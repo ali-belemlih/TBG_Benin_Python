@@ -1,0 +1,77 @@
+{
+  "EBITDA": {
+    "row_number": 7,
+    "metrics": {}
+  },
+  "CFFO": {
+    "row_number": 22,
+    "metrics": {
+      "Neutralisation de la var. de provisions incluses dans l'Ebitda (-)": {
+        "row_number": 9,
+        "submetrics": {}
+      },
+      "Variation de BFR opérationnel (+/-)": {
+        "row_number": 11,
+        "submetrics": {}
+      },
+      "Dividendes reçus des participations non consolidées (+)": {
+        "row_number": 13,
+        "submetrics": {}
+      },
+      "Investissements bruts (Flux d'augmentation des immos corporelles et incorporelles bruts de la période) (-)": {
+        "row_number": 15,
+        "submetrics": {}
+      },
+      "Produit de cession des immobilisations corporelles et incorporelles (+)": {
+        "row_number": 17,
+        "submetrics": {}
+      },
+      "Cession d'immobilisations": {
+        "row_number": 18,
+        "submetrics": {}
+      },
+      "Investissements nets (Capex brutes - cession d'immo.) (-)": {
+        "row_number": 19,
+        "submetrics": {}
+      },
+      "Plan de restructuration": {
+        "row_number": 20,
+        "submetrics": {}
+      }
+    }
+  },
+  "Net cash flow": {
+    "row_number": 35,
+    "metrics": {
+      "Cash flow used for financing and taxes": {
+        "row_number": 30,
+        "submetrics": {
+          "Résultat financier hors dividendes des stés non consolidées (+/-)": 24,
+          "Impôts payés (-)": 26,
+          "Dividendes payés (-)": 28
+        }
+      },
+      "Cash flow used for investment (+/-)": {
+        "row_number": 32,
+        "submetrics": {}
+      },
+      "Autres éléments non cash" : {
+        "row_number" :  33,
+        "submetrics": {}
+      }
+    }
+  },
+  "Trésorerie nette fin de période": {
+    "row_number": 39,
+    "metrics": {
+      "Dettes brutes (-)": {
+        "row_number": 37,
+        "submetrics": {}
+      },
+      "Trésorerie brute (+)": {
+        "row_number": 38,
+        "submetrics": {}
+      }
+    }
+  }
+}

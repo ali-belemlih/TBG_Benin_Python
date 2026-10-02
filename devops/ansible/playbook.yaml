@@ -1,0 +1,40 @@
+---
+- name: Transfer, execute script, and fetch output file
+  hosts: all
+  tasks:
+    - name: Copy the script to target node
+      ansible.builtin.copy:
+        src: ./check_config.sh
+        dest: /tmp/check_config.sh
+        mode: '0755'
+
+    - name: Execute the script
+      ansible.builtin.command: /tmp/check_config.sh
+      args:
+        chdir: /tmp/
+      register: script_execution
+      changed_when: script_execution.rc != 0
+
+    - name: Find matching output files on the target node
+      ansible.builtin.find:
+        paths: /tmp/
+        patterns: "*_system_config.txt"
+      register: found_files
+
+    - name: Fetch the output files to control node
+      ansible.builtin.fetch:
+        src: "{{ item }}"
+        dest: ./output_files/
+        flat: true
+      loop: "{{ found_files.files | map(attribute='path') | list }}"
+
+    - name: Remove script from target node
+      ansible.builtin.file:
+        path: /tmp/check_config.sh
+        state: absent
+
+    - name: Remove output files from target node
+      ansible.builtin.file:
+        path: "{{ item }}"
+        state: absent
+      loop: "{{ found_files.files | map(attribute='path') | list }}"

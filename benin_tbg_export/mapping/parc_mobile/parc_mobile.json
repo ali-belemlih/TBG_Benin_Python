@@ -1,0 +1,71 @@
+{
+  "Parc Total Mobile Actif": {
+    "row_number": 7,
+    "metrics": {
+      "Parc début Période": {
+        "row_number": 15,
+        "submetrics": {
+          "Activations totales": 16,
+          "Résiliations totales": 17,
+          "% résiliation": 18,
+          "Ventes nettes": 19,
+          "Acroissement net": 20,
+          "Flux d'inactivité(Prd) et résiliations(PoP)": 21,
+          "Taux de churn annualisé": 22
+        }
+      },
+      "Parc Total (Prépayé & Postpayé)": {
+        "row_number": 23,
+        "submetrics": {
+          "Parc Moyen Total": 24
+        }
+      },
+      "Parc Actif": {
+        "row_number": 25,
+        "submetrics": {
+          "Parc Moyen Actif": 26
+        }
+      }
+    }
+  },
+  "Parc Prépayé Actif": {
+    "row_number": 28,
+    "metrics": {
+      "Parc prépayé actif début Période": {
+        "row_number": 29,
+        "submetrics": {
+          "Activations totales": 30,
+          "Flux d'inactivité": 33,
+          "% churn annualisé": 34,
+          "Acroissement net": 35
+        }
+      },
+      "Parc prépayé actif fin de période": {
+        "row_number": 36,
+        "submetrics": {
+          "Parc Actif Moyen": 37
+        }
+      }
+    }
+  },
+  "Parc Postpayé": {
+    "row_number": 39,
+    "metrics": {
+      "Parc début Période": {
+        "row_number": 40,
+        "submetrics": {
+          "Activations totales": 41,
+          "Résiliations totales": 42,
+          "% résiliation annualisé": 44,
+          "Ventes nettes": 45
+        }
+      },
+      "Parc Postpayé": {
+        "row_number": 46,
+        "submetrics": {
+          "Parc Moyen Postpayé": 47
+        }
+      }
+    }
+  }
+}

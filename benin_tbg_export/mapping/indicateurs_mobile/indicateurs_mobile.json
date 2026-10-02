@@ -1,0 +1,84 @@
+{
+  "ARPU Global": {
+    "row_number" : 7,
+    "metrics"  : {
+      "ARPU Sortant" :  {
+        "row_number" : 8,
+        "submetrics" : {}
+      },
+      "ARPU Entrant" : {
+        "row_number" : 9,
+        "submetrics" : {}
+      }
+    }
+  },
+  "ARPU Prépayé" : {
+    "row_number" : 11,
+    "metrics"  : {
+      "ARPU Sortant" :  {
+        "row_number" : 12,
+        "submetrics" : {}
+      },
+      "ARPU Entrant" : {
+        "row_number" : 13,
+        "submetrics" : {}
+      }
+    }
+  },
+  "ARPU Postpayé" : {
+    "row_number" : 15,
+    "metrics"  : {
+      "ARPU Sortant" :  {
+        "row_number" : 16,
+        "submetrics" : {}
+      },
+      "ARPU Entrant" : {
+        "row_number" : 17,
+        "submetrics" : {}
+      }
+    }
+
+  },
+  "Usage / client / mois" : {
+    "row_number" : 19,
+    "metrics" : {
+        "Usage Sortant" : {
+          "row_number" : 20,
+          "submetrics" : {
+            "Prépayé" :  21,
+            "Postpayé" : 22
+          }
+        },
+      "Usage Entrant" : {
+        "row_number" : 23,
+        "submetrics" : {
+          "Prépayé" :  24,
+          "Postpayé" : 25
+        }
+      }
+    }
+
+  },
+  "Prix mn" : {
+    "row_number" : 27,
+    "metrics" : {
+      "Prix mn Sortant" : {
+        "row_number"  : 28,
+        "submetrics" : {
+          "Prépayé" :  29,
+          "Postpayé" : 30
+        }
+      },
+      "Prix mn Entrant" : {
+        "row_number"  : 31,
+        "submetrics" : {
+          "Prépayé" :  32,
+          "Postpayé" : 33
+        }
+      }
+
+    }
+  }
+
+}
+

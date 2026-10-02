@@ -1,0 +1,14 @@
+{
+  "annual": {
+    "date": "",
+    "header_row_index" : 4,
+    "start_col": "CY",
+    "sequence": [
+      "budget_value",
+      "actual1_value",
+      "actual2_value",
+      "actual3_value",
+      "last_year_real_value"
+    ]
+  }
+}

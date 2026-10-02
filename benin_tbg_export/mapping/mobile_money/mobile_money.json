@@ -1,0 +1,177 @@
+{
+  "Parc clients Total\t": {
+    "row_number": 6,
+    "metrics": {}
+  },
+  "Parc clients actif (90 jours)": {
+    "row_number": 8,
+    "metrics": {}
+  },
+  "Nombre de points de ventes": {
+    "row_number": 10,
+    "metrics": {}
+  },
+  "Nombre de points de Marchand": {
+    "row_number": 12,
+    "metrics": {}
+  },
+  "Total Montant des transactions": {
+    "row_number": 14,
+    "metrics": {
+      "Dépôt d'argent": {
+        "row_number": 15,
+        "submetrics": {}
+      },
+      "Retrait d'argent": {
+        "row_number": 16,
+        "submetrics": {}
+      },
+      "Transfert d'argent national": {
+        "row_number": 17,
+        "submetrics": {}
+      },
+      "Transfert d'argent international": {
+        "row_number": 18,
+        "submetrics": {}
+      },
+      "Recharge Mobile": {
+        "row_number": 19,
+        "submetrics": {}
+      },
+      "Achat de forfaits": {
+        "row_number": 20,
+        "submetrics": {}
+      },
+      "Achat de biens et services": {
+        "row_number": 21,
+        "submetrics": {}
+      },
+      "Parie en ligne": {
+        "row_number": 22,
+        "submetrics": {}
+      },
+      "Paiement de factures": {
+        "row_number": 23,
+        "submetrics": {}
+      },
+      "Paiement de salaires": {
+        "row_number": 24,
+        "submetrics": {}
+      },
+      "Autres (Push & Pull_paiements en ligne inclus)": {
+        "row_number": 25,
+        "submetrics": {}
+      }
+    }
+  },
+  "Chiffre d'affaires": {
+    "row_number": 27,
+    "metrics": {
+      "Dépôt d'argent": {
+        "row_number": 28,
+        "submetrics": {}
+      },
+      "Retrait d'argent": {
+        "row_number": 29,
+        "submetrics": {}
+      },
+      "Transfert d'argent national": {
+        "row_number": 30,
+        "submetrics": {}
+      },
+      "Transfert d'argent international": {
+        "row_number": 31,
+        "submetrics": {}
+      },
+      "Recharge Mobile (Activation de forfaits inclue)": {
+        "row_number": 32,
+        "submetrics": {}
+      },
+      "Achat de biens et services": {
+        "row_number": 33,
+        "submetrics": {}
+      },
+      "Pari en ligne": {
+        "row_number": 34,
+        "submetrics": {}
+      },
+      "Paiement de factures": {
+        "row_number": 35,
+        "submetrics": {}
+      },
+      "Paiement de salaires": {
+        "row_number": 36,
+        "submetrics": {}
+      },
+      "Pack Moov Money": {
+        "row_number": 37,
+        "submetrics": {}
+      },
+      "Reversement MAB A MM": {
+        "row_number": 38,
+        "submetrics": {}
+      },
+      "Autres (Push & Pull)": {
+        "row_number": 39,
+        "submetrics": {}
+      }
+    }
+  },
+  "Total Commissions": {
+    "row_number": 41,
+    "metrics": {
+      "Dont commissions Revendeurs": {
+        "row_number": 42,
+        "submetrics": {
+          "Dépôt d'argent": 43,
+          "Retrait d'argent": 44,
+          "Transfert d'argent national": 45,
+          "Transfert d'argent international": 46,
+          "Recharge Mobile": 47,
+          "Achat de biens et services": 48,
+          "Paiement de factures": 49,
+          "Paiement de salaires": 50,
+          "Autres (à préciser)": 51
+        }
+      },
+      "Dont commissions ETB": {
+        "row_number": 52,
+        "submetrics": {
+          "Dépôt d'argent": 53,
+          "Retrait d'argent": 54,
+          "Transfert d'argent national": 55,
+          "Transfert d'argent international": 56,
+          "Recharge Mobile": 57,
+          "Achat de biens et services": 58,
+          "Paiement de factures": 59,
+          "Paiement de salaires": 60,
+          "Autres (à préciser)": 61
+        }
+      },
+      "Dont commissions Banques": {
+        "row_number": 62,
+        "submetrics": {
+          "Dépôt d'argent": 63,
+          "Retrait d'argent": 64,
+          "Transfert d'argent national": 65,
+          "Transfert d'argent international": 66,
+          "Recharge Mobile": 67,
+          "Achat de biens et services": 68,
+          "Paiement de factures": 69,
+          "Paiement de salaires": 70,
+          "Autres (Push & Pull)": 71
+        }
+      }
+    }
+  },
+  "Marge Brute (en monnaie locale)": {
+    "row_number": 73,
+    "metrics": {
+      "% Marge Brute/CA": {
+        "row_number": 74,
+        "submetrics": {}
+      }
+    }
+  }
+}
+

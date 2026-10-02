@@ -1,0 +1,78 @@
+{
+  "Total Revenu": {
+    "row_number": 7,
+    "metrics": {
+      "Trafic (mn)": {
+        "row_number": 8,
+        "submetrics": {}
+      },
+      "Coût unitaire-Trafic": {
+        "row_number": 9,
+        "submetrics": {}
+      },
+      "International": {
+        "row_number": 10,
+        "submetrics": {}
+      },
+      "Reversements SVA": {
+        "row_number": 38,
+        "submetrics": {}
+      },
+      "Achat de capacité": {
+        "row_number": 39,
+        "submetrics": {}
+      },
+      "Nbre SMS": {
+        "row_number": 40,
+        "submetrics": {}
+      },
+      "Coût unitaire-SMS": {
+        "row_number": 41,
+        "submetrics": {}
+      },
+      "Interconnexion SMS": {
+        "row_number": 42,
+        "submetrics": {}
+      },
+      "Roaming out": {
+        "row_number": 43,
+        "submetrics": {}
+      },
+      "Coûts des terminaux et cartes" : {
+        "row_number": 45,
+        "submetrics" : {
+          "Dont coût des terminaux." : 49,
+          "Dont provisions sur stocks" : 51
+        }
+      },
+      "Commissions" : {
+        "row_number" : 52,
+        "submetrics" : {
+          "Dont commissions up-front" : 53,
+          "Dont avoirs de performance" : 54,
+          "Dont Commissions Flooz" :  56
+        }
+      }
+    }
+  },
+  "Coûts des ventes" : {
+    "row_number" : 58,
+    "metrics" : {}
+  },
+  "Marge Brute" : {
+    "row_number" : 60,
+    "metrics"  : {
+      "En % du CA" : {
+        "row_number" : 61,
+        "submetrics" : {}
+      }
+    }
+
+  },
+  "En % du CA" : {
+    "row_number" : 61,
+    "metrics" : {}
+  }
+
+}
+

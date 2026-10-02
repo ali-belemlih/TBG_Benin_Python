@@ -1,0 +1,378 @@
+System Configuration for: site2server5
+==========================
+==========================
+Generated on: Thu Mar 13 05:59:25 PM GMT 2025
+
+Operating System:
+NAME="Red Hat Enterprise Linux"
+VERSION="9.3 (Plow)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="9.3"
+PLATFORM_ID="platform:el9"
+PRETTY_NAME="Red Hat Enterprise Linux 9.3 (Plow)"
+ANSI_COLOR="0;31"
+LOGO="fedora-logo-icon"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:9::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 9"
+REDHAT_BUGZILLA_PRODUCT_VERSION=9.3
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="9.3"
+
+==========================
+Memory Information:
+Total Memory: 125.033 GB
+Available Memory: 113.913 GB
+Buffer/Cache Memory: 6.51839 GB
+Total Swap: 16 GB
+Free Swap: 16 GB
+
+==========================
+CPU Information:
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      46 bits physical, 57 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             32
+On-line CPU(s) list:                0-31
+Vendor ID:                          GenuineIntel
+BIOS Vendor ID:                     Intel(R) Corporation
+Model name:                         Intel(R) Xeon(R) Silver 4309Y CPU @ 2.80GHz
+BIOS Model name:                    Intel(R) Xeon(R) Silver 4309Y CPU @ 2.80GHz
+CPU family:                         6
+Model:                              106
+Thread(s) per core:                 2
+Core(s) per socket:                 8
+Socket(s):                          2
+Stepping:                           6
+BogoMIPS:                           5600.00
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp_epp vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
+Virtualization:                     VT-x
+L1d cache:                          768 KiB (16 instances)
+L1i cache:                          512 KiB (16 instances)
+L2 cache:                           20 MiB (16 instances)
+L3 cache:                           24 MiB (2 instances)
+NUMA node(s):                       2
+NUMA node0 CPU(s):                  0-7,16-23
+NUMA node1 CPU(s):                  8-15,24-31
+Vulnerability Gather data sampling: Mitigation; Microcode
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Enhanced / Automatic IBRS, IBPB conditional, RSB filling, PBRSB-eIBRS SW sequence
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+
+==========================
+Storage Information:
+Attached Disks:
+NAME                      MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+sda                         8:0    0 894.2G  0 disk  
+├─sda1                      8:1    0   600M  0 part  /boot/efi
+├─sda2                      8:2    0     1G  0 part  /boot
+└─sda3                      8:3    0 892.6G  0 part  
+  ├─rhel-root             253:0    0 376.6G  0 lvm   /var/lib/kubelet/pods/3b4b1178-a513-45eb-a22a-3cf2dd403ab4/volume-subpaths/empty-dir/keycloak/5
+  │                                                  /var/lib/kubelet/pods/3b4b1178-a513-45eb-a22a-3cf2dd403ab4/volume-subpaths/empty-dir/keycloak/4
+  │                                                  /var/lib/kubelet/pods/3b4b1178-a513-45eb-a22a-3cf2dd403ab4/volume-subpaths/empty-dir/keycloak/3
+  │                                                  /var/lib/kubelet/pods/3b4b1178-a513-45eb-a22a-3cf2dd403ab4/volume-subpaths/empty-dir/keycloak/2
+  │                                                  /var/lib/kubelet/pods/3b4b1178-a513-45eb-a22a-3cf2dd403ab4/volume-subpaths/empty-dir/keycloak/1
+  │                                                  /var/lib/kubelet/pods/3b4b1178-a513-45eb-a22a-3cf2dd403ab4/volume-subpaths/empty-dir/keycloak/0
+  │                                                  /var/lib/kubelet/pods/b7d45954-87fe-4250-a424-6890a8847489/volumes/kubernetes.io~local-volume/pvc-02a22c03-0965-4f46-b74e-27b48362987d
+  │                                                  /var/lib/kubelet/pods/4298531e-ac98-4d0f-a01c-9aba6fec0a9c/volume-subpaths/empty-dir/postgresql/2
+  │                                                  /var/lib/kubelet/pods/4298531e-ac98-4d0f-a01c-9aba6fec0a9c/volume-subpaths/empty-dir/postgresql/1
+  │                                                  /var/lib/kubelet/pods/4298531e-ac98-4d0f-a01c-9aba6fec0a9c/volume-subpaths/empty-dir/postgresql/0
+  │                                                  /var/lib/kubelet/pods/c070c0ec-547a-413c-ade9-b26d4b9cad5c/volumes/kubernetes.io~local-volume/pvc-19c532cd-66b7-43ec-8980-c7367771ef63
+  │                                                  /var/lib/kubelet/pods/637fbcf9-a43c-4598-bde9-600b16c14809/volumes/kubernetes.io~local-volume/pvc-ee585813-1ea4-452d-a941-26f433f270b1
+  │                                                  /var/lib/kubelet/pods/4298531e-ac98-4d0f-a01c-9aba6fec0a9c/volumes/kubernetes.io~local-volume/pvc-9cdec32f-0969-43c8-ba96-049b97510429
+  │                                                  /
+  ├─rhel-swap             253:1    0    16G  0 lvm   [SWAP]
+  ├─rhel-home             253:2    0    80G  0 lvm   /home
+  └─rhel-opt              253:3    0   420G  0 lvm   /opt
+sdb                         8:16   0    16T  0 disk  
+└─s2SRV5D1                253:4    0    16T  0 mpath 
+  └─VG5SRV5D1-S2LV5SRV5D1 253:5    0    16T  0 lvm   /mnt/data1/application
+sdc                         8:32   0    16T  0 disk  
+└─s2SRV5D1                253:4    0    16T  0 mpath 
+  └─VG5SRV5D1-S2LV5SRV5D1 253:5    0    16T  0 lvm   /mnt/data1/application
+sdd                         8:48   0    16T  0 disk  
+└─s2SRV5D1                253:4    0    16T  0 mpath 
+  └─VG5SRV5D1-S2LV5SRV5D1 253:5    0    16T  0 lvm   /mnt/data1/application
+
+Mounted Filesystems and Usage:
+Filesystem                         Size  Used Avail Use% Mounted on
+devtmpfs                           4.0M     0  4.0M   0% /dev
+tmpfs                               63G     0   63G   0% /dev/shm
+tmpfs                               26G   44M   25G   1% /run
+/dev/mapper/rhel-root              377G   21G  357G   6% /
+/dev/sda2                          960M  293M  668M  31% /boot
+/dev/mapper/rhel-home               80G  1.8G   79G   3% /home
+/dev/mapper/rhel-opt               420G  4.5G  416G   2% /opt
+/dev/sda1                          599M  7.0M  592M   2% /boot/efi
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/040cc15b-6acb-4b2b-be67-1e53feb05107/volumes/kubernetes.io~secret/superset-config
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/80f61e93-5171-4d96-996f-07946c777f20/volumes/kubernetes.io~secret/superset-config
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/400cbd0b-f771-4ddf-9114-730552296108/volumes/kubernetes.io~projected/kube-api-access-ncf85
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/80f61e93-5171-4d96-996f-07946c777f20/volumes/kubernetes.io~projected/kube-api-access-jgfk2
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/040cc15b-6acb-4b2b-be67-1e53feb05107/volumes/kubernetes.io~projected/kube-api-access-mqsq6
+tmpfs                              192M  1.1M  191M   1% /var/lib/kubelet/pods/4298531e-ac98-4d0f-a01c-9aba6fec0a9c/volumes/kubernetes.io~empty-dir/dshm
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/5a2ce87a-1d2e-4fbf-9514-01cba56e3c40/volumes/kubernetes.io~projected/kube-api-access-zgzh4
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/ffa8ffa32b8e256ce8d037bfb652d7c4860380361da04be6a03fffe20a3ebbd1/shm
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/4488ec49fef200be56fdce39b98efae420ea448fc2470c2cb4212b7370002ff6/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/ffa8ffa32b8e256ce8d037bfb652d7c4860380361da04be6a03fffe20a3ebbd1/rootfs
+shm                                 64M  128K   64M   1% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/2a955e600f99f3dea2375cd10be4a7f81584cf37711bc9bab9860f131e1fc3e0/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/4488ec49fef200be56fdce39b98efae420ea448fc2470c2cb4212b7370002ff6/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/2168e983eee28263347e2f58aa16696b7c8c0dab09680df11cff3f9586265327/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/2a955e600f99f3dea2375cd10be4a7f81584cf37711bc9bab9860f131e1fc3e0/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/e0a07f0a53d9a0f8239e3f4249b8d17a735875346c908d31d4cc3e04e02a1def/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/2168e983eee28263347e2f58aa16696b7c8c0dab09680df11cff3f9586265327/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/dba21d91e2019f0f62aaa5d7d864a2e05c68984ec2ac268619edb8fab10c6287/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/9ec29527b86aad94b6e1cec21cfa12c02dd71b27773c81fd2ab792361be20203/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/9ec29527b86aad94b6e1cec21cfa12c02dd71b27773c81fd2ab792361be20203/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/2e679900dab5a86ff3f39cb743b0214af67144b681678b6a5e40ace93ecc933b/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/6be81a56215463c9a135f4ae5345d46618dbbf3a0754a6298dd75995833b3aa8/shm
+tmpfs                              126G   28K  126G   1% /var/lib/kubelet/pods/c070c0ec-547a-413c-ade9-b26d4b9cad5c/volumes/kubernetes.io~empty-dir/dshm
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/637fbcf9-a43c-4598-bde9-600b16c14809/volumes/kubernetes.io~projected/kube-api-access-fblcz
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/6be81a56215463c9a135f4ae5345d46618dbbf3a0754a6298dd75995833b3aa8/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/6d79ee7e1e4cc17dfb4a9b25ed67d360c7059c9a627ae73824404b2f497e02da/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/6d79ee7e1e4cc17dfb4a9b25ed67d360c7059c9a627ae73824404b2f497e02da/rootfs
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/c070c0ec-547a-413c-ade9-b26d4b9cad5c/volumes/kubernetes.io~projected/kube-api-access-g8x8v
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/5506fb23-75fb-4709-b5ad-7c0c47e74082/volumes/kubernetes.io~projected/kube-api-access-gnpfj
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/47a09515-66f6-4c41-96dc-fbefb3cea333/volumes/kubernetes.io~projected/kube-api-access-hz55w
+tmpfs                              768M   12K  768M   1% /var/lib/kubelet/pods/3b4b1178-a513-45eb-a22a-3cf2dd403ab4/volumes/kubernetes.io~projected/kube-api-access-czrzt
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/c6797f90-6bc4-4a7d-87c4-81b28f582fd7/volumes/kubernetes.io~projected/kube-api-access-rvwvb
+tmpfs                              170M   12K  170M   1% /var/lib/kubelet/pods/9fce7958-6d01-4eed-8566-0dab43e7fcc7/volumes/kubernetes.io~projected/kube-api-access-x68sb
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/15f7adc7-bc96-4f5c-8b60-adc893b5c9b8/volumes/kubernetes.io~projected/kube-api-access-c7kzv
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/8ca605ae475ef1cb562a9980e6a5cf5919b2beda8265909982d8185005fbef54/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/7ffbf4e0c6fcff506e7e458c35af346b5de00e076272f7c0a27471a32b286753/shm
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/5d8d52fc8b18df34c9bf0984f30a46b1dace361b60673c6ab8a0e570770c9458/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/c6cb0155afed0b8cec9b9cd41c46a85763190a3bcc269bfbdbf02ee7f73bec9f/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/083be89876aeba4751c5cd3da5d97bbb227071cbfc8f970cd17e9d630b0f0ae0/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/7ffbf4e0c6fcff506e7e458c35af346b5de00e076272f7c0a27471a32b286753/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/a912eaf2bfa817a76e96742d30c0fe09a40133a8c89ebf0dc66878ae57c495b5/shm
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/585f6a09d91efe6cde1b6d18498c7cd874de1f40185eb792716ee18c12a814dd/shm
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/a17885cce07fec817a767570f39429e40a3cbc3d52ce9271df2cbfacf3e7558f/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/5d8d52fc8b18df34c9bf0984f30a46b1dace361b60673c6ab8a0e570770c9458/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/083be89876aeba4751c5cd3da5d97bbb227071cbfc8f970cd17e9d630b0f0ae0/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/a912eaf2bfa817a76e96742d30c0fe09a40133a8c89ebf0dc66878ae57c495b5/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/d875d10fe1637c2789816727b8c4dde1bb84a94cd58483f93cad71256a2dc1bd/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/585f6a09d91efe6cde1b6d18498c7cd874de1f40185eb792716ee18c12a814dd/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/d44504dc4db5281f1ca86cfb74cb71770403a907ed9e4ebd6f663d841f706d2d/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/a17885cce07fec817a767570f39429e40a3cbc3d52ce9271df2cbfacf3e7558f/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/d875d10fe1637c2789816727b8c4dde1bb84a94cd58483f93cad71256a2dc1bd/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/4ef13f36d4cf87f1d375798c84ece90281c9aa56558ef24ce58a5d5b62e7adfd/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/cd9615fe7eae6bb8f035ba56eca45f83a44c0b68b530cf0b6f94e8098f1e2fe2/rootfs
+tmpfs                              126G   12K  126G   1% /var/lib/kubelet/pods/b7d45954-87fe-4250-a424-6890a8847489/volumes/kubernetes.io~projected/kube-api-access-74trn
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/e6dbfff75e7230ad56e6fe925ae47585bec07f76839048e210799a90637eead3/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/6b8b98a7285b47def4d1224ed5cc666c43e92e290db45a103ad0ce88d9efd8e7/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/180c0a1d67583062fcb9c07adf1071fd9cdb205ea8cd3b07acd441367d36bba6/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/f518454e134db9c0d50f0912717e0d76ac1440c36eb2800e7c7f197a375ae103/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/f518454e134db9c0d50f0912717e0d76ac1440c36eb2800e7c7f197a375ae103/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/e25aa4013691769b3cfcc7017ac56cf1b677c351ff1f2757ac0cad2d37e202b6/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/06d465dcc8ba3d72dee26eaf0f0e5d165740510a5a33232b128ef2862e8791da/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/b1e453c9678c795f15c6b5c45e58d5bc50bcc8ea41aac6a9a1a0e900d331615c/rootfs
+shm                                 64M     0   64M   0% /run/k3s/containerd/io.containerd.grpc.v1.cri/sandboxes/e30acf19c6c859025c728c4f36c80875e3b675d188372000c90caee11ec7f688/shm
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/e30acf19c6c859025c728c4f36c80875e3b675d188372000c90caee11ec7f688/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/5beabb188a3007295cb8597c5d1891687e5e5a7c6bfed499c576c2f29027fdd9/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/5f4eb70d07a35af8baf8d502897f80533efe0b8066c3da04fcfbc9c26daa1aac/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/8e4d7981119e360f58437e76f2c238e64e1deb2e9a23948c3835e6b6ee5c75f8/rootfs
+overlay                            377G   21G  357G   6% /run/k3s/containerd/io.containerd.runtime.v2.task/k8s.io/fd250724b19d718440836cffdc12f3a4a1a35f87403fdba3341e14bf604f8fcf/rootfs
+/dev/mapper/VG5SRV5D1-S2LV5SRV5D1   17T  115G   16T   1% /mnt/data1/application
+tmpfs                               13G   52K   13G   1% /run/user/42
+tmpfs                               13G   36K   13G   1% /run/user/1003
+
+==========================
+Network Configuration:
+IP Address:
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens4f0np0        DOWN           
+ens4f1np1        DOWN           
+ens1f0np0        UP             
+ens1f1np1        UP             
+bond0            UP             172.20.21.125/23 fe80::f95c:9766:54ba:6108/64 
+br-176c99319e49  DOWN           192.168.49.1/24 
+docker0          DOWN           172.17.0.1/16 
+flannel.1        UNKNOWN        10.42.0.0/32 fe80::546d:bbff:fe39:a5ac/64 
+cni0             UP             10.42.0.1/24 fe80::989d:9eff:fea2:a989/64 
+vethf8581902@if2 UP             fe80::18ea:1fff:fef0:7a77/64 
+vethd04a361c@if2 UP             fe80::c025:fbff:fed7:a61b/64 
+veth4eda1e3a@if2 UP             fe80::482d:feff:fea7:727d/64 
+veth806e09b1@if2 UP             fe80::4076:b4ff:fef8:29e8/64 
+veth685836f5@if2 UP             fe80::bc43:3dff:fe52:d1c2/64 
+veth194627cd@if2 UP             fe80::3476:14ff:fed0:b955/64 
+vethf6d54bcc@if2 UP             fe80::492:85ff:fedf:1a33/64 
+vethdc1fc50c@if2 UP             fe80::142d:4ff:fec5:2cdd/64 
+veth5dd3ad7a@if2 UP             fe80::e45d:20ff:febc:868/64 
+vethce4dc37e@if2 UP             fe80::9893:6fff:fe82:234f/64 
+veth432eb490@if2 UP             fe80::d060:65ff:feff:b9a4/64 
+vethbd32d367@if2 UP             fe80::d078:60ff:fedc:18ba/64 
+vethdc1a9770@if2 UP             fe80::5cc0:a4ff:fead:2b51/64 
+vethc3c6bf6f@if2 UP             fe80::106f:f0ff:fe5c:3518/64 
+veth9d0ba878@if2 UP             fe80::c8cf:90ff:feb6:94ba/64 
+
+NICs Available:
+DEVICE           TYPE      STATE                   CONNECTION      
+bond0            bond      connected               bond0           
+cni0             bridge    connected (externally)  cni0            
+lo               loopback  connected (externally)  lo              
+flannel.1        vxlan     connected (externally)  flannel.1       
+br-176c99319e49  bridge    connected (externally)  br-176c99319e49 
+docker0          bridge    connected (externally)  docker0         
+ens1f0np0        ethernet  connected               bond0-port1     
+ens1f1np1        ethernet  connected               bond0-port2     
+ens4f0np0        ethernet  disconnected            --              
+ens4f1np1        ethernet  disconnected            --              
+veth194627cd     ethernet  unmanaged               --              
+veth432eb490     ethernet  unmanaged               --              
+veth4eda1e3a     ethernet  unmanaged               --              
+veth5dd3ad7a     ethernet  unmanaged               --              
+veth685836f5     ethernet  unmanaged               --              
+veth806e09b1     ethernet  unmanaged               --              
+veth9d0ba878     ethernet  unmanaged               --              
+vethbd32d367     ethernet  unmanaged               --              
+vethc3c6bf6f     ethernet  unmanaged               --              
+vethce4dc37e     ethernet  unmanaged               --              
+vethd04a361c     ethernet  unmanaged               --              
+vethdc1a9770     ethernet  unmanaged               --              
+vethdc1fc50c     ethernet  unmanaged               --              
+vethf6d54bcc     ethernet  unmanaged               --              
+vethf8581902     ethernet  unmanaged               --              
+
+==========================
+Port Information:
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1554/sshd: /usr/sbi 
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      1547/cupsd          
+tcp        0      0 127.0.0.1:6444          0.0.0.0:*               LISTEN      1909/k3s server     
+tcp        0      0 127.0.0.1:10010         0.0.0.0:*               LISTEN      2395/containerd     
+tcp        0      0 127.0.0.1:10258         0.0.0.0:*               LISTEN      1909/k3s server     
+tcp        0      0 127.0.0.1:10259         0.0.0.0:*               LISTEN      1909/k3s server     
+tcp        0      0 127.0.0.1:10256         0.0.0.0:*               LISTEN      1909/k3s server     
+tcp        0      0 127.0.0.1:10257         0.0.0.0:*               LISTEN      1909/k3s server     
+tcp        0      0 127.0.0.1:10248         0.0.0.0:*               LISTEN      1909/k3s server     
+tcp        0      0 127.0.0.1:10249         0.0.0.0:*               LISTEN      1909/k3s server     
+tcp6       0      0 127.0.0.1:52020         :::*                    LISTEN      1487338/java        
+tcp6       0      0 :::10250                :::*                    LISTEN      1909/k3s server     
+tcp6       0      0 :::9100                 :::*                    LISTEN      3718/node_exporter  
+tcp6       0      0 :::9200                 :::*                    LISTEN      1550/node_exporter  
+tcp6       0      0 :::6443                 :::*                    LISTEN      1909/k3s server     
+tcp6       0      0 ::1:631                 :::*                    LISTEN      1547/cupsd          
+tcp6       0      0 :::22                   :::*                    LISTEN      1554/sshd: /usr/sbi 
+tcp6       0      0 172.20.21.125:8443      :::*                    LISTEN      1487338/java        
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           695182/chronyd      
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           1356/avahi-daemon:  
+udp        0      0 0.0.0.0:8472            0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:48188           0.0.0.0:*                           1356/avahi-daemon:  
+udp6       0      0 ::1:323                 :::*                                695182/chronyd      
+udp6       0      0 :::5353                 :::*                                1356/avahi-daemon:  
+udp6       0      0 :::46632                :::*                                1356/avahi-daemon:  
+
+==========================
+Running Services:
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  atd.service                   loaded active running Deferred execution scheduler
+  auditd.service                loaded active running Security Auditing Service
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  chronyd.service               loaded active running NTP client/server
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  containerd.service            loaded active running containerd container runtime
+  crond.service                 loaded active running Command Scheduler
+  cups.service                  loaded active running CUPS Scheduler
+  dbus-broker.service           loaded active running D-Bus System Message Bus
+  docker.service                loaded active running Docker Application Container Engine
+  gdm.service                   loaded active running GNOME Display Manager
+  irqbalance.service            loaded active running irqbalance daemon
+  iscsid.service                loaded active running Open-iSCSI
+  k3s.service                   loaded active running Lightweight Kubernetes
+  libstoragemgmt.service        loaded active running libstoragemgmt plug-in server daemon
+  mcelog.service                loaded active running Machine Check Exception Logging Daemon
+  ModemManager.service          loaded active running Modem Manager
+  multipathd.service            loaded active running Device-Mapper Multipath Device Controller
+  NetworkManager.service        loaded active running Network Manager
+  node_exporter.service         loaded active running Node Exporter Service
+  packagekit.service            loaded active running PackageKit Daemon
+  polkit.service                loaded active running Authorization Manager
+  power-profiles-daemon.service loaded active running Power Profiles daemon
+  rhsmcertd.service             loaded active running Enable periodic update of entitlement certificates.
+  rsyslog.service               loaded active running System Logging Service
+  rtkit-daemon.service          loaded active running RealtimeKit Scheduling Policy Service
+  smartd.service                loaded active running Self Monitoring and Reporting Technology (SMART) Daemon
+  sshd.service                  loaded active running OpenSSH server daemon
+  switcheroo-control.service    loaded active running Switcheroo Control Proxy service
+  systemd-journald.service      loaded active running Journal Service
+  systemd-logind.service        loaded active running User Login Management
+  systemd-udevd.service         loaded active running Rule-based Manager for Device Events and Files
+  udisks2.service               loaded active running Disk Manager
+  upower.service                loaded active running Daemon for power management
+  user@1003.service             loaded active running User Manager for UID 1003
+  user@42.service               loaded active running User Manager for UID 42
+  wpa_supplicant.service        loaded active running WPA supplicant
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+38 loaded units listed.
+
+==========================
+ID of MapR User:
+uid=0(root) gid=0(root) groups=0(root) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+
+Users available:
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+colord:x:997:995:User for colord:/var/lib/colord:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:996:992:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+clevis:x:995:991:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/usr/sbin/nologin
+sssd:x:994:990:User for sssd:/:/sbin/nologin
+pegasus:x:66:65:tog-pegasus OpenPegasus WBEM/CIM services:/var/lib/Pegasus:/sbin/nologin
+geoclue:x:993:989:User for geoclue:/var/lib/geoclue:/sbin/nologin
+flatpak:x:992:988:User for flatpak system helper:/:/sbin/nologin
+setroubleshoot:x:991:987:SELinux troubleshoot server:/var/lib/setroubleshoot:/usr/sbin/nologin
+libstoragemgmt:x:985:985:daemon account for libstoragemgmt:/:/usr/sbin/nologin
+systemd-oom:x:984:984:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+cockpit-ws:x:983:982:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:982:981:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+gnome-initial-setup:x:981:980::/run/gnome-initial-setup/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
+chrony:x:980:979:chrony system user:/var/lib/chrony:/sbin/nologin
+dnsmasq:x:979:978:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+administrator:x:1000:1000:administrator:/home/administrator:/bin/bash
+java_user:x:1001:1001:JAVA_USER:/home/java_user:/bin/bash
+superset:x:1002:1002:Superset:/home/superset:/bin/bash
+youssef:x:1003:1003:Youssef:/home/youssef:/bin/bash
+
+==========================
+MapR Installed packages and version:
+
+==========================
+Crontab:
+no crontab for root
+

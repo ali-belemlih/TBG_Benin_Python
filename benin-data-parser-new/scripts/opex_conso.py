@@ -1,0 +1,44 @@
+import parse_benin_data
+
+sheet_name = 'Opex Consolidés'
+
+# Row to financial_types DB table ID mapping
+# Key -> row number in excel
+# Value -> financial_type ID
+financial_type_row_mapping = {
+    7: 5,
+    9: 6,
+    40: 7,
+    57: 8,
+    113: 9,
+    167: 10,
+    184: 11,
+    201: 12
+}
+
+# Row to financial_metric DB table ID mapping
+# Key -> row number in excel
+# Value -> financial_metric ID
+financial_metric_row_mapping = {
+    58: 28,
+    79: 29,
+    97: 30,
+    100: 31,
+    106: 32,
+    114: 33,
+    137: 34,
+    140: 35,
+    151: 36,
+    161: 37,
+    168: 38,
+    171: 39,
+    173: 40,
+    185: 41,
+    186: 42,
+    198: 43,
+    199: 44
+}
+
+required_rows = list(financial_type_row_mapping.keys()) + list(financial_metric_row_mapping.keys())
+
+parse_benin_data.generate_data(sheet_name, "opex_consolidate", required_rows, financial_type_row_mapping, financial_metric_row_mapping)

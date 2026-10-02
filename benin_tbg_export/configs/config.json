@@ -1,0 +1,90 @@
+[
+  {
+    "sheet_name": "P&L conso",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/p&l_conso/p&l_conso.json",
+    "month_mapping_path": "benin_tbg_export/mapping/p&l_conso/month_mapping.json",
+    "annual_mapping_path": "benin_tbg_export/mapping/p&l_conso/annual_mapping.json",
+    "cumul_mapping_path" : "benin_tbg_export/mapping/p&l_conso/p&l_conso_cumul.json"
+  },
+  {
+    "sheet_name": "Opex Consolidés",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/opex_consolidate/opex_consolidate.json",
+    "month_mapping_path": "benin_tbg_export/mapping/opex_consolidate/month_mapping.json",
+    "annual_mapping_path": "benin_tbg_export/mapping/opex_consolidate/annual_mapping.json",
+    "cumul_mapping_path" : "benin_tbg_export/mapping/opex_consolidate/opex_consolidate_cumul.json"
+  },
+  {
+    "sheet_name": "CA Mobile",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/ca_mobile/ca_mobile.json",
+    "month_mapping_path": "benin_tbg_export/mapping/ca_mobile/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/ca_mobile/annual_mapping.json",
+    "cumul_mapping_path": "benin_tbg_export/mapping/ca_mobile/ca_cumul_mapping.json"
+  },
+  {
+    "sheet_name": "Marge brute Mobile",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/marge_mobile/marge_mobile.json",
+    "month_mapping_path": "benin_tbg_export/mapping/marge_mobile/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/marge_mobile/annual_mapping.json",
+    "cumul_mapping_path" : "benin_tbg_export/mapping/marge_mobile/marge_mobile_cumul.json"
+  },
+  {
+    "sheet_name": "Trafic mobile",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/trafic_mobile/trafic_mobile.json",
+    "month_mapping_path": "benin_tbg_export/mapping/trafic_mobile/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/trafic_mobile/annual_mapping.json",
+    "cumul_mapping_path": "benin_tbg_export/mapping/trafic_mobile/trafic_mobile_cumul_mapping.json"
+  },
+  {
+    "sheet_name": "Mobile Money",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/mobile_money/mobile_money.json",
+    "month_mapping_path": "benin_tbg_export/mapping/mobile_money/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/mobile_money/annual_mapping.json",
+    "cumul_mapping_path": "benin_tbg_export/mapping/mobile_money/mobile_money_cumul_mapping.json"
+  },
+  {
+    "sheet_name": "Data Mobile",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/data_mobile/data_mobile.json",
+    "month_mapping_path": "benin_tbg_export/mapping/data_mobile/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/data_mobile/annual_mapping.json",
+    "cumul_mapping_path": "benin_tbg_export/mapping/data_mobile/data_mobile_cumul_mapping.json"
+  },
+  {
+    "sheet_name": "Parc Mobile",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/parc_mobile/parc_mobile.json",
+    "month_mapping_path": "benin_tbg_export/mapping/parc_mobile/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/parc_mobile/annual_mapping.json",
+    "cumul_mapping_path" : "benin_tbg_export/mapping/parc_mobile/parc_mobile_cumul.json"
+  },
+  {
+    "sheet_name": "Indicateurs Mobile",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/indicateurs_mobile/indicateurs_mobile.json",
+    "month_mapping_path": "benin_tbg_export/mapping/indicateurs_mobile/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/indicateurs_mobile/annual_mapping.json",
+    "cumul_mapping_path" : "benin_tbg_export/mapping/indicateurs_mobile/indicateurs_mobile_cumul.json"
+  },
+  {
+    "sheet_name": "Capex Consolidés",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/capex_consolidate/capex_consolidate.json",
+    "month_mapping_path": "benin_tbg_export/mapping/capex_consolidate/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/capex_consolidate/annual_mapping.json",
+    "cumul_mapping_path" : "benin_tbg_export/mapping/capex_consolidate/capex_consolidate_cumul.json"
+  },
+  {
+    "sheet_name": "Cash conso",
+    "is_calculated_by_formula" : false,
+    "sheet_mapping_path": "benin_tbg_export/mapping/cash_conso/cash_conso.json",
+    "month_mapping_path": "benin_tbg_export/mapping/cash_conso/month_mapping.json",
+    "annual_mapping_path" : "benin_tbg_export/mapping/cash_conso/annual_mapping.json",
+    "cumul_mapping_path": "benin_tbg_export/mapping/cash_conso/cash_conso_cumul_mapping.json"
+  }
+]

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturesMobile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="facturesMobileV9.xsd"><factureSimple codeClient="2" codeCommune="50000" pays="MAR" langue="FR"> 
+	<infoFacture numFacture="0000000006082023"> 
+<dateDebut>2023-08-01</dateDebut> 
+<dateFin>2023-08-31</dateFin> 
+<dateEcheance>2023-09-22</dateEcheance> 
+<nbContrat>1</nbContrat> 
+<typeFacture>MonoCo</typeFacture> 
+<tauxTaxe>20.00</tauxTaxe> 
+<specialFlag>N</specialFlag> 
+<methodePaiement>P</methodePaiement> 
+<RIB>360615212113882635021351</RIB> 
+</infoFacture> 
+<infoClient custCode="1.10282085"> 
+<customerCat>Professionnels</customerCat> 
+<codeBillingAccount>287837</codeBillingAccount> 
+<nom>OU OUAID N ELFADILI ECH CHAJIH</nom> 
+<noteAdresse1>DERB JAMAA,BLOC 12,MAISON 530,HAY HASSANI</noteAdresse1> 
+<adresse>HAY EL FATH,IMM 116,APPT 1,CYM.</adresse> 
+<quartier>CIT CASTOR LTS CHAHRAZADE N 7 AIN SEBAA</quartier> 
+<codePostal>50000</codePostal> 
+<ville>MEKNES</ville> 
+<pays>Maroc</pays> 
+</infoClient> 
+<totauxFacture> 
+<montantHT>332.50</montantHT> 
+<montantTVA>66.50</montantTVA> 
+ <raisonTVA/> 
+<montantTTC>399.00</montantTTC> 
+<montantADeduire>0.00</montantADeduire> 
+<montantTTCaPayer>399.00</montantTTCaPayer> 
+<montantFacturesPrecedentes>3192.00</montantFacturesPrecedentes> 
+</totauxFacture> 
+<infoAbonnement numContrat="316302">
+<msisdn>212661483455</msisdn>
+<typeAbonnement>Illimité Mobile Ouvert</typeAbonnement>
+<indicForfait>N</indicForfait>
+<indicFactureDet>N</indicFactureDet>
+</infoAbonnement>
+ <grpFraisAbonnement>
+<fraisAbonnement codeFrais="MensCoIt" idBloc="0400">
+<dateDebut>2023-09-01</dateDebut>
+<dateFin>2023-09-30</dateFin>
+<desCourte>INT3G</desCourte>
+<des>Internet Mobile Gratuit</des>
+<montantHT>0.00</montantHT>
+</fraisAbonnement>
+<fraisAbonnement codeFrais="MensCoIt" idBloc="0400">
+<dateDebut>2023-09-01</dateDebut>
+<dateFin>2023-09-30</dateFin>
+<desCourte>SFMAX</desCourte>
+<des>L'illimité National et Zone 1</des>
+<montantHT>332.50</montantHT>
+</fraisAbonnement>
+</grpFraisAbonnement>
+<talonPaiement idBloc="0600"> 
+<codeClient>1.10282085</codeClient>
+<numFacture>0000000006082023</numFacture>
+<montantHT>332.50</montantHT>
+<montantTTC>399.00</montantTTC>
+<montantTTCaPayer>399.00</montantTTCaPayer> 
+</talonPaiement>
+</factureSimple><factureSimple codeClient="1" codeCommune="90000" pays="MAR" langue="FR"> 
+	<infoFacture numFacture="0000000005082023"> 
+<dateDebut>2023-08-01</dateDebut> 
+<dateFin>2023-08-31</dateFin> 
+<dateEcheance>2023-09-22</dateEcheance> 
+<nbContrat>1</nbContrat> 
+<typeFacture>MonoCo</typeFacture> 
+<tauxTaxe>20.00</tauxTaxe> 
+<specialFlag>N</specialFlag> 
+<methodePaiement>P</methodePaiement> 
+<RIB>941934000005200000124477</RIB> 
+</infoFacture> 
+<infoClient custCode="1.10003236"> 
+<customerCat>Residentiels</customerCat> 
+<codeBillingAccount>52646</codeBillingAccount> 
+<nom>OU CHAH LALLA SAIDA AHSSEN BENMUSTAPHA</nom> 
+<noteAdresse1>RIAD ZITOUN KEDIM DERB JEMAA N 58</noteAdresse1> 
+<adresse>SIDI BERNOUSSI,BLOC 64,LOGT 9</adresse> 
+<quartier>DOUAR BEN SOUDA SEJAA REGION DE FES </quartier> 
+<codePostal>90000</codePostal> 
+<ville>TANGER</ville> 
+<pays>Maroc</pays> 
+</infoClient> 
+<totauxFacture> 
+<montantHT>287.34</montantHT> 
+<montantTVA>57.47</montantTVA> 
+ <raisonTVA/> 
+<montantTTC>344.81</montantTTC> 
+<montantADeduire>0.00</montantADeduire> 
+<montantTTCaPayer>344.81</montantTTCaPayer> 
+<montantFacturesPrecedentes>17585.22</montantFacturesPrecedentes> 
+</totauxFacture> 
+<infoAbonnement numContrat="7620">
+<msisdn>212661161416</msisdn>
+<typeAbonnement>Forfait maîtrisé</typeAbonnement>
+<indicForfait>N</indicForfait>
+<indicFactureDet>N</indicFactureDet>
+</infoAbonnement>
+ <grpFraisAbonnement>
+<fraisAbonnement codeFrais="MensCoIt" idBloc="0400">
+<dateDebut>2023-09-01</dateDebut>
+<dateFin>2023-09-30</dateFin>
+<desCourte>SUBS2</desCourte>
+<des>Frais de plafonnement</des>
+<montantHT>19.00</montantHT>
+</fraisAbonnement>
+<fraisAbonnement codeFrais="MensCoIt" idBloc="0400">
+<dateDebut>2023-09-01</dateDebut>
+<dateFin>2023-09-30</dateFin>
+<desCourte>FM4H</desCourte>
+<des>Forfait maîtrisé 45H</des>
+<montantHT>268.34</montantHT>
+</fraisAbonnement>
+<fraisAbonnement codeFrais="MensCoIt" idBloc="0400">
+<dateDebut>2023-09-01</dateDebut>
+<dateFin>2023-09-30</dateFin>
+<desCourte>INT3G</desCourte>
+<des>Internet Mobile Gratuit</des>
+<montantHT>0.00</montantHT>
+</fraisAbonnement>
+</grpFraisAbonnement>
+<talonPaiement idBloc="0600"> 
+<codeClient>1.10003236</codeClient>
+<numFacture>0000000005082023</numFacture>
+<montantHT>287.34</montantHT>
+<montantTTC>344.81</montantTTC>
+<montantTTCaPayer>344.81</montantTTCaPayer> 
+</talonPaiement>
+</factureSimple></facturesMobile>

@@ -1,0 +1,7 @@
+[
+  {
+    "sheet_name" : "RH et QS",
+    "sheet_mapping_path" : "benin_tbg_export/mapping/rh_et_qs/rh_et_qs.json",
+    "month_mapping_path" : "benin_tbg_export/mapping/rh_et_qs/month_mapping.json"
+  }
+]

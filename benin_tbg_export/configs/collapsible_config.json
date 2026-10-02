@@ -1,0 +1,10 @@
+[
+{
+  "sheet_name": "Opex Consolidés",
+  "sheet_mapping_path": "benin_tbg_export/mapping/opex_consolidate/opex_consolidate.json",
+  "month_mapping_path": "benin_tbg_export/mapping/opex_consolidate/month_mapping.json",
+  "annual_mapping_path": "benin_tbg_export/mapping/opex_consolidate/annual_mapping.json",
+  "cumul_mapping_path": "benin_tbg_export/mapping/opex_consolidate/opex_consolidate_cumul.json",
+  "collapsible_type_mapping_path" : "benin_tbg_export/mapping/opex_consolidate/collapsible_type.json"
+}
+]

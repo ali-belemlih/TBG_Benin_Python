@@ -1,0 +1,7 @@
+[
+  {
+    "sheet_name" : "Impacts IFRS 16",
+    "sheet_mapping_path" : "benin_tbg_export/mapping/impact_ifrs/impact_ifrs.json",
+    "month_mapping_path" : "benin_tbg_export/mapping/impact_ifrs/month_mapping.json"
+  }
+]

@@ -1,0 +1,184 @@
+WITH PERIOD_FILTERED AS (
+    SELECT DISTINCT
+        CPY_0,
+        LEDTYP_0,
+        FIYNUM_0,
+        PERNUM_0,
+        PERSTR_0,
+        PEREND_0
+    FROM MOOV.PERIOD
+    WHERE PERSTR_0 >= TO_DATE('2026-01-01', 'YYYY-MM-DD')
+      AND PEREND_0 <= TO_DATE('2026-12-31', 'YYYY-MM-DD')
+)
+SELECT
+    A.CPY_0,
+    A.ACC_0,
+    A.CURLED_0,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 1  THEN DEBLED_1 - CDTLED_1
+				ELSE 0
+			END
+		) AS JANUARY,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 2  THEN DEBLED_2 - CDTLED_2
+				ELSE 0
+			END
+		) AS FEBUARY,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 3  THEN DEBLED_3 - CDTLED_3
+				ELSE 0
+			END
+		) AS MARCH,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 4  THEN DEBLED_4 - CDTLED_4
+				ELSE 0
+			END
+		) AS APRIL,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 5  THEN DEBLED_5 - CDTLED_5
+				ELSE 0
+			END
+		) AS MAY,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 6  THEN DEBLED_6 - CDTLED_6
+				ELSE 0
+			END
+		) AS JUNE,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 7  THEN DEBLED_7 - CDTLED_7
+				ELSE 0
+			END
+		) AS JULY,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 8  THEN DEBLED_8 - CDTLED_8
+				ELSE 0
+			END
+		) AS AUGUST,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 9  THEN DEBLED_9 - CDTLED_9
+				ELSE 0
+			END
+		) AS SEPTEMBER,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 10 THEN DEBLED_10 - CDTLED_10
+				ELSE 0
+			END
+		) AS OCTOMBER,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 11 THEN DEBLED_11 - CDTLED_11
+				ELSE 0
+			END
+		) AS NOVEMBER,
+		SUM(
+			CASE
+				WHEN C.PERNUM_0 = 12 THEN DEBLED_12 - CDTLED_12
+				ELSE 0
+			END
+		) AS DECEMBER,
+
+
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 1  THEN DEBLED_1 - CDTLED_1
+					ELSE 0
+				END
+			)+
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 2  THEN DEBLED_2 - CDTLED_2
+					ELSE 0
+				END
+			) +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 3  THEN DEBLED_3 - CDTLED_3
+					ELSE 0
+				END
+			) +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 4  THEN DEBLED_4 - CDTLED_4
+					ELSE 0
+				END
+			) +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 5  THEN DEBLED_5 - CDTLED_5
+					ELSE 0
+				END
+			)  +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 6  THEN DEBLED_6 - CDTLED_6
+					ELSE 0
+				END
+			)  +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 7  THEN DEBLED_7 - CDTLED_7
+					ELSE 0
+				END
+			)  +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 8  THEN DEBLED_8 - CDTLED_8
+					ELSE 0
+				END
+			) +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 9  THEN DEBLED_9 - CDTLED_9
+					ELSE 0
+				END
+			) +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 10 THEN DEBLED_10 - CDTLED_10
+					ELSE 0
+				END
+			)  +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 11 THEN DEBLED_11 - CDTLED_11
+					ELSE 0
+				END
+			)  +
+			SUM(
+				CASE
+					WHEN C.PERNUM_0 = 12 THEN DEBLED_12 - CDTLED_12
+					ELSE 0
+				END
+			)
+		 AS ACCOUNT_BALANCE
+FROM
+    MOOV.BALANCE A
+JOIN
+    MOOV.FISCALYEAR B
+    ON A.LEDTYP_0 = B.LEDTYP_0
+    AND A.CPY_0 = B.CPY_0
+    AND A.FIY_0 = B.FIYNUM_0
+JOIN
+    PERIOD_FILTERED C
+    ON B.CPY_0 = C.CPY_0
+    AND B.LEDTYP_0 = C.LEDTYP_0
+    AND B.FIYNUM_0 = C.FIYNUM_0
+WHERE
+    A.ACC_0 = %s
+    AND A.CPY_0 = %s
+    AND A.LEDTYP_0 = 1
+    AND A.FCY_0 !=' '
+GROUP BY
+    A.CPY_0,
+    A.ACC_0,
+    A.CURLED_0

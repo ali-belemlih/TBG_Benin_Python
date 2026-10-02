@@ -1,0 +1,1163 @@
+[
+  {
+    "tbg_key": "CAP17",
+    "report_type_id": 2,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CAP18:CAP20)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CAP22",
+    "report_type_id": 2,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CAP23:CAP35)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CAP6",
+    "report_type_id": 2,
+    "formula_type": "FORMULA",
+    "formula": "CAP6",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CAP5",
+    "report_type_id": 2,
+    "formula_type": "FORMULA",
+    "formula": "CAP5 + CAP8",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CAP8",
+    "report_type_id": 2,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CAP4",
+    "report_type_id": 2,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CAP5:CAP15) + CAP6",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CAP1",
+    "report_type_id": 2,
+    "formula_type": "FORMULA",
+    "formula": "CAP4 + CAP17 + CAP22",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL4",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "CA1",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL3",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL4",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL1",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL3",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL12",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "MB51",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "PL11",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL12",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL9",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL11",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL14",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL9 + PL1",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL15",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL14/PL1",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL17",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL3 + PL11",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL23",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "-Opex1",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL22",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL23",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL19",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL22",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL25",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL14 + PL19",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL26",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL25/PL1",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL28",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL17 + PL22",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL35",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL25 + PL30",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL36",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "(PL35/PL1) * 100 ",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL44",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL35 + PL41",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL45",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "-0.01 * PL1",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL48",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "PL44 + PL45 + PL46",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PL50",
+    "report_type_id": 1,
+    "formula_type": "FORMULA",
+    "formula": "(PL48/PL1) * 100",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX1",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "PL25",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX3",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "Opex178",
+    "is_adjustable": true
+  },{
+    "tbg_key": "FLUX9",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "-1 * CAP1",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX16",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "(FLUX1 + FLUX3 + FLUX9 + FLUX5) / 1000000",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX18",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX20",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "PL45",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX24",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "FLUX18 + FLUX20",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX26",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX29",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "(FLUX16 + FLUX24 + FLUX26 + FLUX27) / 1000000",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX31",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX32",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "FLUX33",
+    "report_type_id": 3,
+    "formula_type": "FORMULA",
+    "formula": "FLUX31 + FLUX32",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "MB2",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "TRAF5",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "MB1",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "CA1",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "MB3",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "MB4/MB2",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "MB34",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "MB35/MB33",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "MB38",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "MB42 + MB44",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "MB49",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "-1 * MB49 ",
+    "is_adjustable": false
+  },
+    {
+    "tbg_key": "MB45",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "MB46 + MB47 + MB49",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "MB51",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "MB4 + MB32 + MB35 + MB36 + MB38 + MB45 + MB55",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "MB53",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "MB1 + MB51",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "MB54",
+    "report_type_id": 6,
+    "formula_type": "FORMULA",
+    "formula": "(MB53/MB1) * 100",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC29",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC24 + PARC27",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC39",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC41 + PARC42",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC10",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC24 + PARC35",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC11",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC27 + PARC36",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC15",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC27 + PARC36",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC14",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC29",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC13",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC39",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC40",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC34 + PARC39",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC30",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC23 + PARC29",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC9",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC23 + PARC34",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC17",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC30 + PARC40 ",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC19",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC30 + PARC40",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC18",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "(PARC9 + PARC17) / 2",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC20",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC18",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC31",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "(PARC23+ PARC30) / 2",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC28",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "(PARC27/PARC31) * (-12)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC16",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC28",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC41",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "(PARC34 + PARC40) / 2",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC38",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "(PARC36/PARC41) * (-12)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC12",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC38",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "PARC1",
+    "report_type_id": 10,
+    "formula_type": "FORMULA",
+    "formula": "PARC30 + PARC40",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND1",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "(CA9 + CA142)/((PARC31 + PARC41)/1000000)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND2",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "CA9/((PARC31 + PARC41)/1000000)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "IND3",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "CA142/((PARC31 + PARC41)/1000000)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND6",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "(CJ11+CJ31)/(PARC31/1000000)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "IND7",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "CA159/(PARC31/1000000)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "IND5",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "IND6 + IND7",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND10",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "(CA46+CA71+CA96+CA121)/(PARC41/1000000)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND11",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "((CA160+CA161+CA162)*1000000)/PARC41",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND9",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "IND10 + IND11",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND13",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "(TRAF1+TRAF49)/((PARC31 + PARC41)/1000000)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "IND14",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "TRAF1/((PARC31 + PARC41)/1000000)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND15",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "TRAF3/(PARC31/1000000)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND16",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "TRAF12/(PARC41/1000000)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "IND17",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "TRAF49/((PARC31 + PARC41)/1000000)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "IND18",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "TRAF51/(PARC31/1000000)",
+    "is_adjustable": true
+  },
+   {
+    "tbg_key": "IND19",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "TRAF58/(PARC41/1000000)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND21",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "(CA21+CA61+CA86+CA111+CA142)/(TRAF1+TRAF49)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND22",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "(CA21+CA61+CA86+CA111)/TRAF1",
+    "is_adjustable": true
+  }, 
+  {
+    "tbg_key": "IND23",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "CA21/TRAF3",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND24",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "(CA61+CA86+CA111)/TRAF12",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND25",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "CA142/TRAF49",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND26",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "CA159/TRAF51",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "IND27",
+    "report_type_id": 11,
+    "formula_type": "FORMULA",
+    "formula": "(CA160+CA161+CA162)/TRAF58",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA13",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA13+CA15",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA21",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA13:CA20)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA15",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA29",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA23:CA28)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA38",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA38 - CA34",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA40",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA33 + CA34 + CA38",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA10",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA12 + CA21 + CA29 + CA40",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA11",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA12 + CA21 + CA29 + CA40",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA47",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA48:CA50)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA61",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA53:CA60)",
+    "is_adjustable": true
+  }, 
+  {
+    "tbg_key": "CA63",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  }, 
+  {
+    "tbg_key": "CA64",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA65",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+    {
+    "tbg_key": "CA66",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA67",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA41:CA50)",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA68",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA47",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "CA53",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA61+CA69+CA75",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA86",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA78:CA85)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA94",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA88:CA93)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA100",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA97:CA99)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA77",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA86+CA94+CA100",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA111",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA103:CA110)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "CA119",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA114:CA118)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA130",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA122:CA126)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA102",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA111+CA119+CA130",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA51",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA52+CA77+CA102",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA45",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA31",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA135",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA121+CA96+CA71",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA138",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA135+CA45",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA158",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "SUM(CA159:CA162)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "CA175",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+    {
+    "tbg_key": "CA172",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA173 + CA174",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "CA46",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA47 + CA51",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "CA137",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA137 - CA164",
+    "is_adjustable": false
+  },
+    {
+    "tbg_key": "CA9",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA10+CA46+CA136+CA137+CA138",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "CA142",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA158",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA7",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA9+CA142+CA164",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "CA5",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA7 + CA170",
+    "is_adjustable": true
+  },    
+    {
+    "tbg_key": "CA1",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "CA5 + CA172",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "CA127",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA128",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA129",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA35",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA36",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA37",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "CA39",
+    "report_type_id": 5,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "Opex192",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex183",
+    "is_adjustable": false
+  }, 
+  {
+    "tbg_key": "Opex183",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "Opex34",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex35:Opex49)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex52",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex53:Opex72)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex73",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex74:Opex90)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "Opex91",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex92",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex94",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex95:Opex99)",
+    "is_adjustable": true
+  },
+    {
+    "tbg_key": "Opex100",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex101:Opex104)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex51",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex52+Opex73+Opex91+Opex94+Opex100",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex108",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex109:Opex130)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex131",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex132 + Opex133",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex134",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex135:Opex144)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex145",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex146:Opex154)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex155",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex156 + Opex157",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex107",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex108 + Opex131 + Opex134 + Opex145 + Opex155",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex162",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex163 + Opex164",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex167",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex168 : Opex175)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex161",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex162 + Opex167",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex179",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex184+Opex185+Opex186+Opex187+Opex189+Opex190+Opex171+Opex181+Opex182",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex180",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex183 + Opex188",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex178",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex179+Opex180+Opex192+Opex193",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex3",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "SUM(Opex4:Opex32)",
+    "is_adjustable": false
+  },
+  {
+    "tbg_key": "Opex9",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "0",
+    "is_adjustable": false
+  },  
+  {
+    "tbg_key": "Opex1",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "(Opex3 + Opex34 + Opex51 + Opex107 + Opex161 + Opex178 + Opex195)",
+    "is_adjustable": true
+  },
+  {
+    "tbg_key": "Opex95",
+    "report_type_id": 4,
+    "formula_type": "FORMULA",
+    "formula": "Opex96",
+    "is_adjustable": false
+  }
+]

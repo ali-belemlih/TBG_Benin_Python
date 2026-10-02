@@ -1,0 +1,71 @@
+{
+  "Chiffre d'affaires": {
+    "row_number": 7,
+    "metrics": {
+      "Mobile" : {
+        "row_number" : 9,
+        "submetrics" : {
+          "Intercompagnie Mobile" : 10
+        }
+      },
+      "Coût des ventes" : {
+        "row_number" : 15,
+        "submetrics" : {
+          "Mobile": 17,
+          "Intercompagnie Mobile" : 18
+        }
+      },
+      "Marge Brute" : {
+        "row_number" : 20,
+        "submetrics" : {
+          "% CA" : 21,
+          "Mobile" : 23
+        }
+      },
+      "Coûts opérationnels" : {
+        "row_number" : 25,
+        "submetrics" : {
+          "Mobile" : 28,
+          "Intercompagnie Mobile" : 29
+        }
+      },
+      "EBITDA" : {
+        "row_number" : 31,
+        "submetrics" : {
+          "% CA" : 32,
+          "Mobile" : 34
+        }
+      },
+      "Amortissements et déprec. Courant" : {
+        "row_number" : 36,
+        "submetrics" : {}
+      },
+      "EBITA" : {
+        "row_number" : 41,
+        "submetrics" : {
+          "% CA" : 42
+        }
+      },
+      "Résultat financier" : {
+        "row_number" : 47,
+        "submetrics" : {}
+      },
+      "RESULTAT avant IS" : {
+        "row_number" : 50,
+        "submetrics" : {
+          "IS" : 51,
+          "ID" : 52
+        }
+      }
+    }
+  },
+  "RESULTAT NET" : {
+    "row_number" : 54,
+    "metrics" : {
+      "% CA" : {
+        "row_number" : 56,
+        "submetrics" : {}
+      }
+    }
+  }
+}
