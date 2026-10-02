@@ -49,10 +49,8 @@ def process_mobile_data(df, target_month, target_year, version_id):
         results = []
 
         actual_columns = []
-        if 4 <= target_month <= 5:
+        if 4 <= target_month <= 6:
             actual_columns = ["actual1_value"]
-        elif target_month == 6:
-            actual_columns = ["actual1_value", "actual2_value"]
         elif 7 <= target_month <= 8:
             actual_columns = ["actual2_value"]
         elif target_month == 9:

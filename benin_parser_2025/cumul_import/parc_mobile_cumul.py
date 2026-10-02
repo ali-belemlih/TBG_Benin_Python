@@ -29,8 +29,6 @@ def process_initial_values(metric_ids, conn, cur, month, year, version_id):
     actual_columns = []
     if 4 <= month <= 6:
         actual_columns.append("actual1_value")
-    if month == 6:
-        actual_columns.append("actual2_value")
     if 7 <= month <= 9:
         actual_columns.append("actual2_value")
     if month == 9:
@@ -250,8 +248,6 @@ if __name__ == "__main__":
 
     if 4 <= month <= 6:
         mapping_sets["actual1_value"] = ACTUAL1_MAPPING
-    if month == 6:
-        mapping_sets["actual2_value"] = ACTUAL1_MAPPING
     if 7 <= month <= 9:
         mapping_sets["actual2_value"] = ACTUAL1_MAPPING
     if month == 9:

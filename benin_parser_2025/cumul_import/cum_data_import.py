@@ -65,20 +65,10 @@ def generate_cumulative_data(conn, month_year, version_id):
                 "actual3_value": 0
             }
 
-        # Handle Q2 (Apr–Jun)
-        if month in [4, 5]:
+        # Handle Q2 (Apr–Jun) — June uses Actual1 only (no Actual2)
+        if month in [4, 5, 6]:
             cumulative_dict[key]["actual1_value"] += actual1_value or 0
             actual1_value = cumulative_dict[key]["actual1_value"] + jan_mar_reel
-
-        elif month == 6:  # June
-            # Always calculate Actual1
-            cumulative_dict[key]["actual1_value"] += actual1_value or 0
-            actual1_value = cumulative_dict[key]["actual1_value"] + jan_mar_reel
-
-            # If target_month == 6 → calculate Actual2 as well
-            if target_month == 6:
-                cumulative_dict[key]["actual2_value"] += actual2_value or 0
-                actual2_value = cumulative_dict[key]["actual2_value"] + jan_may_reel
 
         # Handle Q3 (Jul–Sep)
         elif month in [7, 8]:
@@ -107,7 +97,7 @@ def generate_cumulative_data(conn, month_year, version_id):
         if month <= 3:
             actual1_value, actual2_value, actual3_value = None, None, None
         elif 4 <= month <= 6:  # Q2 (Apr–Jun)
-            actual2_value, actual3_value = (actual2_value if target_month == 6 else None), None
+            actual2_value, actual3_value = None, None
         elif 7 <= month <= 9:  # Q3 (Jul–Sep)
             actual1_value, actual3_value = None, (actual3_value if target_month == 9 else None)
         elif 10 <= month <= 12:  # Q4 (Oct–Dec)

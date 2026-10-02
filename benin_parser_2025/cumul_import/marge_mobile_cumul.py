@@ -103,11 +103,8 @@ if __name__ == "__main__":
     }
 
     # Add actuals dynamically based on month
-    if 4 <= month <= 5:
+    if 4 <= month <= 6:
         mapping_sets["actual1_value"] = cumul_mobile_money_reel_mapping
-    elif month == 6:
-        mapping_sets["actual1_value"] = cumul_mobile_money_reel_mapping
-        mapping_sets["actual2_value"] = cumul_mobile_money_reel_mapping
     elif 7 <= month <= 8:
         mapping_sets["actual2_value"] = cumul_mobile_money_reel_mapping
     elif month == 9:

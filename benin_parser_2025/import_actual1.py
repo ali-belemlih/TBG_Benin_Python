@@ -3,7 +3,7 @@ import subprocess
 
 def main():
     if len(sys.argv) != 6:
-        print("Usage: python -m bbenin_parser_2025.actu1_import.import_actual1 <MMYYYY> <version_id> <actual_type> <actual_file>")
+        print("Usage: python -m benin_parser_2025.import_actual1 <MMYYYY> <version_id> <actual_type> <actual_file> <opex_actual_file>")
         sys.exit(1)
 
     month_year = sys.argv[1]
@@ -26,6 +26,7 @@ def main():
         "benin_parser_2025.actu1_import.trafic_mobile",
     ]
 
+    failed = []
     for script in scripts:
         print(f"\nRunning {script}...")
 
@@ -34,11 +35,20 @@ def main():
         else:
             file_to_use = actual_file
 
-        subprocess.run(
-            ["python3", "-m", script, month_year, version_name, actual_type, file_to_use],
+        result = subprocess.run(
+            [sys.executable, "-m", script, month_year, version_name, actual_type, file_to_use],
             stdout=subprocess.PIPE, stderr=subprocess.PIPE,
             universal_newlines=True
         )
+        if result.returncode != 0:
+            failed.append(script)
+            print(f"❌ {script} failed (exit code {result.returncode})")
+            print(result.stdout[-3000:])
+            print(result.stderr[-3000:])
+
+    if failed:
+        print(f"\n❌ {len(failed)} script(s) failed: {', '.join(failed)}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

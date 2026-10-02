@@ -124,8 +124,6 @@ if __name__ == "__main__":
     # fix #5 — cleaner month logic, no redundant branches
     if 4 <= month <= 6:
         mapping_sets["actual1_value"] = actual1_mapping
-    if month == 6:
-        mapping_sets["actual2_value"] = actual1_mapping
     if 7 <= month <= 9:
         mapping_sets["actual2_value"] = actual1_mapping
     if month == 9:

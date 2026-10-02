@@ -225,11 +225,8 @@ if __name__ == "__main__":
     }
 
     # Determine which actual columns to include based on month
-    if 4 <= month <= 5:
+    if 4 <= month <= 6:
         mapping_sets["actual1_value"] = pnl_actual_cumul_mapping
-    elif month == 6:
-        mapping_sets["actual1_value"] = pnl_actual_cumul_mapping
-        mapping_sets["actual2_value"] = pnl_actual_cumul_mapping
     elif 7 <= month <= 8:
         mapping_sets["actual2_value"] = pnl_actual_cumul_mapping
     elif month == 9:

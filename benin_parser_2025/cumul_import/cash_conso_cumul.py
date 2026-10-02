@@ -99,10 +99,8 @@ if __name__ == "__main__":
     ]
 
     # Dynamically include actuals based on month
-    if 4 <= month <= 5:
+    if 4 <= month <= 6:
         mapping_sets.append("actual1_value")
-    elif month == 6:
-        mapping_sets.extend(["actual1_value", "actual2_value"])
     elif 7 <= month <= 8:
         mapping_sets.append("actual2_value")
     elif month == 9:

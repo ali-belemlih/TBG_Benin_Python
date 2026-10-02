@@ -192,13 +192,29 @@ def run(
         'actual3': 9
     }
     month = month_map.get(actual_type)
+    if month is None:
+        raise ValueError(f"Unsupported actual_type: {actual_type}")
 
-    object_path = f"{target_year}/{target_year}{month:02d}/{file_name}"
-    print(f"📥 Fetching file from MinIO path: {object_path}")
+    # The file is uploaded with the version being imported (e.g. 202606 for June),
+    # so look there first, then fall back to the actual type's default folder.
+    candidate_paths = list(dict.fromkeys([
+        f"{target_year}/{target_year}{target_month}/{file_name}",
+        f"{target_year}/{target_year}{month:02d}/{file_name}",
+    ]))
 
     try:
         minio_service = get_minio_service()
-        file_bytes = minio_service.get_file_bytes(object_name=object_path)
+        file_bytes = None
+        for object_path in candidate_paths:
+            print(f"📥 Fetching file from MinIO path: {object_path}")
+            try:
+                file_bytes = minio_service.get_file_bytes(object_name=object_path)
+                break
+            except Exception as e:
+                print(f"⚠️ Not found at {object_path}: {e}")
+        if file_bytes is None:
+            raise FileNotFoundError(f"File not found in MinIO at any of: {candidate_paths}")
+
         wb = openpyxl.load_workbook(filename=BytesIO(file_bytes), data_only=True)
         sheet = wb[sheet_name]
 
@@ -221,3 +237,4 @@ def run(
 
     except Exception as e:
         print(f"❌ Processing failed: {str(e)}")
+        raise
